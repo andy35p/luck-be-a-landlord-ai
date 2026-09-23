@@ -1,3 +1,50 @@
+# Luck be a Landlord AI Decision Project
+
+> 面向《Luck be a Landlord（幸运房东）》的智能决策与策略学习项目。
+> 目标是将游戏中的抓牌、删牌、重掷、物品选择及其他交互决策抽象为可训练、可评估、可复现的 AI 决策环境。
+
+## Recruiter Quick View
+
+这是一个持续开发中的个人 AI / Python 工程项目，重点不是复刻游戏 UI，
+而是建立一套可用于策略研究和模型训练的决策系统。
+
+### 当前已实现
+
+- 构建统一的游戏状态 `GameState` 与动作 `Action` 表示
+- 实现合法动作 Mask 与 `reset / step` 环境交互接口
+- 实现 Random Agent、Heuristic Agent 等基线策略
+- 支持批量运行、策略比较与可复现实验
+- 对符号、物品及部分实例级交互规则进行建模
+- 建立自动化测试与规则回归测试
+- 支持决策轨迹记录，为监督学习/策略学习提供数据
+- 建立 teacher labels、dataset preprocessing 等数据处理流程
+- 已开展 Behavior Cloning（行为克隆）训练与验证实验
+
+### Engineering Pipeline
+
+Game Rules  
+→ State / Action Modeling  
+→ Legal Action Mask  
+→ Environment (`reset / step`)  
+→ Baseline Agents  
+→ Trajectory Collection  
+→ Teacher Dataset  
+→ Behavior Cloning  
+→ Evaluation / Audit
+
+### Project Status
+
+项目目前仍在持续迭代。
+
+当前重点包括：
+
+1. 扩充和校验游戏规则覆盖范围
+2. 提高状态转移与复杂交互规则的准确性
+3. 完善训练数据生成与质量检查
+4. 继续验证 Behavior Cloning 等策略学习方案
+5. 建立更加完整的策略评估体系
+
+> 本仓库会明确区分已经实现、实验中和计划中的功能，避免将尚未完成的模型或实验结果描述为已完成。
 # 幸运房东训练环境 · V0.1
 
 以找回的 `landlord_fast_env` 为基础，复用已有规则代码和实机目录；没有重做游戏 UI，没有启动模型训练。当前是**已有近似引擎的统一训练接口**，不代表完整原版规则或原版胜率。
