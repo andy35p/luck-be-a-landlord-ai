@@ -1,0 +1,17 @@
+{
+  "experiment_id":"v022-frozen-validation",
+  "seed_start":20000,
+  "games":1000,
+  "policies":{
+    "no_reroll":{"mode":"heuristic","reroll_config":{"trials":16,"token_margin":0.5,"uncertainty_multiplier":1.96}},
+    "conservative":{"mode":"heuristic_reroll","reroll_config":{"trials":16,"token_margin":0.5,"uncertainty_multiplier":1.96}},
+    "candidate":{"mode":"heuristic_reroll","reroll_config":{"trials":16,"token_margin":0.25,"uncertainty_multiplier":1.96}}
+  },
+  "environment":{"floor":20,"rent_reward":20,"death_reward":-100,"win_reward":500,"max_decisions":10000},
+  "bootstrap_seed":1729,
+  "bootstrap_samples":4000,
+  "comparison_confidence":0.975,
+  "acceptance_rule":"Candidate paired mean rent-stage improvement lower bound > 0 against BOTH baselines; zero truncations. Bonferroni: two 97.5% intervals, approximate family confidence at least 95%.",
+  "policy_frozen":true,
+  "note":"Use once for validation; after inspection these seeds are consumed and must not be reused as a fresh holdout. Never auto-change defaults."
+}

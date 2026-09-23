@@ -1,0 +1,8 @@
+{
+  "symbols_checked": 168,
+  "missing": [],
+  "differences": [],
+  "metadata_sha256": "d93764c71fcfde96d7a39a587f9cba6786eecbad6e1ab39655c189ad89034d26",
+  "catalog_sha256": "7874eabb618fa58fdaee45f3c901fcc86fa66db9552f48a978f61e6aa2baf76d",
+  "conclusion": "Only checks value consistency in recovered snapshots, not all game mechanics."
+}

@@ -1,0 +1,20 @@
+{
+  "zero_seed_overlap": true,
+  "partitions": {
+    "train": {
+      "seeds": 79,
+      "episodes": 237,
+      "transitions": 21643
+    },
+    "validation": {
+      "seeds": 8,
+      "episodes": 24,
+      "transitions": 2558
+    },
+    "test": {
+      "seeds": 13,
+      "episodes": 39,
+      "transitions": 3247
+    }
+  }
+}

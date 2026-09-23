@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+.venv-model/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model / training outputs
+checkpoints/
+runs/
+outputs/
+*.pth
+*.pt
+*.ckpt

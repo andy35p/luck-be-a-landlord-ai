@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Sandbox knowledge database",
+  "type":"object",
+  "required":["symbols","items","interactions","rarity","effects"],
+  "properties":{
+    "symbols":{"type":"array","minItems":1,"items":{"type":"object","required":["id","name","rarity","base_income","tags"],"properties":{"id":{"type":"string"},"name":{"type":"string"},"rarity":{"type":"string"},"base_income":{"type":"number","minimum":0},"tags":{"type":"array","items":{"type":"string"}}}}},
+    "items":{"type":"array","items":{"type":"object","required":["id","name","rarity","effect","amount","targets"],"properties":{"id":{"type":"string"},"name":{"type":"string"},"rarity":{"type":"string"},"effect":{"enum":["flat","tag_bonus"]},"amount":{"type":"number"},"targets":{"type":"array","items":{"type":"string"}}}}},
+    "interactions":{"type":"array","items":{"type":"object","required":["id","source","target","relation","amount"],"properties":{"id":{"type":"string"},"source":{"type":"string"},"target":{"type":"string"},"relation":{"enum":["adjacent_bonus","destroy","transform"]},"amount":{"type":"number"},"probability":{"type":"number","minimum":0,"maximum":1}}}},
+    "rarity":{"type":"object","additionalProperties":{"type":"number","exclusiveMinimum":0}},
+    "effects":{"type":"object","required":["version","resolution","unsupported"]}
+  }
+}

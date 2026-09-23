@@ -1,0 +1,45 @@
+{
+  "version": "v0.4.6",
+  "ranges": [
+    {
+      "start": 0,
+      "end": 299,
+      "usage": "development diagnostics and prior experiments"
+    },
+    {
+      "start": 300,
+      "end": 599,
+      "usage": "development single-parameter cost comparison"
+    },
+    {
+      "start": 20000,
+      "end": 20999,
+      "usage": "frozen V0.2.2 validation; consumed, never unseen again",
+      "run": "logs\\v022-frozen-validation-20260921T153534554170Z"
+    },
+    {
+      "start": 600,
+      "end": 999,
+      "usage": "instance backend development evaluations through V0.2.7; consumed"
+    },
+    {
+      "start": 30000,
+      "end": 30999,
+      "usage": "frozen V0.2.9 coal validation; consumed, never unseen again",
+      "run": "logs/v029-coal-validation-20260922T030845640494Z"
+    },
+    {
+      "start": 1000,
+      "end": 1099,
+      "usage": "V0.3.7 BC development closed-loop comparison; not an independent holdout",
+      "run": "logs/bc-smoke-20260922T132337693785Z"
+    },
+    {
+      "start": 40000,
+      "end": 40999,
+      "usage": "V0.4.6 reserved then consumed frozen BC validation; never fresh again",
+      "run": "logs/bc-frozen-validation-v046"
+    }
+  ],
+  "rule": "Rerunning a consumed range is reproduction only, not fresh holdout validation."
+}

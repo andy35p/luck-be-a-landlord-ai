@@ -1,0 +1,49 @@
+{
+  "growth": {
+    "legacy_shared_bonus": 1,
+    "legacy_bonus_applied_to_two_copies": 2,
+    "instance_bonuses": [
+      1.0,
+      0.0
+    ],
+    "explanation": "One observed actor triggers growth, but the legacy type-keyed bonus applies to both copies."
+  },
+  "timers": {
+    "legacy_input_ttls": [
+      1,
+      4
+    ],
+    "legacy_shown": [
+      "spirit"
+    ],
+    "legacy_remaining_ttls": [
+      4
+    ],
+    "specified_second_instance_shown": "s00000001",
+    "instance_remaining_ttls": [
+      1,
+      3
+    ],
+    "explanation": "Legacy data cannot specify second-copy selection; the instance contract can. Not an inferred hidden board identity."
+  },
+  "identity": {
+    "legacy_before": [
+      "coin:0",
+      "coin:1"
+    ],
+    "legacy_after": [
+      "coin:0"
+    ],
+    "instance_before": [
+      "s00000000",
+      "s00000001"
+    ],
+    "instance_after": [
+      "s00000001"
+    ],
+    "explanation": "Legacy snapshot indices are renumbered; instance IDs of survivors remain unchanged."
+  },
+  "integration_status": "InstanceStore is tested migration infrastructure, not yet the live game backend.",
+  "next_gate": "Migrate one rule with explicit board IDs, actor/target events and state parity tests; never reconstruct post-spin identity by matching type strings.",
+  "legacy_core_sha256": "7953f3fcab5bc96fd292ee2bb0ea452ff327b73a3dd4c7834a6d41daff35af17"
+}

@@ -1,0 +1,8 @@
+{
+  "same_seed_episode_metrics_match": {
+    "random": true,
+    "heuristic": true,
+    "heuristic_coal_v029": true
+  },
+  "artifact_hashes_verified": true
+}

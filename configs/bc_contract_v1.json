@@ -1,0 +1,16 @@
+{
+  "version": "bc-coal-v1",
+  "environment": "instance-coal-v1",
+  "encoder": "coal-candidates-v1",
+  "teacher": "heuristic_coal_v029",
+  "teacher_coal_score_adjustment": -1.2,
+  "training_split": "train",
+  "loss": "mean masked negative log likelihood over rows with more than one legal candidate",
+  "forced_action_policy": "execute sole legal candidate directly; omit row from loss and decision accuracy",
+  "primary_offline_metrics": ["decision_mean_nll", "decision_accuracy", "per_phase_accuracy"],
+  "aggregation": "sum losses and correct counts then divide by decision count; never average batch means",
+  "empty_decision_batch": "skip optimizer update; report undefined mean metrics",
+  "validation_usage": "development partitions only; no claim of independent policy generalization",
+  "online_metrics": ["mean_paid_rents", "third_rent_survival", "win_rate", "truncations"],
+  "training_steps": 0
+}

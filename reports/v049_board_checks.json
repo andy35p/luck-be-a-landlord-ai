@@ -1,0 +1,14 @@
+{
+  "old_trace": "logs\\coal_diagnosis\\20260922T031250024070Z\\random.jsonl.gz",
+  "replay": {
+    "episodes": 100,
+    "transitions": 6757,
+    "exact_replay": true
+  },
+  "regression": {
+    "version": "instance-time-v1",
+    "games": 100,
+    "all_metrics_equal": true,
+    "reference": "logs\\reused\\heuristic-20260923T012155478925Z\\episodes.csv"
+  }
+}

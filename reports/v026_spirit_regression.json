@@ -1,0 +1,14 @@
+[
+  {
+    "agent": "random",
+    "games": 100,
+    "reference": "random-20260922T023813883222Z",
+    "all_episode_metrics_equal": true
+  },
+  {
+    "agent": "heuristic",
+    "games": 100,
+    "reference": "heuristic-20260922T023908813043Z",
+    "all_episode_metrics_equal": true
+  }
+]

@@ -1,0 +1,212 @@
+{
+  "baseline": "logs\\bc-smoke-20260922T132337693785Z",
+  "candidate": "logs\\bc-smoke-20260922T134741620666Z",
+  "controls_identical": {
+    "initial": true,
+    "teacher": true
+  },
+  "paired": {
+    "mean_stage_delta": -0.16,
+    "paired_bootstrap_interval": [
+      -0.62,
+      0.29
+    ],
+    "confidence": 0.95,
+    "paired_bootstrap_95": [
+      -0.62,
+      0.29
+    ],
+    "improved": 10,
+    "unchanged": 75,
+    "worse": 15,
+    "promotable_on_development": false,
+    "worst_pairs": [
+      {
+        "seed": 1022,
+        "baseline_stage": 13,
+        "experiment_stage": 4,
+        "delta": -9
+      },
+      {
+        "seed": 1049,
+        "baseline_stage": 13,
+        "experiment_stage": 4,
+        "delta": -9
+      },
+      {
+        "seed": 1014,
+        "baseline_stage": 13,
+        "experiment_stage": 5,
+        "delta": -8
+      },
+      {
+        "seed": 1074,
+        "baseline_stage": 12,
+        "experiment_stage": 5,
+        "delta": -7
+      },
+      {
+        "seed": 1063,
+        "baseline_stage": 8,
+        "experiment_stage": 5,
+        "delta": -3
+      }
+    ]
+  },
+  "baseline_offline": {
+    "overall": {
+      "decision_count": 629,
+      "correct_count": 519,
+      "loss_sum": 212.60736397695413,
+      "forced_count": 978,
+      "accuracy": 0.8251192368839427,
+      "nll": 0.33800852778530066
+    },
+    "phases": {
+      "spin": {
+        "decision_count": 0,
+        "correct_count": 0,
+        "loss_sum": 0.0,
+        "forced_count": 398,
+        "accuracy": null,
+        "nll": null
+      },
+      "interact": {
+        "decision_count": 0,
+        "correct_count": 0,
+        "loss_sum": 0.0,
+        "forced_count": 385,
+        "accuracy": null,
+        "nll": null
+      },
+      "symbol": {
+        "decision_count": 385,
+        "correct_count": 275,
+        "loss_sum": 212.58549333187466,
+        "forced_count": 0,
+        "accuracy": 0.7142857142857143,
+        "nll": 0.5521701125503238
+      },
+      "remove": {
+        "decision_count": 190,
+        "correct_count": 190,
+        "loss_sum": 0.013475422142552127,
+        "forced_count": 195,
+        "accuracy": 1.0,
+        "nll": 7.092327443448487e-05
+      },
+      "item": {
+        "decision_count": 54,
+        "correct_count": 54,
+        "loss_sum": 0.008395222936898128,
+        "forced_count": 0,
+        "accuracy": 1.0,
+        "nll": 0.0001554670914240394
+      }
+    }
+  },
+  "candidate_offline": {
+    "overall": {
+      "decision_count": 629,
+      "correct_count": 517,
+      "loss_sum": 212.45477397490404,
+      "forced_count": 978,
+      "accuracy": 0.821939586645469,
+      "nll": 0.33776593636709706
+    },
+    "phases": {
+      "spin": {
+        "decision_count": 0,
+        "correct_count": 0,
+        "loss_sum": 0.0,
+        "forced_count": 398,
+        "accuracy": null,
+        "nll": null
+      },
+      "interact": {
+        "decision_count": 0,
+        "correct_count": 0,
+        "loss_sum": 0.0,
+        "forced_count": 385,
+        "accuracy": null,
+        "nll": null
+      },
+      "symbol": {
+        "decision_count": 385,
+        "correct_count": 273,
+        "loss_sum": 212.4335592350528,
+        "forced_count": 0,
+        "accuracy": 0.7090909090909091,
+        "nll": 0.5517754785326047
+      },
+      "remove": {
+        "decision_count": 190,
+        "correct_count": 190,
+        "loss_sum": 0.013638305118647515,
+        "forced_count": 195,
+        "accuracy": 1.0,
+        "nll": 7.178055325603955e-05
+      },
+      "item": {
+        "decision_count": 54,
+        "correct_count": 54,
+        "loss_sum": 0.007576434732574079,
+        "forced_count": 0,
+        "accuracy": 1.0,
+        "nll": 0.00014030434689951996
+      }
+    }
+  },
+  "baseline_online": {
+    "games": 100,
+    "average_stage": 5.38,
+    "third_rent_survival": 1.0,
+    "wins": 8,
+    "truncations": 0
+  },
+  "candidate_online": {
+    "games": 100,
+    "average_stage": 5.22,
+    "third_rent_survival": 1.0,
+    "wins": 8,
+    "truncations": 0
+  },
+  "baseline_disagreements": {
+    "exact_match": 275,
+    "equal_teacher_score": 86,
+    "pick_skip_disagreement": 24
+  },
+  "candidate_disagreements": {
+    "exact_match": 273,
+    "equal_teacher_score": 88,
+    "pick_skip_disagreement": 24
+  },
+  "previous_worst_five": [
+    {
+      "seed": 1004,
+      "baseline_stage": 4,
+      "candidate_stage": 5
+    },
+    {
+      "seed": 1011,
+      "baseline_stage": 4,
+      "candidate_stage": 4
+    },
+    {
+      "seed": 1015,
+      "baseline_stage": 4,
+      "candidate_stage": 4
+    },
+    {
+      "seed": 1044,
+      "baseline_stage": 4,
+      "candidate_stage": 4
+    },
+    {
+      "seed": 1061,
+      "baseline_stage": 4,
+      "candidate_stage": 4
+    }
+  ],
+  "purpose": "development comparison only; not independent validation"
+}

@@ -1,0 +1,12 @@
+{
+  "environment": {"floor": 1, "rule_version": "instance-coal-v1"},
+  "baseline_adjustment": 0.0,
+  "candidate_adjustment": -1.2,
+  "development": {"seed_start": 0, "games": 300},
+  "validation": {"seed_start": 30000, "games": 1000},
+  "bootstrap_seed": 729,
+  "bootstrap_samples": 5000,
+  "primary_metric": "mean paid rent stages",
+  "gate": "paired 95% bootstrap lower bound > 0 and zero truncations",
+  "hypothesis": "Removing only the legacy +1.2 coal selection bonus improves early survival; removal policy unchanged."
+}

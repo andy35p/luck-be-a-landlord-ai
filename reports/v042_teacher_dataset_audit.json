@@ -1,0 +1,15 @@
+{
+  "original_rows": 11348,
+  "annotated_rows": 13638,
+  "original_decisions": 4638,
+  "annotated_decisions": 5816,
+  "sampled_rows_by_source": [
+    17088,
+    17088
+  ],
+  "order_sha256": "63ffd111122ea4eb46ecfe388702deebfb338aab55d7f7d5560d73819f8621ac",
+  "reproducible": true,
+  "no_transition_targets": true,
+  "unique_provenance_keys": true,
+  "training_updates": 0
+}

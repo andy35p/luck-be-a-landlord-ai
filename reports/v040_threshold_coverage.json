@@ -1,0 +1,2925 @@
+{
+  "runs": {
+    "baseline": {
+      "checkpoint_sha256": "6b329e794148ff7ff11f647300da1c242cc53f0fc1b1c427f8fc8a7b5088b74f",
+      "offline_by_size": {
+        "train": {
+          "5": {
+            "total": 79,
+            "teacher_pick": 79,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 79,
+            "teacher_pick": 79,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 113,
+            "teacher_pick": 113,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 127,
+            "teacher_pick": 127,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 99,
+            "teacher_pick": 99,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 96,
+            "teacher_pick": 96,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 113,
+            "teacher_pick": 113,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 137,
+            "teacher_pick": 137,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 87,
+            "teacher_pick": 87,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 152,
+            "teacher_pick": 152,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 1,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 148,
+            "teacher_pick": 148,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 14,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 168,
+            "teacher_pick": 168,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 34,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 149,
+            "teacher_pick": 149,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 8,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 185,
+            "teacher_pick": 185,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 67,
+            "model_pick_teacher_skip": 0
+          },
+          "21": {
+            "total": 162,
+            "teacher_pick": 79,
+            "teacher_skip": 83,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 12
+          },
+          "20": {
+            "total": 206,
+            "teacher_pick": 83,
+            "teacher_skip": 123,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 23
+          },
+          "22": {
+            "total": 121,
+            "teacher_pick": 50,
+            "teacher_skip": 71,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 4
+          },
+          "23": {
+            "total": 56,
+            "teacher_pick": 22,
+            "teacher_skip": 34,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 2
+          },
+          "24": {
+            "total": 37,
+            "teacher_pick": 19,
+            "teacher_skip": 18,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 26,
+            "teacher_pick": 16,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 26,
+            "teacher_pick": 12,
+            "teacher_skip": 14,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 21,
+            "teacher_pick": 10,
+            "teacher_skip": 11,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 17,
+            "teacher_pick": 11,
+            "teacher_skip": 6,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 21,
+            "teacher_pick": 13,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 23,
+            "teacher_pick": 13,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 12,
+            "teacher_pick": 7,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 135,
+            "teacher_pick": 135,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 14,
+            "teacher_pick": 9,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "33": {
+            "total": 7,
+            "teacher_pick": 5,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "34": {
+            "total": 17,
+            "teacher_pick": 9,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "35": {
+            "total": 19,
+            "teacher_pick": 7,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "36": {
+            "total": 21,
+            "teacher_pick": 8,
+            "teacher_skip": 13,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "37": {
+            "total": 20,
+            "teacher_pick": 8,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "38": {
+            "total": 15,
+            "teacher_pick": 3,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "39": {
+            "total": 6,
+            "teacher_pick": 3,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "40": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "41": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "42": {
+            "total": 2,
+            "teacher_pick": 1,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "43": {
+            "total": 2,
+            "teacher_pick": 0,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        },
+        "validation": {
+          "5": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 12,
+            "teacher_pick": 12,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 14,
+            "teacher_pick": 14,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 12,
+            "teacher_pick": 12,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 11,
+            "teacher_pick": 11,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 22,
+            "teacher_pick": 22,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 2,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 22,
+            "teacher_pick": 22,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 6,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 25,
+            "teacher_pick": 25,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 24,
+            "teacher_pick": 24,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 8,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "20": {
+            "total": 22,
+            "teacher_pick": 12,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 1
+          },
+          "21": {
+            "total": 13,
+            "teacher_pick": 8,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "22": {
+            "total": 16,
+            "teacher_pick": 6,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "23": {
+            "total": 13,
+            "teacher_pick": 8,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "24": {
+            "total": 6,
+            "teacher_pick": 4,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 6,
+            "teacher_pick": 3,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 3,
+            "teacher_pick": 1,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 8,
+            "teacher_pick": 2,
+            "teacher_skip": 6,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        },
+        "test": {
+          "5": {
+            "total": 13,
+            "teacher_pick": 13,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 13,
+            "teacher_pick": 13,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 19,
+            "teacher_pick": 19,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 16,
+            "teacher_pick": 16,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 18,
+            "teacher_pick": 18,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 16,
+            "teacher_pick": 16,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 21,
+            "teacher_pick": 21,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 32,
+            "teacher_pick": 32,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 26,
+            "teacher_pick": 26,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 18,
+            "teacher_pick": 18,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 1,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 29,
+            "teacher_pick": 29,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 2,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 25,
+            "teacher_pick": 25,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 7,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 24,
+            "teacher_pick": 24,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 19,
+            "teacher_pick": 19,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 7,
+            "model_pick_teacher_skip": 0
+          },
+          "20": {
+            "total": 24,
+            "teacher_pick": 11,
+            "teacher_skip": 13,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 4
+          },
+          "22": {
+            "total": 11,
+            "teacher_pick": 3,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 1
+          },
+          "21": {
+            "total": 18,
+            "teacher_pick": 8,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 2
+          },
+          "23": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "24": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 3,
+            "teacher_pick": 3,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 3,
+            "teacher_pick": 1,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "33": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        }
+      },
+      "online_by_size": {
+        "5": {
+          "total": 100,
+          "teacher_pick": 100,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "6": {
+          "total": 100,
+          "teacher_pick": 100,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "7": {
+          "total": 162,
+          "teacher_pick": 162,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "8": {
+          "total": 138,
+          "teacher_pick": 138,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 1,
+          "model_pick_teacher_skip": 0
+        },
+        "9": {
+          "total": 122,
+          "teacher_pick": 122,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 4,
+          "model_pick_teacher_skip": 0
+        },
+        "10": {
+          "total": 111,
+          "teacher_pick": 111,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 6,
+          "model_pick_teacher_skip": 0
+        },
+        "11": {
+          "total": 171,
+          "teacher_pick": 171,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 17,
+          "model_pick_teacher_skip": 0
+        },
+        "12": {
+          "total": 224,
+          "teacher_pick": 224,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 47,
+          "model_pick_teacher_skip": 0
+        },
+        "14": {
+          "total": 389,
+          "teacher_pick": 389,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 94,
+          "model_pick_teacher_skip": 0
+        },
+        "13": {
+          "total": 334,
+          "teacher_pick": 334,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 83,
+          "model_pick_teacher_skip": 0
+        },
+        "15": {
+          "total": 429,
+          "teacher_pick": 429,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 135,
+          "model_pick_teacher_skip": 0
+        },
+        "17": {
+          "total": 288,
+          "teacher_pick": 288,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 91,
+          "model_pick_teacher_skip": 0
+        },
+        "19": {
+          "total": 109,
+          "teacher_pick": 109,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 40,
+          "model_pick_teacher_skip": 0
+        },
+        "20": {
+          "total": 72,
+          "teacher_pick": 30,
+          "teacher_skip": 42,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 8
+        },
+        "18": {
+          "total": 186,
+          "teacher_pick": 186,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 65,
+          "model_pick_teacher_skip": 0
+        },
+        "16": {
+          "total": 315,
+          "teacher_pick": 315,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 94,
+          "model_pick_teacher_skip": 0
+        },
+        "21": {
+          "total": 54,
+          "teacher_pick": 29,
+          "teacher_skip": 25,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "22": {
+          "total": 37,
+          "teacher_pick": 21,
+          "teacher_skip": 16,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "23": {
+          "total": 50,
+          "teacher_pick": 24,
+          "teacher_skip": 26,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "24": {
+          "total": 36,
+          "teacher_pick": 18,
+          "teacher_skip": 18,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "25": {
+          "total": 32,
+          "teacher_pick": 20,
+          "teacher_skip": 12,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "26": {
+          "total": 36,
+          "teacher_pick": 17,
+          "teacher_skip": 19,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "27": {
+          "total": 39,
+          "teacher_pick": 19,
+          "teacher_skip": 20,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "28": {
+          "total": 47,
+          "teacher_pick": 16,
+          "teacher_skip": 31,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "29": {
+          "total": 29,
+          "teacher_pick": 17,
+          "teacher_skip": 12,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "30": {
+          "total": 32,
+          "teacher_pick": 14,
+          "teacher_skip": 18,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "31": {
+          "total": 27,
+          "teacher_pick": 14,
+          "teacher_skip": 13,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "32": {
+          "total": 31,
+          "teacher_pick": 19,
+          "teacher_skip": 12,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "33": {
+          "total": 36,
+          "teacher_pick": 15,
+          "teacher_skip": 21,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "34": {
+          "total": 32,
+          "teacher_pick": 19,
+          "teacher_skip": 13,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "35": {
+          "total": 27,
+          "teacher_pick": 14,
+          "teacher_skip": 13,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "36": {
+          "total": 26,
+          "teacher_pick": 13,
+          "teacher_skip": 13,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "37": {
+          "total": 25,
+          "teacher_pick": 10,
+          "teacher_skip": 15,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "38": {
+          "total": 11,
+          "teacher_pick": 7,
+          "teacher_skip": 4,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "39": {
+          "total": 14,
+          "teacher_pick": 6,
+          "teacher_skip": 8,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "40": {
+          "total": 8,
+          "teacher_pick": 5,
+          "teacher_skip": 3,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "41": {
+          "total": 6,
+          "teacher_pick": 2,
+          "teacher_skip": 4,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "42": {
+          "total": 2,
+          "teacher_pick": 1,
+          "teacher_skip": 1,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "43": {
+          "total": 1,
+          "teacher_pick": 0,
+          "teacher_skip": 1,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        }
+      },
+      "episodes": [
+        {
+          "seed": 1000,
+          "stage": 4,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1001,
+          "stage": 5,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1002,
+          "stage": 5,
+          "pick_skip_disagreements": 11
+        },
+        {
+          "seed": 1003,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1004,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1005,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1006,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1007,
+          "stage": 4,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1008,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1009,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1010,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1011,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1012,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1013,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1014,
+          "stage": 13,
+          "pick_skip_disagreements": 15
+        },
+        {
+          "seed": 1015,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1016,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1017,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1018,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1019,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1020,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1021,
+          "stage": 13,
+          "pick_skip_disagreements": 18
+        },
+        {
+          "seed": 1022,
+          "stage": 13,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1023,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1024,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1025,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1026,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1027,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1028,
+          "stage": 3,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1029,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1030,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1031,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1032,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1033,
+          "stage": 4,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1034,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1035,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1036,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1037,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1038,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1039,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1040,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1041,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1042,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1043,
+          "stage": 6,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1044,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1045,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1046,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1047,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1048,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1049,
+          "stage": 13,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1050,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1051,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1052,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1053,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1054,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1055,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1056,
+          "stage": 13,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1057,
+          "stage": 12,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1058,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1059,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1060,
+          "stage": 6,
+          "pick_skip_disagreements": 13
+        },
+        {
+          "seed": 1061,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1062,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1063,
+          "stage": 8,
+          "pick_skip_disagreements": 20
+        },
+        {
+          "seed": 1064,
+          "stage": 5,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1065,
+          "stage": 9,
+          "pick_skip_disagreements": 15
+        },
+        {
+          "seed": 1066,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1067,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1068,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1069,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1070,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1071,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1072,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1073,
+          "stage": 4,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1074,
+          "stage": 12,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1075,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1076,
+          "stage": 6,
+          "pick_skip_disagreements": 13
+        },
+        {
+          "seed": 1077,
+          "stage": 13,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1078,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1079,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1080,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1081,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1082,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1083,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1084,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1085,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1086,
+          "stage": 13,
+          "pick_skip_disagreements": 16
+        },
+        {
+          "seed": 1087,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1088,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1089,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1090,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1091,
+          "stage": 5,
+          "pick_skip_disagreements": 11
+        },
+        {
+          "seed": 1092,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1093,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1094,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1095,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1096,
+          "stage": 13,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1097,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1098,
+          "stage": 12,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1099,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        }
+      ]
+    },
+    "count": {
+      "checkpoint_sha256": "daf106cdf40684745b0a246fa70b8aced982c02d7c77691f561ad050899b33d4",
+      "offline_by_size": {
+        "train": {
+          "5": {
+            "total": 79,
+            "teacher_pick": 79,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 79,
+            "teacher_pick": 79,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 113,
+            "teacher_pick": 113,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 127,
+            "teacher_pick": 127,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 99,
+            "teacher_pick": 99,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 96,
+            "teacher_pick": 96,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 113,
+            "teacher_pick": 113,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 137,
+            "teacher_pick": 137,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 87,
+            "teacher_pick": 87,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 152,
+            "teacher_pick": 152,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 148,
+            "teacher_pick": 148,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 13,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 168,
+            "teacher_pick": 168,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 32,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 149,
+            "teacher_pick": 149,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 7,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 185,
+            "teacher_pick": 185,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 67,
+            "model_pick_teacher_skip": 0
+          },
+          "21": {
+            "total": 162,
+            "teacher_pick": 79,
+            "teacher_skip": 83,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 11
+          },
+          "20": {
+            "total": 206,
+            "teacher_pick": 83,
+            "teacher_skip": 123,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 23
+          },
+          "22": {
+            "total": 121,
+            "teacher_pick": 50,
+            "teacher_skip": 71,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 4
+          },
+          "23": {
+            "total": 56,
+            "teacher_pick": 22,
+            "teacher_skip": 34,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 1
+          },
+          "24": {
+            "total": 37,
+            "teacher_pick": 19,
+            "teacher_skip": 18,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 26,
+            "teacher_pick": 16,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 26,
+            "teacher_pick": 12,
+            "teacher_skip": 14,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 21,
+            "teacher_pick": 10,
+            "teacher_skip": 11,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 17,
+            "teacher_pick": 11,
+            "teacher_skip": 6,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 21,
+            "teacher_pick": 13,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 23,
+            "teacher_pick": 13,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 12,
+            "teacher_pick": 7,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 135,
+            "teacher_pick": 135,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 14,
+            "teacher_pick": 9,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "33": {
+            "total": 7,
+            "teacher_pick": 5,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "34": {
+            "total": 17,
+            "teacher_pick": 9,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "35": {
+            "total": 19,
+            "teacher_pick": 7,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "36": {
+            "total": 21,
+            "teacher_pick": 8,
+            "teacher_skip": 13,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "37": {
+            "total": 20,
+            "teacher_pick": 8,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "38": {
+            "total": 15,
+            "teacher_pick": 3,
+            "teacher_skip": 12,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "39": {
+            "total": 6,
+            "teacher_pick": 3,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "40": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "41": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "42": {
+            "total": 2,
+            "teacher_pick": 1,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "43": {
+            "total": 2,
+            "teacher_pick": 0,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        },
+        "validation": {
+          "5": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 12,
+            "teacher_pick": 12,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 14,
+            "teacher_pick": 14,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 12,
+            "teacher_pick": 12,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 11,
+            "teacher_pick": 11,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 22,
+            "teacher_pick": 22,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 1,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 22,
+            "teacher_pick": 22,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 6,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 25,
+            "teacher_pick": 25,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 24,
+            "teacher_pick": 24,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 8,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 8,
+            "teacher_pick": 8,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "20": {
+            "total": 22,
+            "teacher_pick": 12,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 1
+          },
+          "21": {
+            "total": 13,
+            "teacher_pick": 8,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "22": {
+            "total": 16,
+            "teacher_pick": 6,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "23": {
+            "total": 13,
+            "teacher_pick": 8,
+            "teacher_skip": 5,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "24": {
+            "total": 6,
+            "teacher_pick": 4,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 6,
+            "teacher_pick": 3,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 3,
+            "teacher_pick": 1,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 4,
+            "teacher_pick": 3,
+            "teacher_skip": 1,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 8,
+            "teacher_pick": 2,
+            "teacher_skip": 6,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        },
+        "test": {
+          "5": {
+            "total": 13,
+            "teacher_pick": 13,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "6": {
+            "total": 13,
+            "teacher_pick": 13,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "7": {
+            "total": 19,
+            "teacher_pick": 19,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "9": {
+            "total": 16,
+            "teacher_pick": 16,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "11": {
+            "total": 18,
+            "teacher_pick": 18,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "12": {
+            "total": 16,
+            "teacher_pick": 16,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "13": {
+            "total": 21,
+            "teacher_pick": 21,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "14": {
+            "total": 32,
+            "teacher_pick": 32,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "15": {
+            "total": 26,
+            "teacher_pick": 26,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "16": {
+            "total": 18,
+            "teacher_pick": 18,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 1,
+            "model_pick_teacher_skip": 0
+          },
+          "17": {
+            "total": 29,
+            "teacher_pick": 29,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 2,
+            "model_pick_teacher_skip": 0
+          },
+          "18": {
+            "total": 25,
+            "teacher_pick": 25,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 7,
+            "model_pick_teacher_skip": 0
+          },
+          "8": {
+            "total": 24,
+            "teacher_pick": 24,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "19": {
+            "total": 19,
+            "teacher_pick": 19,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 7,
+            "model_pick_teacher_skip": 0
+          },
+          "20": {
+            "total": 24,
+            "teacher_pick": 11,
+            "teacher_skip": 13,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 4
+          },
+          "22": {
+            "total": 11,
+            "teacher_pick": 3,
+            "teacher_skip": 8,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 1
+          },
+          "21": {
+            "total": 18,
+            "teacher_pick": 8,
+            "teacher_skip": 10,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 2
+          },
+          "23": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "24": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "25": {
+            "total": 3,
+            "teacher_pick": 3,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "26": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "27": {
+            "total": 5,
+            "teacher_pick": 2,
+            "teacher_skip": 3,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "28": {
+            "total": 3,
+            "teacher_pick": 1,
+            "teacher_skip": 2,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "29": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "30": {
+            "total": 1,
+            "teacher_pick": 1,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "31": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "32": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "33": {
+            "total": 2,
+            "teacher_pick": 2,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          },
+          "10": {
+            "total": 15,
+            "teacher_pick": 15,
+            "teacher_skip": 0,
+            "model_skip_teacher_pick": 0,
+            "model_pick_teacher_skip": 0
+          }
+        }
+      },
+      "online_by_size": {
+        "5": {
+          "total": 100,
+          "teacher_pick": 100,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "6": {
+          "total": 100,
+          "teacher_pick": 100,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "7": {
+          "total": 162,
+          "teacher_pick": 162,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "8": {
+          "total": 135,
+          "teacher_pick": 135,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "9": {
+          "total": 113,
+          "teacher_pick": 113,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 1,
+          "model_pick_teacher_skip": 0
+        },
+        "10": {
+          "total": 108,
+          "teacher_pick": 108,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 2,
+          "model_pick_teacher_skip": 0
+        },
+        "11": {
+          "total": 160,
+          "teacher_pick": 160,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 12,
+          "model_pick_teacher_skip": 0
+        },
+        "12": {
+          "total": 213,
+          "teacher_pick": 213,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 28,
+          "model_pick_teacher_skip": 0
+        },
+        "13": {
+          "total": 323,
+          "teacher_pick": 323,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 71,
+          "model_pick_teacher_skip": 0
+        },
+        "14": {
+          "total": 357,
+          "teacher_pick": 357,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 78,
+          "model_pick_teacher_skip": 0
+        },
+        "15": {
+          "total": 412,
+          "teacher_pick": 412,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 128,
+          "model_pick_teacher_skip": 0
+        },
+        "16": {
+          "total": 335,
+          "teacher_pick": 335,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 106,
+          "model_pick_teacher_skip": 0
+        },
+        "17": {
+          "total": 289,
+          "teacher_pick": 289,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 102,
+          "model_pick_teacher_skip": 0
+        },
+        "18": {
+          "total": 191,
+          "teacher_pick": 191,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 62,
+          "model_pick_teacher_skip": 0
+        },
+        "19": {
+          "total": 108,
+          "teacher_pick": 108,
+          "teacher_skip": 0,
+          "model_skip_teacher_pick": 43,
+          "model_pick_teacher_skip": 0
+        },
+        "20": {
+          "total": 71,
+          "teacher_pick": 32,
+          "teacher_skip": 39,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 9
+        },
+        "21": {
+          "total": 63,
+          "teacher_pick": 35,
+          "teacher_skip": 28,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "22": {
+          "total": 36,
+          "teacher_pick": 20,
+          "teacher_skip": 16,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "23": {
+          "total": 55,
+          "teacher_pick": 23,
+          "teacher_skip": 32,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "24": {
+          "total": 30,
+          "teacher_pick": 16,
+          "teacher_skip": 14,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "25": {
+          "total": 33,
+          "teacher_pick": 21,
+          "teacher_skip": 12,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "26": {
+          "total": 36,
+          "teacher_pick": 17,
+          "teacher_skip": 19,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "27": {
+          "total": 32,
+          "teacher_pick": 16,
+          "teacher_skip": 16,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "28": {
+          "total": 39,
+          "teacher_pick": 18,
+          "teacher_skip": 21,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "29": {
+          "total": 30,
+          "teacher_pick": 16,
+          "teacher_skip": 14,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "30": {
+          "total": 20,
+          "teacher_pick": 11,
+          "teacher_skip": 9,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "31": {
+          "total": 20,
+          "teacher_pick": 12,
+          "teacher_skip": 8,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "32": {
+          "total": 22,
+          "teacher_pick": 16,
+          "teacher_skip": 6,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "33": {
+          "total": 24,
+          "teacher_pick": 12,
+          "teacher_skip": 12,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "34": {
+          "total": 22,
+          "teacher_pick": 14,
+          "teacher_skip": 8,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "35": {
+          "total": 21,
+          "teacher_pick": 11,
+          "teacher_skip": 10,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "36": {
+          "total": 29,
+          "teacher_pick": 14,
+          "teacher_skip": 15,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "37": {
+          "total": 32,
+          "teacher_pick": 9,
+          "teacher_skip": 23,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "38": {
+          "total": 10,
+          "teacher_pick": 6,
+          "teacher_skip": 4,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "39": {
+          "total": 9,
+          "teacher_pick": 6,
+          "teacher_skip": 3,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "40": {
+          "total": 8,
+          "teacher_pick": 4,
+          "teacher_skip": 4,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "41": {
+          "total": 4,
+          "teacher_pick": 3,
+          "teacher_skip": 1,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "42": {
+          "total": 4,
+          "teacher_pick": 1,
+          "teacher_skip": 3,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        },
+        "43": {
+          "total": 1,
+          "teacher_pick": 0,
+          "teacher_skip": 1,
+          "model_skip_teacher_pick": 0,
+          "model_pick_teacher_skip": 0
+        }
+      },
+      "episodes": [
+        {
+          "seed": 1000,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1001,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1002,
+          "stage": 13,
+          "pick_skip_disagreements": 13
+        },
+        {
+          "seed": 1003,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1004,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1005,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1006,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1007,
+          "stage": 4,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1008,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1009,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1010,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1011,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1012,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1013,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1014,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1015,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1016,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1017,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1018,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1019,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1020,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1021,
+          "stage": 13,
+          "pick_skip_disagreements": 18
+        },
+        {
+          "seed": 1022,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1023,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1024,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1025,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1026,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1027,
+          "stage": 5,
+          "pick_skip_disagreements": 11
+        },
+        {
+          "seed": 1028,
+          "stage": 3,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1029,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1030,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1031,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1032,
+          "stage": 5,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1033,
+          "stage": 4,
+          "pick_skip_disagreements": 1
+        },
+        {
+          "seed": 1034,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1035,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1036,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1037,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1038,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1039,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1040,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1041,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1042,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1043,
+          "stage": 6,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1044,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1045,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1046,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1047,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1048,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1049,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1050,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1051,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1052,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1053,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1054,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1055,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1056,
+          "stage": 13,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1057,
+          "stage": 12,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1058,
+          "stage": 6,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1059,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1060,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1061,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1062,
+          "stage": 5,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1063,
+          "stage": 5,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1064,
+          "stage": 6,
+          "pick_skip_disagreements": 14
+        },
+        {
+          "seed": 1065,
+          "stage": 9,
+          "pick_skip_disagreements": 15
+        },
+        {
+          "seed": 1066,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1067,
+          "stage": 5,
+          "pick_skip_disagreements": 13
+        },
+        {
+          "seed": 1068,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1069,
+          "stage": 4,
+          "pick_skip_disagreements": 4
+        },
+        {
+          "seed": 1070,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1071,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1072,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1073,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1074,
+          "stage": 5,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1075,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1076,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1077,
+          "stage": 13,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1078,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1079,
+          "stage": 13,
+          "pick_skip_disagreements": 12
+        },
+        {
+          "seed": 1080,
+          "stage": 5,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1081,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        },
+        {
+          "seed": 1082,
+          "stage": 3,
+          "pick_skip_disagreements": 0
+        },
+        {
+          "seed": 1083,
+          "stage": 4,
+          "pick_skip_disagreements": 9
+        },
+        {
+          "seed": 1084,
+          "stage": 4,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1085,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1086,
+          "stage": 13,
+          "pick_skip_disagreements": 16
+        },
+        {
+          "seed": 1087,
+          "stage": 5,
+          "pick_skip_disagreements": 11
+        },
+        {
+          "seed": 1088,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1089,
+          "stage": 5,
+          "pick_skip_disagreements": 10
+        },
+        {
+          "seed": 1090,
+          "stage": 4,
+          "pick_skip_disagreements": 5
+        },
+        {
+          "seed": 1091,
+          "stage": 5,
+          "pick_skip_disagreements": 11
+        },
+        {
+          "seed": 1092,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1093,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1094,
+          "stage": 4,
+          "pick_skip_disagreements": 3
+        },
+        {
+          "seed": 1095,
+          "stage": 4,
+          "pick_skip_disagreements": 6
+        },
+        {
+          "seed": 1096,
+          "stage": 13,
+          "pick_skip_disagreements": 7
+        },
+        {
+          "seed": 1097,
+          "stage": 13,
+          "pick_skip_disagreements": 13
+        },
+        {
+          "seed": 1098,
+          "stage": 12,
+          "pick_skip_disagreements": 8
+        },
+        {
+          "seed": 1099,
+          "stage": 4,
+          "pick_skip_disagreements": 2
+        }
+      ]
+    }
+  },
+  "training_updates": 0
+}

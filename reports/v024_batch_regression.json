@@ -1,0 +1,9 @@
+{
+  "episodes": 100,
+  "exact_csv_rows_equal": true,
+  "before": "logs\\reused\\heuristic_reroll-20260922T021256157657Z\\episodes.csv",
+  "after": "logs\\reused\\heuristic_reroll-20260922T023059562646Z\\episodes.csv",
+  "rule_version": "removal-timers-v1",
+  "policy": "token_margin=0.25",
+  "scope": "Representation metadata changed; gameplay engine unchanged."
+}

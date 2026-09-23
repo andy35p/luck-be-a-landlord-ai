@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "adoption_papers_essence",
+    "name": "adoption_papers_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "ancient_lizard_blade_essence",
+    "name": "ancient_lizard_blade_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "anthropology_degree_essence",
+    "name": "anthropology_degree_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "bag_of_holding_essence",
+    "name": "bag_of_holding_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "barrel_o_dwarves_essence",
+    "name": "barrel_o_dwarves_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "birdhouse_essence",
+    "name": "birdhouse_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "black_cat_essence",
+    "name": "black_cat_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "black_pepper_essence",
+    "name": "black_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "blue_pepper_essence",
+    "name": "blue_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "blue_suits_essence",
+    "name": "blue_suits_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "booster_pack_essence",
+    "name": "booster_pack_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "bowling_ball_essence",
+    "name": "bowling_ball_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": "每转3枚，持续20转；支持冰棒增加生命周期",
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "brown_pepper_essence",
+    "name": "brown_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "capsule_machine_essence",
+    "name": "capsule_machine_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "cardboard_box_essence",
+    "name": "cardboard_box_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "checkered_flag_essence",
+    "name": "checkered_flag_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "chicken_coop_essence",
+    "name": "chicken_coop_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "chili_powder_essence",
+    "name": "chili_powder_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "cleaning_rag_essence",
+    "name": "cleaning_rag_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "clear_sky_essence",
+    "name": "clear_sky_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "coffee_essence",
+    "name": "coffee_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "coin_on_a_string_essence",
+    "name": "coin_on_a_string_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "comfy_pillow_essence",
+    "name": "comfy_pillow_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "compost_heap_essence",
+    "name": "compost_heap_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "conveyor_belt_essence",
+    "name": "conveyor_belt_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "copycat_essence",
+    "name": "copycat_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "credit_card_essence",
+    "name": "credit_card_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "cursed_katana_essence",
+    "name": "cursed_katana_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "cyan_pepper_essence",
+    "name": "cyan_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "dark_humor_essence",
+    "name": "dark_humor_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "devils_deal_essence",
+    "name": "devils_deal_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "dishwasher_essence",
+    "name": "dishwasher_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "dwarven_anvil_essence",
+    "name": "dwarven_anvil_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "egg_carton_essence",
+    "name": "egg_carton_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "fertilizer_essence",
+    "name": "fertilizer_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "fifth_ace_essence",
+    "name": "fifth_ace_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "fish_bowl_essence",
+    "name": "fish_bowl_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "flush_essence",
+    "name": "flush_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "four_leaf_clover_essence",
+    "name": "four_leaf_clover_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": "每转4枚，持续15转；支持冰棒增加生命周期",
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "frozen_pizza_essence",
+    "name": "frozen_pizza_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "fruit_basket_essence",
+    "name": "fruit_basket_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "frying_pan_essence",
+    "name": "frying_pan_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "golden_carrot_essence",
+    "name": "golden_carrot_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "goldilocks_essence",
+    "name": "goldilocks_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "grave_robber_essence",
+    "name": "grave_robber_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "gray_pepper_essence",
+    "name": "gray_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "green_pepper_essence",
+    "name": "green_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "guillotine_essence",
+    "name": "guillotine_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "happy_hour_essence",
+    "name": "happy_hour_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "holy_water_essence",
+    "name": "holy_water_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "horseshoe_essence",
+    "name": "horseshoe_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": "每转2枚，持续30转；支持冰棒增加生命周期",
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "jackolantern_essence",
+    "name": "jackolantern_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "kyle_the_kernite_essence",
+    "name": "kyle_the_kernite_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lefty_the_rabbit_essence",
+    "name": "lefty_the_rabbit_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lemon_essence",
+    "name": "lemon_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lime_pepper_essence",
+    "name": "lime_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lint_roller_essence",
+    "name": "lint_roller_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lockpick_essence",
+    "name": "lockpick_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "looting_glove_essence",
+    "name": "looting_glove_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lucky_carrot_essence",
+    "name": "lucky_carrot_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lucky_cat_essence",
+    "name": "lucky_cat_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lucky_dice_essence",
+    "name": "lucky_dice_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lucky_seven_essence",
+    "name": "lucky_seven_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "lunchbox_essence",
+    "name": "lunchbox_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "maxwell_the_bear_essence",
+    "name": "maxwell_the_bear_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "mining_pick_essence",
+    "name": "mining_pick_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "mobius_strip_essence",
+    "name": "mobius_strip_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "ninja_and_mouse_essence",
+    "name": "ninja_and_mouse_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "nori_the_rabbit_essence",
+    "name": "nori_the_rabbit_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "oil_can_essence",
+    "name": "oil_can_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "oswald_the_monkey_essence",
+    "name": "oswald_the_monkey_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "piggy_bank_essence",
+    "name": "piggy_bank_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "pink_pepper_essence",
+    "name": "pink_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "pizza_the_cat_essence",
+    "name": "pizza_the_cat_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "pool_ball_essence",
+    "name": "pool_ball_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": "每转1枚，持续60转；支持冰棒增加生命周期",
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "popsicle_essence",
+    "name": "popsicle_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "protractor_essence",
+    "name": "protractor_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "purple_pepper_essence",
+    "name": "purple_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "quigley_the_wolf_essence",
+    "name": "quigley_the_wolf_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "quiver_essence",
+    "name": "quiver_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "rain_cloud_essence",
+    "name": "rain_cloud_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "recycling_essence",
+    "name": "recycling_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "red_pepper_essence",
+    "name": "red_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "red_suits_essence",
+    "name": "red_suits_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "reroll_essence",
+    "name": "reroll_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "ricky_the_banana_essence",
+    "name": "ricky_the_banana_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "ritual_candle_essence",
+    "name": "ritual_candle_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "rusty_gear_essence",
+    "name": "rusty_gear_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "shattered_mirror_essence",
+    "name": "shattered_mirror_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "shedding_season_essence",
+    "name": "shedding_season_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "shrine_essence",
+    "name": "shrine_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "sunglasses_essence",
+    "name": "sunglasses_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "swapping_device_essence",
+    "name": "swapping_device_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "swear_jar_essence",
+    "name": "swear_jar_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "symbol_bomb_big_essence",
+    "name": "symbol_bomb_big_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "symbol_bomb_quantum_essence",
+    "name": "symbol_bomb_quantum_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "symbol_bomb_small_essence",
+    "name": "symbol_bomb_small_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "symbol_bomb_very_big_essence",
+    "name": "symbol_bomb_very_big_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "tax_evasion_essence",
+    "name": "tax_evasion_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "telescope_essence",
+    "name": "telescope_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "time_machine_essence",
+    "name": "time_machine_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "treasure_map_essence",
+    "name": "treasure_map_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "triple_coins_essence",
+    "name": "triple_coins_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "turtle_and_rabbit_essence",
+    "name": "turtle_and_rabbit_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "undertaker_essence",
+    "name": "undertaker_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "void_party_essence",
+    "name": "void_party_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "void_portal_essence",
+    "name": "void_portal_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "wanted_poster_essence",
+    "name": "wanted_poster_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "watering_can_essence",
+    "name": "watering_can_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "white_pepper_essence",
+    "name": "white_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "x_ray_machine_essence",
+    "name": "x_ray_machine_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "yellow_pepper_essence",
+    "name": "yellow_pepper_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  },
+  {
+    "id": "zaroffs_contract_essence",
+    "name": "zaroffs_contract_essence",
+    "rarity": "essence",
+    "tags": [
+      "essence"
+    ],
+    "effects": [],
+    "synergies": [],
+    "effect_backend": "legacy.fast_env",
+    "effect_dsl_status": "not_migrated",
+    "historical_rule_description": null,
+    "source": "installed_game_catalog",
+    "original_game_verified": false
+  }
+]

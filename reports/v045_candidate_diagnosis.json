@@ -1,0 +1,1398 @@
+{
+  "checkpoint_sha256": "9f383c124c7caa663b6553d60f4b30b76c05f131a84b74ae87f28694a12689a8",
+  "offline_test_symbol_counts": {
+    "exact_match": 270,
+    "equal_teacher_score": 88,
+    "pick_skip_disagreement": 27
+  },
+  "confusions": [
+    {
+      "teacher": "cat",
+      "model": "cherry",
+      "count": 12
+    },
+    {
+      "teacher": "pearl",
+      "model": "bar_of_soap",
+      "count": 11
+    },
+    {
+      "teacher": "cherry",
+      "model": "bar_of_soap",
+      "count": 10
+    },
+    {
+      "teacher": "cat",
+      "model": "bar_of_soap",
+      "count": 9
+    },
+    {
+      "teacher": "cat",
+      "model": "pearl",
+      "count": 8
+    },
+    {
+      "teacher": "pearl",
+      "model": "cherry",
+      "count": 6
+    },
+    {
+      "teacher": "pearl",
+      "model": "skip",
+      "count": 5
+    },
+    {
+      "teacher": "cat",
+      "model": "flower",
+      "count": 5
+    },
+    {
+      "teacher": "skip",
+      "model": "bar_of_soap",
+      "count": 5
+    },
+    {
+      "teacher": "coin",
+      "model": "pearl",
+      "count": 4
+    },
+    {
+      "teacher": "bar_of_soap",
+      "model": "skip",
+      "count": 4
+    },
+    {
+      "teacher": "coin",
+      "model": "bar_of_soap",
+      "count": 4
+    },
+    {
+      "teacher": "flower",
+      "model": "bar_of_soap",
+      "count": 4
+    },
+    {
+      "teacher": "cat",
+      "model": "skip",
+      "count": 4
+    },
+    {
+      "teacher": "cherry",
+      "model": "skip",
+      "count": 4
+    },
+    {
+      "teacher": "coin",
+      "model": "cherry",
+      "count": 3
+    },
+    {
+      "teacher": "cherry",
+      "model": "pearl",
+      "count": 3
+    },
+    {
+      "teacher": "skip",
+      "model": "cherry",
+      "count": 3
+    },
+    {
+      "teacher": "coin",
+      "model": "skip",
+      "count": 2
+    },
+    {
+      "teacher": "coin",
+      "model": "cat",
+      "count": 2
+    },
+    {
+      "teacher": "flower",
+      "model": "pearl",
+      "count": 2
+    },
+    {
+      "teacher": "pearl",
+      "model": "flower",
+      "count": 2
+    },
+    {
+      "teacher": "cat",
+      "model": "coin",
+      "count": 2
+    },
+    {
+      "teacher": "flower",
+      "model": "cat",
+      "count": 1
+    }
+  ],
+  "examples": [
+    {
+      "seed": 11,
+      "step": 10,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cat"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "deck_size": 7
+    },
+    {
+      "seed": 11,
+      "step": 14,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "coin"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "deck_size": 7
+    },
+    {
+      "seed": 11,
+      "step": 27,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cherry"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 11
+    },
+    {
+      "seed": 11,
+      "step": 31,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cat"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "deck_size": 12
+    },
+    {
+      "seed": 11,
+      "step": 35,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 11
+    },
+    {
+      "seed": 11,
+      "step": 44,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cat"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cherry"
+      },
+      "deck_size": 11
+    },
+    {
+      "seed": 11,
+      "step": 48,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "coin"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "deck_size": 12
+    },
+    {
+      "seed": 11,
+      "step": 60,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cat"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 14
+    },
+    {
+      "seed": 11,
+      "step": 64,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 15
+    },
+    {
+      "seed": 11,
+      "step": 77,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 18
+    },
+    {
+      "seed": 33,
+      "step": 2,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cherry"
+      },
+      "deck_size": 5
+    },
+    {
+      "seed": 33,
+      "step": 18,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "cherry"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 8
+    },
+    {
+      "seed": 33,
+      "step": 23,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "coin"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "deck_size": 8
+    },
+    {
+      "seed": 33,
+      "step": 27,
+      "kind": "equal_teacher_score",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "deck_size": 8
+    },
+    {
+      "seed": 33,
+      "step": 73,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "coin"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 18
+    },
+    {
+      "seed": 33,
+      "step": 81,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 18
+    },
+    {
+      "seed": 33,
+      "step": 89,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "coin"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 15
+    },
+    {
+      "seed": 33,
+      "step": 98,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 16
+    },
+    {
+      "seed": 33,
+      "step": 118,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "pearl"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 18
+    },
+    {
+      "seed": 33,
+      "step": 123,
+      "kind": "pick_skip_disagreement",
+      "teacher": {
+        "action_type": 0,
+        "secondary_target_id": null,
+        "target_id": "bar_of_soap"
+      },
+      "model": {
+        "action_type": 1,
+        "secondary_target_id": null,
+        "target_id": null
+      },
+      "deck_size": 18
+    }
+  ],
+  "online_paired": {
+    "improved": 41,
+    "equal": 27,
+    "worse": 32
+  },
+  "worst_pairs": [
+    {
+      "seed": 1004,
+      "model_stage": 4,
+      "teacher_stage": 13,
+      "delta": -9,
+      "disagreement_count": 12,
+      "first_disagreements": [
+        {
+          "step": 10,
+          "stage": 0,
+          "spin": 3,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 7,
+          "coins": 21.0
+        },
+        {
+          "step": 18,
+          "stage": 1,
+          "spin": 5,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 7,
+          "coins": 15.0
+        },
+        {
+          "step": 35,
+          "stage": 1,
+          "spin": 9,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 70.0
+        },
+        {
+          "step": 48,
+          "stage": 2,
+          "spin": 12,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 12,
+          "coins": 74.0
+        },
+        {
+          "step": 56,
+          "stage": 2,
+          "spin": 14,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 16,
+          "coins": 107.0
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 19,
+          "coins": 57.0
+        },
+        {
+          "step": 77,
+          "stage": 3,
+          "spin": 19,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 140.0
+        },
+        {
+          "step": 81,
+          "stage": 3,
+          "spin": 20,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 10,
+          "coins": 162.0
+        },
+        {
+          "step": 98,
+          "stage": 4,
+          "spin": 24,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 101.0
+        },
+        {
+          "step": 106,
+          "stage": 4,
+          "spin": 26,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 11,
+          "coins": 151.0
+        }
+      ],
+      "terminal_coins": 216.0,
+      "rent_due": 225
+    },
+    {
+      "seed": 1011,
+      "model_stage": 4,
+      "teacher_stage": 13,
+      "delta": -9,
+      "disagreement_count": 11,
+      "first_disagreements": [
+        {
+          "step": 6,
+          "stage": 0,
+          "spin": 2,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 6,
+          "coins": 12.0
+        },
+        {
+          "step": 23,
+          "stage": 1,
+          "spin": 6,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 9,
+          "coins": 23.0
+        },
+        {
+          "step": 27,
+          "stage": 1,
+          "spin": 7,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 9,
+          "coins": 34.0
+        },
+        {
+          "step": 44,
+          "stage": 2,
+          "spin": 11,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 46.0
+        },
+        {
+          "step": 56,
+          "stage": 2,
+          "spin": 14,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 99.0
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 39.0
+        },
+        {
+          "step": 85,
+          "stage": 3,
+          "spin": 21,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 18,
+          "coins": 144.0
+        },
+        {
+          "step": 98,
+          "stage": 4,
+          "spin": 24,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 80.0
+        },
+        {
+          "step": 102,
+          "stage": 4,
+          "spin": 25,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 106.0
+        },
+        {
+          "step": 110,
+          "stage": 4,
+          "spin": 27,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 158.0
+        }
+      ],
+      "terminal_coins": 210.0,
+      "rent_due": 225
+    },
+    {
+      "seed": 1015,
+      "model_stage": 4,
+      "teacher_stage": 13,
+      "delta": -9,
+      "disagreement_count": 14,
+      "first_disagreements": [
+        {
+          "step": 6,
+          "stage": 0,
+          "spin": 2,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 6,
+          "coins": 12.0
+        },
+        {
+          "step": 10,
+          "stage": 0,
+          "spin": 3,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 7,
+          "coins": 20.0
+        },
+        {
+          "step": 18,
+          "stage": 1,
+          "spin": 5,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 8,
+          "coins": 13.0
+        },
+        {
+          "step": 23,
+          "stage": 1,
+          "spin": 6,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 9,
+          "coins": 23.0
+        },
+        {
+          "step": 27,
+          "stage": 1,
+          "spin": 7,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 9,
+          "coins": 34.0
+        },
+        {
+          "step": 60,
+          "stage": 2,
+          "spin": 15,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 13,
+          "coins": 129.0
+        },
+        {
+          "step": 73,
+          "stage": 3,
+          "spin": 18,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 17,
+          "coins": 94.0
+        },
+        {
+          "step": 77,
+          "stage": 3,
+          "spin": 19,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 122.0
+        },
+        {
+          "step": 94,
+          "stage": 4,
+          "spin": 23,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 56.0
+        },
+        {
+          "step": 98,
+          "stage": 4,
+          "spin": 24,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 79.0
+        }
+      ],
+      "terminal_coins": 173.0,
+      "rent_due": 225
+    },
+    {
+      "seed": 1024,
+      "model_stage": 4,
+      "teacher_stage": 12,
+      "delta": -8,
+      "disagreement_count": 12,
+      "first_disagreements": [
+        {
+          "step": 6,
+          "stage": 0,
+          "spin": 2,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 6,
+          "coins": 11.0
+        },
+        {
+          "step": 52,
+          "stage": 2,
+          "spin": 13,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 11,
+          "coins": 97.0
+        },
+        {
+          "step": 60,
+          "stage": 2,
+          "spin": 15,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 12,
+          "coins": 123.0
+        },
+        {
+          "step": 69,
+          "stage": 3,
+          "spin": 17,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 59.0
+        },
+        {
+          "step": 77,
+          "stage": 3,
+          "spin": 19,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 106.0
+        },
+        {
+          "step": 85,
+          "stage": 3,
+          "spin": 21,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 151.0
+        },
+        {
+          "step": 89,
+          "stage": 4,
+          "spin": 22,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 17,
+          "coins": 22.0
+        },
+        {
+          "step": 94,
+          "stage": 4,
+          "spin": 23,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 18,
+          "coins": 47.0
+        },
+        {
+          "step": 98,
+          "stage": 4,
+          "spin": 24,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "pearl",
+            "secondary_target_id": null
+          },
+          "deck_size": 17,
+          "coins": 75.0
+        },
+        {
+          "step": 106,
+          "stage": 4,
+          "spin": 26,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 131.0
+        }
+      ],
+      "terminal_coins": 202.0,
+      "rent_due": 225
+    },
+    {
+      "seed": 1040,
+      "model_stage": 4,
+      "teacher_stage": 12,
+      "delta": -8,
+      "disagreement_count": 9,
+      "first_disagreements": [
+        {
+          "step": 10,
+          "stage": 0,
+          "spin": 3,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "coin",
+            "secondary_target_id": null
+          },
+          "deck_size": 7,
+          "coins": 18.0
+        },
+        {
+          "step": 23,
+          "stage": 1,
+          "spin": 6,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 10,
+          "coins": 23.0
+        },
+        {
+          "step": 39,
+          "stage": 2,
+          "spin": 10,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 23.0
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "flower",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 48.0
+        },
+        {
+          "step": 69,
+          "stage": 3,
+          "spin": 17,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 14,
+          "coins": 65.0
+        },
+        {
+          "step": 73,
+          "stage": 3,
+          "spin": 18,
+          "kind": "equal_teacher_score",
+          "model": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cat",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 81.0
+        },
+        {
+          "step": 94,
+          "stage": 4,
+          "spin": 23,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 15,
+          "coins": 52.0
+        },
+        {
+          "step": 110,
+          "stage": 4,
+          "spin": 27,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "cherry",
+            "secondary_target_id": null
+          },
+          "deck_size": 17,
+          "coins": 154.0
+        },
+        {
+          "step": 114,
+          "stage": 4,
+          "spin": 28,
+          "kind": "pick_skip_disagreement",
+          "model": {
+            "action_type": 1,
+            "target_id": null,
+            "secondary_target_id": null
+          },
+          "teacher": {
+            "action_type": 0,
+            "target_id": "bar_of_soap",
+            "secondary_target_id": null
+          },
+          "deck_size": 16,
+          "coins": 183.0
+        }
+      ],
+      "terminal_coins": 210.0,
+      "rent_due": 225
+    }
+  ],
+  "training_updates": 0,
+  "limitation": "Teacher scores are heuristic preferences, not measured action values; differing actions alter subsequent paths."
+}

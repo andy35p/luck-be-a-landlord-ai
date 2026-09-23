@@ -1,0 +1,154 @@
+{
+  "contract": {
+    "version": "bc-coal-v1",
+    "environment": "instance-coal-v1",
+    "encoder": "coal-candidates-v1",
+    "teacher": "heuristic_coal_v029",
+    "teacher_coal_score_adjustment": -1.2,
+    "training_split": "train",
+    "loss": "mean masked negative log likelihood over rows with more than one legal candidate",
+    "forced_action_policy": "execute sole legal candidate directly; omit row from loss and decision accuracy",
+    "primary_offline_metrics": [
+      "decision_mean_nll",
+      "decision_accuracy",
+      "per_phase_accuracy"
+    ],
+    "aggregation": "sum losses and correct counts then divide by decision count; never average batch means",
+    "empty_decision_batch": "skip optimizer update; report undefined mean metrics",
+    "validation_usage": "development partitions only; no claim of independent policy generalization",
+    "online_metrics": [
+      "mean_paid_rents",
+      "third_rent_survival",
+      "win_rate",
+      "truncations"
+    ],
+    "training_steps": 0
+  },
+  "index_sha256": "b9a5d145519a79c906c99ddb83c880a0df75d18fb527176572e13646a6bbfca9",
+  "results": {
+    "train": {
+      "decision_count": 4638,
+      "forced_count": 6710,
+      "loss_sum": 9150.906027373436,
+      "correct_count": 1724,
+      "uniform_logits_mean_nll": 1.973028466445329,
+      "first_candidate_decision_accuracy": 0.3717119448037947,
+      "uniform_random_expected_decision_accuracy": 0.18609350766724966,
+      "phases": {
+        "spin": {
+          "rows": 2802,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "interact": {
+          "rows": 2723,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "symbol": {
+          "rows": 2723,
+          "decisions": 2723,
+          "first_candidate_correct": 1347,
+          "uniform_expected_correct": 603.8500000000001
+        },
+        "remove": {
+          "rows": 2723,
+          "decisions": 1538,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 70.7516885607038
+        },
+        "item": {
+          "rows": 377,
+          "decisions": 377,
+          "first_candidate_correct": 377,
+          "uniform_expected_correct": 188.5
+        }
+      }
+    },
+    "validation": {
+      "decision_count": 553,
+      "forced_count": 758,
+      "loss_sum": 1108.5605238377336,
+      "correct_count": 196,
+      "uniform_logits_mean_nll": 2.0046302420212183,
+      "first_candidate_decision_accuracy": 0.35443037974683544,
+      "uniform_random_expected_decision_accuracy": 0.18038206133015722,
+      "phases": {
+        "spin": {
+          "rows": 323,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "interact": {
+          "rows": 315,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "symbol": {
+          "rows": 315,
+          "decisions": 315,
+          "first_candidate_correct": 153,
+          "uniform_expected_correct": 69.00000000000033
+        },
+        "remove": {
+          "rows": 315,
+          "decisions": 195,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 9.251279915576623
+        },
+        "item": {
+          "rows": 43,
+          "decisions": 43,
+          "first_candidate_correct": 43,
+          "uniform_expected_correct": 21.5
+        }
+      }
+    },
+    "test": {
+      "decision_count": 629,
+      "forced_count": 978,
+      "loss_sum": 1190.0932719472999,
+      "correct_count": 258,
+      "uniform_logits_mean_nll": 1.8920401779766294,
+      "first_candidate_decision_accuracy": 0.41017488076311603,
+      "uniform_random_expected_decision_accuracy": 0.19560309863834874,
+      "phases": {
+        "spin": {
+          "rows": 398,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "interact": {
+          "rows": 385,
+          "decisions": 0,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 0.0
+        },
+        "symbol": {
+          "rows": 385,
+          "decisions": 385,
+          "first_candidate_correct": 204,
+          "uniform_expected_correct": 86.75000000000027
+        },
+        "remove": {
+          "rows": 385,
+          "decisions": 190,
+          "first_candidate_correct": 0,
+          "uniform_expected_correct": 9.284349043521088
+        },
+        "item": {
+          "rows": 54,
+          "decisions": 54,
+          "first_candidate_correct": 54,
+          "uniform_expected_correct": 27.0
+        }
+      }
+    }
+  },
+  "note": "Uniform logits and first-candidate tie breaking only; no fitted model."
+}

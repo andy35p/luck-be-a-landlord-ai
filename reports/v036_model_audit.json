@@ -1,0 +1,62 @@
+{
+  "torch": "2.14.0+cpu",
+  "parameters": 7489,
+  "batches": 178,
+  "rows": 11348,
+  "max_loss_error": 5.132708627009208e-07,
+  "episodes": [
+    {
+      "seed": 0,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 1,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 2,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 3,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 4,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 5,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 6,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 7,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 8,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 9,
+      "decisions": 38,
+      "truncated": false
+    }
+  ],
+  "weights_unchanged": true,
+  "optimizer_steps": 0,
+  "initialization_seed": 36
+}

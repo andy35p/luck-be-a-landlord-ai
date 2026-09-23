@@ -1,0 +1,8 @@
+{
+  "games": 100,
+  "seed_start": 0,
+  "new_run": "logs\\reused\\heuristic_reroll-20260922T021256157657Z",
+  "changed_episodes": 0,
+  "differences": [],
+  "scope": "Targeted regression tests prove repaired cases; batch parity alone does not establish complete game correctness."
+}

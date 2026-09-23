@@ -1,0 +1,711 @@
+{
+  "games": 100,
+  "decisions": 10041,
+  "truncated_games": 0,
+  "every_step_matches_direct_first_action": true,
+  "environment_rng_unchanged_by_inference": true,
+  "scaler": "logs/preprocessing_v033/scaler.json",
+  "scorer": "first_candidate_scores; wiring audit only, not teacher or learned model",
+  "episodes": [
+    {
+      "seed": 0,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 1,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 2,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 3,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 4,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 5,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 6,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 7,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 8,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 9,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 10,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 11,
+      "stage": 1,
+      "spins": 10,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 12,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 13,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 14,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 15,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 16,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 17,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 18,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 19,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 20,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 21,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 22,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 23,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 24,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 25,
+      "stage": 6,
+      "spins": 44,
+      "decisions": 179,
+      "truncated": false
+    },
+    {
+      "seed": 26,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 27,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 28,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 29,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 30,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 31,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 32,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 33,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 34,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 35,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 36,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 37,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 38,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 39,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 40,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 41,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 42,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 43,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 44,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 45,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 46,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 47,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 48,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 49,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 50,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 51,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 52,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 53,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 54,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 55,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 56,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 57,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 58,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 59,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 60,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 61,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 62,
+      "stage": 6,
+      "spins": 44,
+      "decisions": 179,
+      "truncated": false
+    },
+    {
+      "seed": 63,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 64,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 65,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 66,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 67,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 68,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 69,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 70,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 71,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 72,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 73,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 74,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 75,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 76,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 77,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 78,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 79,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 80,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 81,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 82,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 83,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 84,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 85,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 86,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 87,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 88,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 89,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 90,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 91,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 92,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 146,
+      "truncated": false
+    },
+    {
+      "seed": 93,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 94,
+      "stage": 2,
+      "spins": 16,
+      "decisions": 63,
+      "truncated": false
+    },
+    {
+      "seed": 95,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    },
+    {
+      "seed": 96,
+      "stage": 1,
+      "spins": 10,
+      "decisions": 38,
+      "truncated": false
+    },
+    {
+      "seed": 97,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 98,
+      "stage": 3,
+      "spins": 22,
+      "decisions": 88,
+      "truncated": false
+    },
+    {
+      "seed": 99,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 117,
+      "truncated": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 36,
+  "epochs": 3,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "shuffle_seed": 42,
+  "teacher": "heuristic_coal_v029",
+  "index": "logs/coal_diagnosis/20260922T031250024070Z/split_index_v1.json",
+  "scaler": "logs/preprocessing_v033/scaler.json",
+  "online_seed_start": 1000,
+  "online_games": 100,
+  "checkpoint_selection": "final fixed epoch; no search or early stopping",
+  "purpose": "development smoke training, not independent policy validation"
+}

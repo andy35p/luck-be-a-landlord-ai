@@ -1,0 +1,3431 @@
+{
+  "status": "tag_membership_only_not_effect_DSL",
+  "edges": [
+    {
+      "source": "amethyst",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "amethyst",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "anchor",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "anchor",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "apple",
+      "relation": "member_of",
+      "target": "robinhates",
+      "kind": "symbol"
+    },
+    {
+      "source": "archaeologist",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "archaeologist",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "archaeologist",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "archaeologist",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "monkeylikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "banana_peel",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "bartender",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "bear",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "bear",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "beastmaster",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "beastmaster",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "beastmaster",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "bee",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "bee",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "beehive",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "beehive",
+      "relation": "member_of",
+      "target": "beelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "beehive",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "booze",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "dwarflikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "anvillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "beer",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_ore",
+      "relation": "member_of",
+      "target": "minerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_ore",
+      "relation": "member_of",
+      "target": "archlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_ore",
+      "relation": "member_of",
+      "target": "anvillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_ore",
+      "relation": "member_of",
+      "target": "ore",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_ore",
+      "relation": "member_of",
+      "target": "kyle",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_urn",
+      "relation": "member_of",
+      "target": "spiritbox",
+      "kind": "symbol"
+    },
+    {
+      "source": "big_urn",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "billionaire",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "billionaire",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "billionaire",
+      "relation": "member_of",
+      "target": "robinhates",
+      "kind": "symbol"
+    },
+    {
+      "source": "bounty_hunter",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "bounty_hunter",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "bounty_hunter",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "bronze_arrow",
+      "relation": "member_of",
+      "target": "arrow",
+      "kind": "symbol"
+    },
+    {
+      "source": "bronze_arrow",
+      "relation": "member_of",
+      "target": "robinlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "bubble",
+      "relation": "member_of",
+      "target": "toddlerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "buffing_powder",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "candy",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "candy",
+      "relation": "member_of",
+      "target": "toddlerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "candy",
+      "relation": "member_of",
+      "target": "halloween",
+      "kind": "symbol"
+    },
+    {
+      "source": "candy",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "card_shark",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "card_shark",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "card_shark",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cat",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "cat",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "cat",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cat",
+      "relation": "member_of",
+      "target": "raritymod",
+      "kind": "symbol"
+    },
+    {
+      "source": "cheese",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "cheese",
+      "relation": "member_of",
+      "target": "omelettestuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "cheese",
+      "relation": "member_of",
+      "target": "richlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cheese",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "chef",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "chef",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "chef",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "chemical_seven",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "chemical_seven",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "chemical_seven",
+      "relation": "member_of",
+      "target": "booze",
+      "kind": "symbol"
+    },
+    {
+      "source": "cherry",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "cherry",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "cherry",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "cherry",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cherry",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "chickenstuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "chick",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "spawner1",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "chickenstuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "chicken",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "clubs",
+      "relation": "member_of",
+      "target": "suit",
+      "kind": "symbol"
+    },
+    {
+      "source": "clubs",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "coal",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut",
+      "relation": "member_of",
+      "target": "monkeylikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut_half",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut_half",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut_half",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "coconut_half",
+      "relation": "member_of",
+      "target": "monkeylikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "coin",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "comedian",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "comedian",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "comedian",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cow",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "cow",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "cow",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cow",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "cow",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "crab",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "crab",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "crab",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "crow",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "crow",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "crow",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "crow",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "cultist",
+      "relation": "member_of",
+      "target": "eachother",
+      "kind": "symbol"
+    },
+    {
+      "source": "dame",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "dame",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "dame",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "diamond",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "diamond",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "diamond",
+      "relation": "member_of",
+      "target": "eachother",
+      "kind": "symbol"
+    },
+    {
+      "source": "diamonds",
+      "relation": "member_of",
+      "target": "suit",
+      "kind": "symbol"
+    },
+    {
+      "source": "diamonds",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "diver",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "diver",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "diver",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "diver",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "dog",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "dog",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "dog",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "dove",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "dove",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "dove",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "dove",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "dwarf",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "dwarf",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "dwarf",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "egg",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "egg",
+      "relation": "member_of",
+      "target": "omelettestuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "egg",
+      "relation": "member_of",
+      "target": "chickenstuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "egg",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "egg",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "eldritch_beast",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "eldritch_beast",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "eldritch_beast",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "emerald",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "emerald",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "essence_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "farmer",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "farmer",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "farmer",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "flower",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "flower",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "flower",
+      "relation": "member_of",
+      "target": "beelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "frozen_fossil",
+      "relation": "member_of",
+      "target": "time_machine3",
+      "kind": "symbol"
+    },
+    {
+      "source": "frozen_fossil",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "gambler",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "gambler",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "gambler",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "gambler",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "general_zaroff",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "general_zaroff",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "general_zaroff",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_arrow",
+      "relation": "member_of",
+      "target": "arrow",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_arrow",
+      "relation": "member_of",
+      "target": "robinlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_egg",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_egg",
+      "relation": "member_of",
+      "target": "chickenstuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_egg",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "golden_egg",
+      "relation": "member_of",
+      "target": "omelettestuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "goldfish",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "goldfish",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "goldfish",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "golem",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "golem",
+      "relation": "member_of",
+      "target": "destroyable_matryoshka",
+      "kind": "symbol"
+    },
+    {
+      "source": "golem",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "goose",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "goose",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "goose",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "goose",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "goose",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "hearts",
+      "relation": "member_of",
+      "target": "suit",
+      "kind": "symbol"
+    },
+    {
+      "source": "hearts",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_destruction",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_destruction",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_destruction",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_destruction",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_draining",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_draining",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_draining",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_draining",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_emptiness",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_emptiness",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_emptiness",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_emptiness",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_hoarding",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_hoarding",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_hoarding",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_hoarding",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_midas",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_midas",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_midas",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_midas",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_midas",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_tedium",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_tedium",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_tedium",
+      "relation": "member_of",
+      "target": "raritymod",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_tedium",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_thievery",
+      "relation": "member_of",
+      "target": "hex",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_thievery",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_thievery",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hex_of_thievery",
+      "relation": "member_of",
+      "target": "triggerhex",
+      "kind": "symbol"
+    },
+    {
+      "source": "honey",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "honey",
+      "relation": "member_of",
+      "target": "beelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hooligan",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "hooligan",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "hooligan",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "hustler",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "item_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "jellyfish",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "jellyfish",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "jellyfish",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "joker",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "joker",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "joker",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "joker",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "king_midas",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "king_midas",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "king_midas",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "lockbox",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "lockbox",
+      "relation": "member_of",
+      "target": "chest",
+      "kind": "symbol"
+    },
+    {
+      "source": "lockbox",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "lucky_capsule",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "lucky_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "magpie",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "magpie",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "magpie",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "magpie",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "martini",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "martini",
+      "relation": "member_of",
+      "target": "booze",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_1",
+      "relation": "member_of",
+      "target": "destroyable_matryoshka",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_1",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_2",
+      "relation": "member_of",
+      "target": "destroyable_matryoshka",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_2",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_3",
+      "relation": "member_of",
+      "target": "destroyable_matryoshka",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_3",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_4",
+      "relation": "member_of",
+      "target": "destroyable_matryoshka",
+      "kind": "symbol"
+    },
+    {
+      "source": "matryoshka_doll_4",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "mega_chest",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "mega_chest",
+      "relation": "member_of",
+      "target": "chest",
+      "kind": "symbol"
+    },
+    {
+      "source": "mega_chest",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "milk",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "milk",
+      "relation": "member_of",
+      "target": "omelettestuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "milk",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "miner",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "miner",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "miner",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "monkey",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "monkey",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "monkey",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "mouse",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "mouse",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "mrs_fruit",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "mrs_fruit",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "mrs_fruit",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "mrs_fruit",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "ninja",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "ninja",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "ninja",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "ninja",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "ninja",
+      "relation": "member_of",
+      "target": "eachother",
+      "kind": "symbol"
+    },
+    {
+      "source": "omelette",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "omelette",
+      "relation": "member_of",
+      "target": "omelettestuff",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "orange",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "ore",
+      "relation": "member_of",
+      "target": "minerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "ore",
+      "relation": "member_of",
+      "target": "archlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "ore",
+      "relation": "member_of",
+      "target": "anvillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "ore",
+      "relation": "member_of",
+      "target": "ore",
+      "kind": "symbol"
+    },
+    {
+      "source": "ore",
+      "relation": "member_of",
+      "target": "kyle",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "night",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "bird",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "owl",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "oyster",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "oyster",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "oyster",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "oyster",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "oyster",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "peach",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "peach",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "peach",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "peach",
+      "relation": "member_of",
+      "target": "fruitlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "peach",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pear",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "pear",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "pear",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "pear",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pear",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "pearl",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "pearl",
+      "relation": "member_of",
+      "target": "archlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pearl",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pinata",
+      "relation": "member_of",
+      "target": "toddlerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pirate",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "pirate",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "pirate",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "pirate",
+      "relation": "member_of",
+      "target": "scaler",
+      "kind": "symbol"
+    },
+    {
+      "source": "present",
+      "relation": "member_of",
+      "target": "toddlerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "present",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "present",
+      "relation": "member_of",
+      "target": "time_machine3",
+      "kind": "symbol"
+    },
+    {
+      "source": "present",
+      "relation": "member_of",
+      "target": "time_machine",
+      "kind": "symbol"
+    },
+    {
+      "source": "pufferfish",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "pufferfish",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "pufferfish",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "rabbit",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "rabbit",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "rabbit",
+      "relation": "member_of",
+      "target": "night",
+      "kind": "symbol"
+    },
+    {
+      "source": "rabbit",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "rabbit_fluff",
+      "relation": "member_of",
+      "target": "raritymod",
+      "kind": "symbol"
+    },
+    {
+      "source": "rarity_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "removal_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "reroll_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "robin_hood",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "robin_hood",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "robin_hood",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "robin_hood",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "ruby",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "ruby",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "safe",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "safe",
+      "relation": "member_of",
+      "target": "chest",
+      "kind": "symbol"
+    },
+    {
+      "source": "safe",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "sand_dollar",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "sand_dollar",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "sand_dollar",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "sapphire",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "sapphire",
+      "relation": "member_of",
+      "target": "archlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "seed",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "shiny_pebble",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "shiny_pebble",
+      "relation": "member_of",
+      "target": "archlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "shiny_pebble",
+      "relation": "member_of",
+      "target": "raritymod",
+      "kind": "symbol"
+    },
+    {
+      "source": "shiny_pebble",
+      "relation": "member_of",
+      "target": "kyle",
+      "kind": "symbol"
+    },
+    {
+      "source": "silver_arrow",
+      "relation": "member_of",
+      "target": "arrow",
+      "kind": "symbol"
+    },
+    {
+      "source": "silver_arrow",
+      "relation": "member_of",
+      "target": "robinlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "sloth",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "sloth",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "sloth",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "snail",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "snail",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "snail",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "snail",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "spades",
+      "relation": "member_of",
+      "target": "suit",
+      "kind": "symbol"
+    },
+    {
+      "source": "spades",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "spirit",
+      "relation": "member_of",
+      "target": "witchlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "spirit",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "spirit",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "strawberry",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "strawberry",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "strawberry",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "strawberry",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "strawberry",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "target",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "target",
+      "relation": "member_of",
+      "target": "robinhates",
+      "kind": "symbol"
+    },
+    {
+      "source": "tedium_capsule",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "tedium_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "thief",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "thief",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "thief",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "thief",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "thief",
+      "relation": "member_of",
+      "target": "robinlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "time_capsule",
+      "relation": "member_of",
+      "target": "capsule",
+      "kind": "symbol"
+    },
+    {
+      "source": "time_capsule",
+      "relation": "member_of",
+      "target": "time_capsule_effects",
+      "kind": "symbol"
+    },
+    {
+      "source": "toddler",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "toddler",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "toddler",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "toddler",
+      "relation": "member_of",
+      "target": "halloween",
+      "kind": "symbol"
+    },
+    {
+      "source": "toddler",
+      "relation": "member_of",
+      "target": "funny",
+      "kind": "symbol"
+    },
+    {
+      "source": "tomb",
+      "relation": "member_of",
+      "target": "spiritbox",
+      "kind": "symbol"
+    },
+    {
+      "source": "tomb",
+      "relation": "member_of",
+      "target": "spawner0",
+      "kind": "symbol"
+    },
+    {
+      "source": "tomb",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "tomb",
+      "relation": "member_of",
+      "target": "triggerchance",
+      "kind": "symbol"
+    },
+    {
+      "source": "treasure_chest",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "treasure_chest",
+      "relation": "member_of",
+      "target": "chest",
+      "kind": "symbol"
+    },
+    {
+      "source": "treasure_chest",
+      "relation": "member_of",
+      "target": "piratelikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "turtle",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "turtle",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "turtle",
+      "relation": "member_of",
+      "target": "slow",
+      "kind": "symbol"
+    },
+    {
+      "source": "turtle",
+      "relation": "member_of",
+      "target": "poslikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "urn",
+      "relation": "member_of",
+      "target": "spiritbox",
+      "kind": "symbol"
+    },
+    {
+      "source": "urn",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_creature",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_creature",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_creature",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_creature",
+      "relation": "member_of",
+      "target": "void",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_fruit",
+      "relation": "member_of",
+      "target": "void",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_stone",
+      "relation": "member_of",
+      "target": "gem",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_stone",
+      "relation": "member_of",
+      "target": "box",
+      "kind": "symbol"
+    },
+    {
+      "source": "void_stone",
+      "relation": "member_of",
+      "target": "void",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "plant",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "fruit",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "farmerlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "counted",
+      "kind": "symbol"
+    },
+    {
+      "source": "watermelon",
+      "relation": "member_of",
+      "target": "eachother",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "food",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "booze",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "dwarflikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "richlikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "anvillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "wine",
+      "relation": "member_of",
+      "target": "darkhumor",
+      "kind": "symbol"
+    },
+    {
+      "source": "witch",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "witch",
+      "relation": "member_of",
+      "target": "human",
+      "kind": "symbol"
+    },
+    {
+      "source": "witch",
+      "relation": "member_of",
+      "target": "doglikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "witch",
+      "relation": "member_of",
+      "target": "fossillikes",
+      "kind": "symbol"
+    },
+    {
+      "source": "wolf",
+      "relation": "member_of",
+      "target": "organism",
+      "kind": "symbol"
+    },
+    {
+      "source": "wolf",
+      "relation": "member_of",
+      "target": "animal",
+      "kind": "symbol"
+    },
+    {
+      "source": "wolf",
+      "relation": "member_of",
+      "target": "night",
+      "kind": "symbol"
+    },
+    {
+      "source": "black_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "blue_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "brown_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "cyan_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "gray_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "green_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "lime_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "pink_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "purple_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "red_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "white_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "yellow_pepper",
+      "relation": "member_of",
+      "target": "pepper",
+      "kind": "item"
+    },
+    {
+      "source": "adoption_papers_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "ancient_lizard_blade_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "anthropology_degree_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "bag_of_holding_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "barrel_o_dwarves_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "birdhouse_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "black_cat_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "black_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "blue_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "blue_suits_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "booster_pack_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "bowling_ball_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "brown_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "capsule_machine_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "cardboard_box_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "checkered_flag_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "chicken_coop_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "chili_powder_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "cleaning_rag_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "clear_sky_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "coffee_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "coin_on_a_string_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "comfy_pillow_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "compost_heap_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "conveyor_belt_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "copycat_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "credit_card_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "cursed_katana_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "cyan_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "dark_humor_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "devils_deal_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "dishwasher_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "dwarven_anvil_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "egg_carton_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "fertilizer_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "fifth_ace_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "fish_bowl_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "flush_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "four_leaf_clover_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "frozen_pizza_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "fruit_basket_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "frying_pan_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "golden_carrot_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "goldilocks_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "grave_robber_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "gray_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "green_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "guillotine_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "happy_hour_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "holy_water_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "horseshoe_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "jackolantern_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "kyle_the_kernite_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lefty_the_rabbit_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lemon_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lime_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lint_roller_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lockpick_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "looting_glove_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lucky_carrot_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lucky_cat_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lucky_dice_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lucky_seven_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "lunchbox_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "maxwell_the_bear_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "mining_pick_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "mobius_strip_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "ninja_and_mouse_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "nori_the_rabbit_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "oil_can_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "oswald_the_monkey_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "piggy_bank_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "pink_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "pizza_the_cat_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "pool_ball_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "popsicle_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "protractor_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "purple_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "quigley_the_wolf_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "quiver_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "rain_cloud_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "recycling_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "red_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "red_suits_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "reroll_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "ricky_the_banana_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "ritual_candle_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "rusty_gear_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "shattered_mirror_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "shedding_season_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "shrine_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "sunglasses_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "swapping_device_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "swear_jar_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "symbol_bomb_big_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "symbol_bomb_quantum_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "symbol_bomb_small_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "symbol_bomb_very_big_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "tax_evasion_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "telescope_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "time_machine_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "treasure_map_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "triple_coins_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "turtle_and_rabbit_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "undertaker_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "void_party_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "void_portal_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "wanted_poster_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "watering_can_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "white_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "x_ray_machine_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "yellow_pepper_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    },
+    {
+      "source": "zaroffs_contract_essence",
+      "relation": "member_of",
+      "target": "essence",
+      "kind": "essence"
+    }
+  ]
+}

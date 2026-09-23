@@ -1,0 +1,278 @@
+{
+  "checkpoint_hashes": {
+    "baseline": "dbba123ca82ef905d8cab0865c6917d148b58c43e42edc3109bf3561a47a9105",
+    "candidate": "9f383c124c7caa663b6553d60f4b30b76c05f131a84b74ae87f28694a12689a8"
+  },
+  "source_distribution": {
+    "original": {
+      "symbol/below18": {
+        "rows": 1514,
+        "label_type_0": 1514
+      },
+      "item/below18": {
+        "rows": 219,
+        "label_type_2": 219
+      },
+      "remove/below18": {
+        "rows": 245,
+        "label_type_8": 245
+      },
+      "remove/18-19": {
+        "rows": 263,
+        "label_type_8": 263
+      },
+      "symbol/18-19": {
+        "rows": 353,
+        "label_type_0": 353
+      },
+      "item/18-19": {
+        "rows": 44,
+        "label_type_2": 44
+      },
+      "remove/20-21": {
+        "rows": 463,
+        "label_type_8": 463
+      },
+      "symbol/20-21": {
+        "rows": 368,
+        "label_type_1": 206,
+        "label_type_0": 162
+      },
+      "item/20-21": {
+        "rows": 61,
+        "label_type_2": 61
+      },
+      "symbol/22plus": {
+        "rows": 488,
+        "label_type_1": 258,
+        "label_type_0": 230
+      },
+      "remove/22plus": {
+        "rows": 567,
+        "label_type_8": 567
+      },
+      "item/22plus": {
+        "rows": 53,
+        "label_type_2": 53
+      }
+    },
+    "annotated": {
+      "symbol/below18": {
+        "rows": 2242,
+        "label_type_0": 2242
+      },
+      "item/below18": {
+        "rows": 302,
+        "label_type_2": 302
+      },
+      "remove/18-19": {
+        "rows": 315,
+        "label_type_8": 315
+      },
+      "item/18-19": {
+        "rows": 52,
+        "label_type_2": 52
+      },
+      "symbol/18-19": {
+        "rows": 341,
+        "label_type_0": 341
+      },
+      "remove/below18": {
+        "rows": 1033,
+        "label_type_8": 1033
+      },
+      "symbol/20-21": {
+        "rows": 161,
+        "label_type_1": 83,
+        "label_type_0": 78
+      },
+      "remove/20-21": {
+        "rows": 171,
+        "label_type_8": 171
+      },
+      "item/20-21": {
+        "rows": 31,
+        "label_type_2": 31
+      },
+      "remove/22plus": {
+        "rows": 575,
+        "label_type_8": 575
+      },
+      "symbol/22plus": {
+        "rows": 535,
+        "label_type_1": 266,
+        "label_type_0": 269
+      },
+      "item/22plus": {
+        "rows": 58,
+        "label_type_2": 58
+      }
+    }
+  },
+  "scores": {
+    "baseline": {
+      "original": {
+        "all": {
+          "rows": 4638,
+          "correct": 3901,
+          "nll_sum": 1406.1055501309227,
+          "teacher_pick_model_skip": 111,
+          "teacher_skip_model_pick": 48,
+          "nll": 0.30317066626367456,
+          "accuracy": 0.8410952996981458
+        },
+        "symbol": {
+          "rows": 2723,
+          "correct": 1986,
+          "nll_sum": 1405.8804052598732,
+          "teacher_pick_model_skip": 111,
+          "teacher_skip_model_pick": 48,
+          "nll": 0.5162983493425902,
+          "accuracy": 0.7293426367976497
+        },
+        "item": {
+          "rows": 377,
+          "correct": 377,
+          "nll_sum": 0.054853532049086114,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.0001455000850108385,
+          "accuracy": 1.0
+        },
+        "remove": {
+          "rows": 1538,
+          "correct": 1538,
+          "nll_sum": 0.17029133900022347,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.00011072258712628314,
+          "accuracy": 1.0
+        }
+      },
+      "annotated": {
+        "all": {
+          "rows": 5816,
+          "correct": 4690,
+          "nll_sum": 2539.2822060902977,
+          "teacher_pick_model_skip": 600,
+          "teacher_skip_model_pick": 11,
+          "nll": 0.4366028552424858,
+          "accuracy": 0.8063961485557084
+        },
+        "symbol": {
+          "rows": 3279,
+          "correct": 2153,
+          "nll_sum": 2538.8599234732446,
+          "teacher_pick_model_skip": 600,
+          "teacher_skip_model_pick": 11,
+          "nll": 0.7742787201809225,
+          "accuracy": 0.6566026227508387
+        },
+        "item": {
+          "rows": 443,
+          "correct": 443,
+          "nll_sum": 0.05964346574110593,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.00013463536284674026,
+          "accuracy": 1.0
+        },
+        "remove": {
+          "rows": 2094,
+          "correct": 2094,
+          "nll_sum": 0.3626391513078592,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.00017318011046220592,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "candidate": {
+      "original": {
+        "all": {
+          "rows": 4638,
+          "correct": 3879,
+          "nll_sum": 1452.2344021196075,
+          "teacher_pick_model_skip": 129,
+          "teacher_skip_model_pick": 53,
+          "nll": 0.31311651619655184,
+          "accuracy": 0.8363518758085382
+        },
+        "symbol": {
+          "rows": 2723,
+          "correct": 1964,
+          "nll_sum": 1452.0595773762634,
+          "teacher_pick_model_skip": 129,
+          "teacher_skip_model_pick": 53,
+          "nll": 0.5332572814455613,
+          "accuracy": 0.7212633125229526
+        },
+        "item": {
+          "rows": 377,
+          "correct": 377,
+          "nll_sum": 0.057299819821279734,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.00015198891199278444,
+          "accuracy": 1.0
+        },
+        "remove": {
+          "rows": 1538,
+          "correct": 1538,
+          "nll_sum": 0.1175249235242236,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 7.641412452810378e-05,
+          "accuracy": 1.0
+        }
+      },
+      "annotated": {
+        "all": {
+          "rows": 5816,
+          "correct": 4825,
+          "nll_sum": 1901.3377074929401,
+          "teacher_pick_model_skip": 253,
+          "teacher_skip_model_pick": 32,
+          "nll": 0.3269150116047008,
+          "accuracy": 0.8296079779917469
+        },
+        "symbol": {
+          "rows": 3279,
+          "correct": 2288,
+          "nll_sum": 1901.1181570283993,
+          "teacher_pick_model_skip": 253,
+          "teacher_skip_model_pick": 32,
+          "nll": 0.5797859582276301,
+          "accuracy": 0.6977737114974077
+        },
+        "item": {
+          "rows": 443,
+          "correct": 443,
+          "nll_sum": 0.06538781883843663,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 0.00014760229986103077,
+          "accuracy": 1.0
+        },
+        "remove": {
+          "rows": 2094,
+          "correct": 2094,
+          "nll_sum": 0.1541626457010826,
+          "teacher_pick_model_skip": 0,
+          "teacher_skip_model_pick": 0,
+          "nll": 7.362112975218844e-05,
+          "accuracy": 1.0
+        }
+      }
+    }
+  },
+  "encoded_inputs": {
+    "unique": 10201,
+    "duplicate_groups": 216,
+    "cross_source_groups": 210,
+    "conflicting_label_groups": 0
+  },
+  "training_updates": 0,
+  "scope": "training-source diagnosis; ordered full encoded inputs only, not model pooled representations"
+}

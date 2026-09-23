@@ -1,0 +1,14 @@
+[
+  {
+    "version": "instance-coal-v1",
+    "games": 100,
+    "all_metrics_equal": true,
+    "reference": "heuristic-20260922T025313114177Z"
+  },
+  {
+    "version": "instance-present-v1",
+    "games": 100,
+    "all_metrics_equal": true,
+    "reference": "heuristic-20260923T011200103110Z"
+  }
+]

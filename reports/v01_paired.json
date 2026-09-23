@@ -1,0 +1,13 @@
+{
+  "games_per_agent": 1000,
+  "seed_range": [
+    0,
+    999
+  ],
+  "random_mean_stage": 3.141,
+  "heuristic_mean_stage": 5.636,
+  "paired_mean_stage_delta": 2.495,
+  "random_source": "logs\\reused\\random-20260921T150804452312Z",
+  "heuristic_source": "logs\\reused\\heuristic-20260921T150605809920Z",
+  "claim": "Descriptive development-set comparison, not original-game validation."
+}

@@ -1,0 +1,4 @@
+[
+  {"id":"purse","name":"研究钱袋","rarity":"common","effect":"flat","amount":2,"targets":[]},
+  {"id":"garden","name":"研究花园","rarity":"common","effect":"tag_bonus","amount":1,"targets":["plant"]}
+]

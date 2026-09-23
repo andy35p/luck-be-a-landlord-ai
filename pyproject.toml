@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luck-agent"
+version = "0.1.0"
+description = "Training API over the recovered landlord_fast_env implementation"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["luck_agent*"]
+
+[tool.setuptools.package-data]
+luck_agent = ["data/*.json", "legacy/*.json"]

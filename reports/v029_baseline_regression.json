@@ -1,0 +1,5 @@
+{
+  "games": 300,
+  "all_episode_metrics_equal": true,
+  "reference": "logs/reused/heuristic-20260922T025313114177Z/episodes.csv"
+}

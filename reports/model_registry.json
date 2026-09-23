@@ -1,0 +1,20 @@
+{
+  "models": {
+    "baseline": {
+      "checkpoint": "logs\\bc-aggregation-20260923T005915197702Z\\baseline\\final.pt",
+      "sha256": "dbba123ca82ef905d8cab0865c6917d148b58c43e42edc3109bf3561a47a9105",
+      "status": "matched-budget comparison baseline; retained",
+      "rule_version": "instance-coal-v1",
+      "compatible_with_present": false
+    },
+    "candidate": {
+      "checkpoint": "logs\\bc-aggregation-20260923T005915197702Z\\candidate\\final.pt",
+      "sha256": "9f383c124c7caa663b6553d60f4b30b76c05f131a84b74ae87f28694a12689a8",
+      "status": "25-percent aggregation; failed frozen validation; do not promote",
+      "rule_version": "instance-coal-v1",
+      "compatible_with_present": false
+    }
+  },
+  "frozen_validation": "logs/bc-frozen-validation-v046/results.json",
+  "note": "Earlier V0.3.7 BC is a historical reference, not compared in this frozen validation. No model covers the present backend."
+}

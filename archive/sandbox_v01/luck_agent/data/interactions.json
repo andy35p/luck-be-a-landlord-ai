@@ -1,0 +1,5 @@
+[
+  {"id":"pollinate","source":"bee","target":"flower","relation":"adjacent_bonus","amount":2},
+  {"id":"eat","source":"eater","target":"fruit","relation":"destroy","amount":5},
+  {"id":"grow","source":"seed","target":"flower","relation":"transform","amount":0,"probability":0.25}
+]

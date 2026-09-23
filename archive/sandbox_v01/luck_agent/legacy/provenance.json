@@ -1,0 +1,8 @@
+{
+  "source_directory": "C:\\Users\\14489\\Documents\\Codex\\2026-09-13\\w\\outputs\\landlord_fast_env",
+  "source_log": "C:\\Users\\14489\\Documents\\Codex\\2026-09-13\\w\\work\\latest_collector.jsonl",
+  "core_sha256": "7953f3fcab5bc96fd292ee2bb0ea452ff327b73a3dd4c7834a6d41daff35af17",
+  "catalog_sha256": "7874eabb618fa58fdaee45f3c901fcc86fa66db9552f48a978f61e6aa2baf76d",
+  "source_log_sha256": "579f153958be7393ef9ececfd09cdc4710d8c9fcda234e0bbebe5fae5666e545",
+  "note": "Existing approximate rules reused unchanged, not original-game equivalence."
+}

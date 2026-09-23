@@ -1,0 +1,70 @@
+[
+  {
+    "seed": 247,
+    "final_stage": 6,
+    "estimation_calls": 29,
+    "rerolls": [
+      {
+        "spin": 21,
+        "stage": 3,
+        "coins": 173.0,
+        "rent": 150,
+        "tokens": 2,
+        "before_offer": [
+          "spades",
+          "coconut",
+          "snail"
+        ],
+        "after_offer": [
+          "bubble",
+          "dog",
+          "wolf"
+        ],
+        "evidence": {
+          "current_utility": 0.19999999999999996,
+          "expected_offer_utility": 1.71875,
+          "standard_error": 0.31901133078100324,
+          "token_cost_proxy": 0.75,
+          "conservative_gain": 0.8934877916692336,
+          "reroll": true,
+          "trials": 16,
+          "note": "Heuristic score utility, not coin EV; Monte Carlo SE is approximate."
+        }
+      }
+    ]
+  },
+  {
+    "seed": 43,
+    "final_stage": 8,
+    "estimation_calls": 46,
+    "rerolls": [
+      {
+        "spin": 28,
+        "stage": 4,
+        "coins": 340.0,
+        "rent": 225,
+        "tokens": 2,
+        "before_offer": [
+          "turtle",
+          "light_bulb",
+          "beer"
+        ],
+        "after_offer": [
+          "cherry",
+          "beer",
+          "hex_of_destruction"
+        ],
+        "evidence": {
+          "current_utility": 0.19999999999999996,
+          "expected_offer_utility": 1.4375,
+          "standard_error": 0.16017568479641348,
+          "token_cost_proxy": 0.75,
+          "conservative_gain": 0.9235556577990296,
+          "reroll": true,
+          "trials": 16,
+          "note": "Heuristic score utility, not coin EV; Monte Carlo SE is approximate."
+        }
+      }
+    ]
+  }
+]

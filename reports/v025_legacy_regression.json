@@ -1,0 +1,6 @@
+{
+  "games": 100,
+  "reference_csv": "logs\\reused\\heuristic_reroll-20260922T023059562646Z\\episodes.csv",
+  "all_episode_metrics_equal": true,
+  "purpose": "Shared GameEnv and heuristic compatibility after adding stable-ID backend."
+}

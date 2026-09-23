@@ -1,0 +1,53 @@
+{
+  "encoder": "coal-candidates-v1",
+  "symbol_vocabulary": {
+    "bar_of_soap": 1,
+    "bubble": 2,
+    "cat": 3,
+    "cherry": 4,
+    "coal": 5,
+    "coin": 6,
+    "diamond": 7,
+    "flower": 8,
+    "pearl": 9,
+    "spirit": 10
+  },
+  "item_vocabulary": {
+    "undertaker": 1
+  },
+  "results": {
+    "train": {
+      "transitions": 21643,
+      "batches": 339,
+      "seeds": 79,
+      "policies": [
+        "heuristic",
+        "heuristic_coal_v029",
+        "random"
+      ],
+      "padding_positions_checked": 269846
+    },
+    "validation": {
+      "transitions": 2558,
+      "batches": 40,
+      "seeds": 8,
+      "policies": [
+        "heuristic",
+        "heuristic_coal_v029",
+        "random"
+      ],
+      "padding_positions_checked": 29951
+    },
+    "test": {
+      "transitions": 3247,
+      "batches": 51,
+      "seeds": 13,
+      "policies": [
+        "heuristic",
+        "heuristic_coal_v029",
+        "random"
+      ],
+      "padding_positions_checked": 35631
+    }
+  }
+}

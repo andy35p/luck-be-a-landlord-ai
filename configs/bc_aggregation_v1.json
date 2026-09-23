@@ -1,0 +1,20 @@
+{
+  "status": "frozen data protocol; not trained",
+  "index": "logs/coal_diagnosis/20260922T031250024070Z/split_index_v1.json",
+  "annotated": "logs/teacher-labels-20260922T140706028390Z",
+  "teacher": "heuristic_coal_v029",
+  "architecture": "original CandidateModel without deck_count",
+  "initialization_seed": 36,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "gradient_clip": 1.0,
+  "steps": 534,
+  "batch_size": 64,
+  "sampler_seed": 42,
+  "baseline_annotated_per_batch": 0,
+  "candidate_annotated_per_batch": 32,
+  "sample_rule": "only multi-candidate decisions; cycle shuffled source pools",
+  "scaler": "logs/preprocessing_v033/scaler.json",
+  "comparison": "rerun matched original-only baseline; do not compare only to historical mixed-forced batches",
+  "evaluation": "fixed development partitions and seeds 1000-1099; not independent holdout"
+}

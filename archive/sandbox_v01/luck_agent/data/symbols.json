@@ -1,0 +1,8 @@
+[
+  {"id":"coin","name":"研究金币","rarity":"common","base_income":1,"tags":["money"]},
+  {"id":"flower","name":"研究花朵","rarity":"common","base_income":1,"tags":["plant"]},
+  {"id":"bee","name":"研究蜜蜂","rarity":"common","base_income":1,"tags":["animal"]},
+  {"id":"fruit","name":"研究水果","rarity":"common","base_income":2,"tags":["food"]},
+  {"id":"eater","name":"研究食客","rarity":"uncommon","base_income":1,"tags":["consumer"]},
+  {"id":"seed","name":"研究种子","rarity":"common","base_income":0,"tags":["plant"]}
+]

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "v02-reroll-only",
+  "games": 300,
+  "seed_start": 0,
+  "baseline": "heuristic",
+  "experiment": "heuristic_reroll",
+  "environment": {"floor":20,"rent_reward":20,"death_reward":-100,"win_reward":500,"max_decisions":10000},
+  "primary_metric": "paired_mean_rent_stage_delta",
+  "promotion_rule": "lower bound of paired bootstrap 95% CI > 0, and zero truncations",
+  "bootstrap_seed": 1729,
+  "bootstrap_samples": 2000,
+  "held_out_seed_start": 20000,
+  "held_out_games": 1000,
+  "note": "Held-out seeds are not used by this experiment. No model training."
+}

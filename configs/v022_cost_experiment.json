@@ -1,0 +1,17 @@
+{
+  "experiment_id": "v022-reroll-cost-only",
+  "games": 300,
+  "seed_start": 300,
+  "baseline": "heuristic_reroll",
+  "experiment": "heuristic_reroll",
+  "baseline_reroll_config": {"trials":16,"token_margin":0.5,"uncertainty_multiplier":1.96},
+  "experiment_reroll_config": {"trials":16,"token_margin":0.25,"uncertainty_multiplier":1.96},
+  "environment": {"floor":20,"rent_reward":20,"death_reward":-100,"win_reward":500,"max_decisions":10000},
+  "primary_metric": "paired_mean_rent_stage_delta",
+  "promotion_rule": "lower bound of paired bootstrap 95% CI > 0, and zero truncations",
+  "bootstrap_seed": 1729,
+  "bootstrap_samples": 2000,
+  "held_out_seed_start": 20000,
+  "held_out_games": 1000,
+  "note": "One candidate margin only; diagnostic seeds 0-299 are excluded. Defaults remain unchanged."
+}
