@@ -1,0 +1,23 @@
+{
+  "scope": "Static parity check for the probe syntax; not native execution or Workshop publication",
+  "package": "C:\\Users\\14489\\Documents\\ChatGPT\\幸运房东\\integrations\\workshop_probe\\package",
+  "installed_main_sha256": "8fc8547be296d731a504ad42fa3241443a79d7ba12827731063d1ca43957400a",
+  "required_layout": [
+    "SELECTME.LBAL",
+    "art",
+    "scripts",
+    "sfx"
+  ],
+  "scripts": {
+    "cheese.gd": {
+      "sha256": "4d0cc2af1d63f5fe4c4c22813804211faf4739610910aa656d9a40ab0deeeb81",
+      "errors": []
+    },
+    "mouse.gd": {
+      "sha256": "cdfdd5539b288562513d9ee87bd63343b2c794a3ce116c95606060a8e16fd1ef",
+      "errors": []
+    }
+  },
+  "valid": true,
+  "errors": []
+}

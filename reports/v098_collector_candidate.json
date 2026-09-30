@@ -1,0 +1,23 @@
+{
+  "scope": "Declared installed properties and unvalidated local build; not runtime proof",
+  "resources": {
+    "res://Slot Icon.tscn": {
+      "sha256": "7fc64be8f36008ba82173a150d3a471410b61b4e485e46f10a7cb5b5f3b50feb",
+      "declared_fields": {
+        "times_displayed": true,
+        "values": true,
+        "modded": true,
+        "inherit_effects": true
+      }
+    },
+    "res://Item.tscn": {
+      "sha256": "e594240d1a6a34ddc14d575e7be22c17845863dc52a05b5e5f3dbd49dd74d4ce",
+      "declared_fields": {
+        "modded": true,
+        "inherit_effects": true
+      }
+    }
+  },
+  "candidate_dll_sha256": "847de8e86aced1022d3461f38a75c35d211f1202a3b5e00682318587263fb570",
+  "installed_dll_sha256": "818aca4b975cb9f6ab4be071407779307cfb689ef14aa1834c82d2ac70f60f0d"
+}

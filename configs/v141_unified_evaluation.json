@@ -1,0 +1,21 @@
+{
+  "experiment_id": "v141-unified-model-evaluation",
+  "environment": {
+    "floor": 1,
+    "rent_reward": 20.0,
+    "death_reward": -100.0,
+    "win_reward": 500.0,
+    "max_decisions": 10000,
+    "rule_version": "instance-magpie-v1"
+  },
+  "agents": ["random", "heuristic", "forecast_rents", "bc"],
+  "teacher": "forecast_rents",
+  "checkpoint": "outputs/v130-magpie-corpus-training/research-200-updates.pt",
+  "checkpoint_sha256": "e6bcd874deb2650628810d6cb4afff443cc08db2436608442c60a21e5ab9c64e",
+  "dataset_dir": "logs/v128-magpie-shards",
+  "seed_start": 15000,
+  "games": 128,
+  "workers": 1,
+  "training_steps": 0,
+  "scope": "Unified evaluation only; no training, promotion or test-set tuning"
+}

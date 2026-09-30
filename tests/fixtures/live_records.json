@@ -1,0 +1,2627 @@
+{
+  "purpose": "Offline regression only; not training or a live feed",
+  "cases": [
+    {
+      "id": "title",
+      "provenance": {
+        "source": "v085",
+        "source_sha256": "dc7f5ad7c6eaba651b0d2dab3a134aa76e0893ece493f84a81105253572b81ae",
+        "source_sequence": 1,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 1,
+        "ticks_ms": 5137,
+        "kind": "observation",
+        "state_revision": 1,
+        "session_id": "offline-v085",
+        "captured_unix_seconds": 1790351351,
+        "state": {
+          "economy": {
+            "coins": 30
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 18,
+            "times_rent_paid": 3,
+            "rent_values": [
+              150,
+              4
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": false,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": true
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "add_tile",
+            "prompt": false
+          },
+          "cards": [],
+          "buttons": [],
+          "items": [],
+          "symbols": []
+        }
+      }
+    },
+    {
+      "id": "natural_choice",
+      "provenance": {
+        "source": "v085",
+        "source_sha256": "dc7f5ad7c6eaba651b0d2dab3a134aa76e0893ece493f84a81105253572b81ae",
+        "source_sequence": 35,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 35,
+        "ticks_ms": 42728,
+        "kind": "observation",
+        "state_revision": 2,
+        "session_id": "offline-v085",
+        "captured_unix_seconds": 1790351388,
+        "state": {
+          "economy": {
+            "coins": 54
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 18,
+            "times_rent_paid": 3,
+            "rent_values": [
+              150,
+              4
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "add_tile",
+            "prompt": false
+          },
+          "cards": [
+            {
+              "active": true,
+              "data": {
+                "type": "cultist"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "cherry"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "crab"
+              }
+            }
+          ],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "reroll_pay"
+              ]
+            },
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "skip"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": false
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": false
+            }
+          ],
+          "symbols": [
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "after_symbol_pick",
+      "provenance": {
+        "source": "v085",
+        "source_sha256": "dc7f5ad7c6eaba651b0d2dab3a134aa76e0893ece493f84a81105253572b81ae",
+        "source_sequence": 46,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 46,
+        "ticks_ms": 53532,
+        "kind": "observation",
+        "state_revision": 4,
+        "session_id": "offline-v085",
+        "captured_unix_seconds": 1790351399,
+        "state": {
+          "economy": {
+            "coins": 54
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 18,
+            "times_rent_paid": 3,
+            "rent_values": [
+              150,
+              4
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": false,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {},
+          "cards": [],
+          "buttons": [],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": true
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": true
+            }
+          ],
+          "symbols": [
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "game_over",
+      "provenance": {
+        "source": "v085",
+        "source_sha256": "dc7f5ad7c6eaba651b0d2dab3a134aa76e0893ece493f84a81105253572b81ae",
+        "source_sequence": 170,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 170,
+        "ticks_ms": 175472,
+        "kind": "observation",
+        "state_revision": 18,
+        "session_id": "offline-v085",
+        "captured_unix_seconds": 1790351521,
+        "state": {
+          "economy": {
+            "coins": 148
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 22,
+            "times_rent_paid": 3,
+            "rent_values": [
+              150,
+              0
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "game_over",
+            "prompt": false
+          },
+          "cards": [],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "retry"
+              ]
+            },
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "main_menu"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": false
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": false
+            }
+          ],
+          "symbols": [
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rent_due",
+      "provenance": {
+        "source": "v086",
+        "source_sha256": "b6d47182b48fc0ac91fa0c6d9658aab9a02d017499c945e15d8f4a035a99be00",
+        "source_sequence": 205,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 205,
+        "ticks_ms": 209824,
+        "kind": "observation",
+        "state_revision": 17,
+        "session_id": "offline-v086",
+        "captured_unix_seconds": 1790351897,
+        "state": {
+          "economy": {
+            "coins": 166
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 22,
+            "times_rent_paid": 3,
+            "rent_values": [
+              150,
+              0
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "rent_due",
+            "prompt": false
+          },
+          "cards": [],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "pay_reply"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": false
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": false
+            }
+          ],
+          "symbols": [
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "bartender",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rent_increase",
+      "provenance": {
+        "source": "v086",
+        "source_sha256": "b6d47182b48fc0ac91fa0c6d9658aab9a02d017499c945e15d8f4a035a99be00",
+        "source_sequence": 228,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 228,
+        "ticks_ms": 231432,
+        "kind": "observation",
+        "state_revision": 19,
+        "session_id": "offline-v086",
+        "captured_unix_seconds": 1790351919,
+        "state": {
+          "economy": {
+            "coins": 16
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 22,
+            "times_rent_paid": 4,
+            "rent_values": [
+              225,
+              7
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "rent_increase",
+            "prompt": false
+          },
+          "cards": [],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "<icon_confirm>"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": false
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": false
+            }
+          ],
+          "symbols": [
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "bartender",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "item_choice",
+      "provenance": {
+        "source": "v086",
+        "source_sha256": "b6d47182b48fc0ac91fa0c6d9658aab9a02d017499c945e15d8f4a035a99be00",
+        "source_sequence": 264,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 264,
+        "ticks_ms": 265412,
+        "kind": "observation",
+        "state_revision": 24,
+        "session_id": "offline-v086",
+        "captured_unix_seconds": 1790351953,
+        "state": {
+          "economy": {
+            "coins": 16
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 22,
+            "times_rent_paid": 4,
+            "rent_values": [
+              225,
+              7
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": false,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "add_item",
+            "prompt": false
+          },
+          "cards": [
+            {
+              "active": false,
+              "data": {
+                "type": "yellow_pepper"
+              }
+            },
+            {
+              "active": false,
+              "data": {
+                "type": "cursed_katana"
+              }
+            },
+            {
+              "active": false,
+              "data": {
+                "type": "zaroffs_contract"
+              }
+            }
+          ],
+          "buttons": [
+            {
+              "active": false,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "skip"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": false
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": false
+            }
+          ],
+          "symbols": [
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "bartender",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "item_owned",
+      "provenance": {
+        "source": "v086",
+        "source_sha256": "b6d47182b48fc0ac91fa0c6d9658aab9a02d017499c945e15d8f4a035a99be00",
+        "source_sequence": 298,
+        "controlled": false
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 298,
+        "ticks_ms": 300082,
+        "kind": "observation",
+        "state_revision": 27,
+        "session_id": "offline-v086",
+        "captured_unix_seconds": 1790351987,
+        "state": {
+          "economy": {
+            "coins": 16
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 22,
+            "times_rent_paid": 4,
+            "rent_values": [
+              225,
+              7
+            ],
+            "reroll_tokens": 2,
+            "removal_tokens": 2,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": false,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {},
+          "cards": [],
+          "buttons": [],
+          "items": [
+            {
+              "type": "tax_evasion",
+              "item_count": 1,
+              "active": true
+            },
+            {
+              "type": "egg_carton",
+              "item_count": 1,
+              "active": true
+            },
+            {
+              "type": "yellow_pepper",
+              "item_count": 1,
+              "active": true
+            }
+          ],
+          "symbols": [
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "sand_dollar",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "hearts",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "anchor",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "ninja",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "magpie",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "gambler",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "lockbox",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "bartender",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "sapphire",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "crab",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "rain",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "controlled_cheese",
+      "provenance": {
+        "source": "v080",
+        "source_sha256": "b705a234e0284c285bcf9e8af48c700409a1eb7a7f57c536469ae98b03d0ccb9",
+        "source_sequence": 39,
+        "controlled": true
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 39,
+        "ticks_ms": 45492,
+        "kind": "observation",
+        "state_revision": 5,
+        "test_fixture": "controlled-choice-v080",
+        "session_id": "offline-v080",
+        "captured_unix_seconds": 1790327124,
+        "state": {
+          "economy": {
+            "coins": 5
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 1,
+            "times_rent_paid": 0,
+            "rent_values": [
+              25,
+              4
+            ],
+            "reroll_tokens": 0,
+            "removal_tokens": 0,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "add_tile",
+            "prompt": false
+          },
+          "cards": [
+            {
+              "active": true,
+              "data": {
+                "type": "cheese"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "coin"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "flower"
+              }
+            }
+          ],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "skip"
+              ]
+            }
+          ],
+          "items": [],
+          "symbols": [
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "controlled_mouse",
+      "provenance": {
+        "source": "v080",
+        "source_sha256": "b705a234e0284c285bcf9e8af48c700409a1eb7a7f57c536469ae98b03d0ccb9",
+        "source_sequence": 222,
+        "controlled": true
+      },
+      "record": {
+        "schema_version": "0.2",
+        "sequence": 222,
+        "ticks_ms": 241825,
+        "kind": "observation",
+        "state_revision": 8,
+        "test_fixture": "controlled-choice-v080",
+        "session_id": "offline-v080",
+        "captured_unix_seconds": 1790327320,
+        "state": {
+          "economy": {
+            "coins": 10
+          },
+          "progress": {
+            "current_floor": 1,
+            "spins": 2,
+            "times_rent_paid": 0,
+            "rent_values": [
+              25,
+              3
+            ],
+            "reroll_tokens": 0,
+            "removal_tokens": 0,
+            "hex_of_emptiness_trigger": false,
+            "hex_of_hoarding_trigger": false
+          },
+          "ui": {
+            "closed": false,
+            "locked_in_position": true,
+            "delay_timer": 0,
+            "prompt_delay": 0
+          },
+          "input_context": {
+            "window_focused": true,
+            "options_visible": false,
+            "title_visible": false
+          },
+          "board_status": {
+            "effects_playing": false
+          },
+          "prompt": {
+            "type": "add_tile",
+            "prompt": false
+          },
+          "cards": [
+            {
+              "active": true,
+              "data": {
+                "type": "mouse"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "milk"
+              }
+            },
+            {
+              "active": true,
+              "data": {
+                "type": "flower"
+              }
+            }
+          ],
+          "buttons": [
+            {
+              "active": true,
+              "disabled": false,
+              "call": "resolve_event",
+              "args": [
+                "skip"
+              ]
+            }
+          ],
+          "items": [],
+          "symbols": [
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-1"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-2"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-3"
+            },
+            {
+              "type": "cat",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-4"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-5"
+            },
+            {
+              "type": "cheese",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-6"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-7"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-8"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-9"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-10"
+            },
+            {
+              "type": "cherry",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-11"
+            },
+            {
+              "type": "coin",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-12"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-13"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-14"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-15"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-16"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-17"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-18"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-19"
+            },
+            {
+              "type": "flower",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-20"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-21"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-22"
+            },
+            {
+              "type": "pearl",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-23"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-24"
+            },
+            {
+              "type": "empty",
+              "destroyed": false,
+              "being_destroyed": false,
+              "permanent_bonus": 0,
+              "permanent_multiplier": 1,
+              "instance_id": "symbol-25"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

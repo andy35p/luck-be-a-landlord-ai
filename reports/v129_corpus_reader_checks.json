@@ -1,0 +1,12 @@
+{
+  "train_samples": 11755,
+  "train_seeds": 32,
+  "max_abs_normalized_mean": 7.986238920991407e-15,
+  "corruptions_rejected": [
+    "overlap",
+    "missing",
+    "nontrain_hash"
+  ],
+  "training_updates": 0,
+  "test_metrics_used": false
+}

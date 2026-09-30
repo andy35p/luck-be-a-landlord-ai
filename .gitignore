@@ -29,6 +29,15 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+.pytest_cache/
+
+# Compiled integration artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
 
 # Model / training outputs
 checkpoints/

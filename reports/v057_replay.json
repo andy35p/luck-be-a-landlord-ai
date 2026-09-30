@@ -1,0 +1,12 @@
+{
+  "random": {
+    "episodes": 5,
+    "transitions": 1329,
+    "exact_replay": true
+  },
+  "heuristic": {
+    "episodes": 5,
+    "transitions": 240,
+    "exact_replay": true
+  }
+}

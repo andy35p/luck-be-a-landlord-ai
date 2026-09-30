@@ -1,0 +1,19 @@
+{
+  "scope": "Static source-path evidence; not a runtime or Workshop subscription test",
+  "resource_sha256": {
+    "Main": "8fc8547be296d731a504ad42fa3241443a79d7ba12827731063d1ca43957400a",
+    "Card": "9bb72d338fc3a95d3ad8640272b441f3fb1f90b59b82f45f0191ba4b9d37c40e",
+    "Slot Icon": "7fc64be8f36008ba82173a150d3a471410b61b4e485e46f10a7cb5b5f3b50feb",
+    "Pico Label": "cd685709d10322522de96d80fe64388f8dbf0ef14f8fda048c7cad149a297893"
+  },
+  "facts": {
+    "slot_reminder_evaluates_var_math": true,
+    "slot_math_has_inventory_type_lookup": true,
+    "card_mentions_value_text": false,
+    "card_mentions_parse_var_math": false,
+    "card_passes_database_values_to_description": true,
+    "card_uses_database_description": true,
+    "label_mentions_parse_var_math": false
+  },
+  "interpretation": "Dynamic owned-symbol reminder exists, but inspected candidate card path does not expose it. No complete native adviser integration established."
+}

@@ -1,0 +1,75 @@
+{
+  "same_transitions": true,
+  "runs": [
+    {
+      "seed": 6000,
+      "uncached": {
+        "episode": {
+          "seed": 6000,
+          "won": 1,
+          "stage": 13,
+          "spins": 100,
+          "coins": 1256.0,
+          "reward": 2016.0,
+          "decisions": 409,
+          "truncated": 0,
+          "rerolls_used": 0,
+          "removals_used": 2
+        },
+        "seconds": 6.505507999998372,
+        "transition_sha256": "791fce39671782e7c5ea7c2293b4304a4eb7c526effca2de833f52430bde7347"
+      },
+      "cached": {
+        "episode": {
+          "seed": 6000,
+          "won": 1,
+          "stage": 13,
+          "spins": 100,
+          "coins": 1256.0,
+          "reward": 2016.0,
+          "decisions": 409,
+          "truncated": 0,
+          "rerolls_used": 0,
+          "removals_used": 2
+        },
+        "seconds": 5.89297710000028,
+        "transition_sha256": "791fce39671782e7c5ea7c2293b4304a4eb7c526effca2de833f52430bde7347"
+      }
+    },
+    {
+      "seed": 6001,
+      "cached": {
+        "episode": {
+          "seed": 6001,
+          "won": 1,
+          "stage": 13,
+          "spins": 100,
+          "coins": 413.0,
+          "reward": 1173.0,
+          "decisions": 409,
+          "truncated": 0,
+          "rerolls_used": 0,
+          "removals_used": 2
+        },
+        "seconds": 4.459053900001891,
+        "transition_sha256": "2f6e94fcff60e57e7829b931456d518dd6b65592c773161e2c68d8b00ececabd"
+      },
+      "uncached": {
+        "episode": {
+          "seed": 6001,
+          "won": 1,
+          "stage": 13,
+          "spins": 100,
+          "coins": 413.0,
+          "reward": 1173.0,
+          "decisions": 409,
+          "truncated": 0,
+          "rerolls_used": 0,
+          "removals_used": 2
+        },
+        "seconds": 4.935293599999568,
+        "transition_sha256": "2f6e94fcff60e57e7829b931456d518dd6b65592c773161e2c68d8b00ececabd"
+      }
+    }
+  ]
+}

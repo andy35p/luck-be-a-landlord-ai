@@ -1,0 +1,11 @@
+{
+  "Id": "LandlordResearch",
+  "AssemblyPath": "LandlordResearch.dll",
+  "Dependencies": [],
+  "Metadata": {
+    "Name": "Landlord Research Collector",
+    "Version": "0.7.0-timer-test",
+    "Author": "Local course project",
+    "Description": "CONTROLLED TEST ONLY: replaces backed-up inventory with magpies"
+  }
+}

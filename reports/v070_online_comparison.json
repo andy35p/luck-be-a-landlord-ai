@@ -1,0 +1,21 @@
+{
+  "paired": {
+    "stage": {
+      "mean_delta": -1.39,
+      "paired_bootstrap_95": [
+        -2.07,
+        -0.73
+      ]
+    },
+    "won": {
+      "mean_delta": -0.08,
+      "paired_bootstrap_95": [
+        -0.15,
+        -0.01
+      ]
+    }
+  },
+  "seed": 70,
+  "bootstrap_samples": 2000,
+  "scope": "Previously exposed development seeds; no promotion"
+}

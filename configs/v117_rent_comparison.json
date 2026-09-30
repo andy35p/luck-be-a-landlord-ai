@@ -1,0 +1,21 @@
+{
+  "seed_start": 6000,
+  "games": 100,
+  "batch_size": 10,
+  "baseline": "forecast",
+  "candidate": "forecast_rents",
+  "rule_version": "instance-magpie-v1",
+  "floor": 1,
+  "trials": 8,
+  "forecast_seed": 20270927,
+  "candidate_horizon": 30,
+  "primary": "paired win-rate difference",
+  "success_gate": "paired win normal-95 lower bound > 0, mean stage not lower, no truncations",
+  "secondary": [
+    "stage",
+    "runtime"
+  ],
+  "no_optional_stopping": true,
+  "no_tuning": true,
+  "promotion": "research only; no automatic default/live/training promotion"
+}

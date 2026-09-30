@@ -1,0 +1,106 @@
+{
+  "counts": {
+    "ordinary_choice_observations": 17559,
+    "blocked_only_by_input_context": 11890
+  },
+  "blocker_counts": {
+    "inactive_or_missing_cards": 5669,
+    "popup_not_settled": 4862,
+    "input_context_options_visible": 17559,
+    "input_context_title_visible": 17559,
+    "input_context_window_focused": 17559
+  },
+  "files": [
+    {
+      "name": "1789312882_3061.jsonl",
+      "sha256": "05f7071e3dce68329169b5e393067b0c6066127d72ef4fa17df67fc1f7686a40"
+    },
+    {
+      "name": "1789312915_35386.jsonl",
+      "sha256": "8f88a31968dcbb4c0404831bbd2afb778bd8e1bce4a20895f7cf92f4e53e12b3"
+    },
+    {
+      "name": "1789401029_5757.jsonl",
+      "sha256": "34ca0a5b0ed3e29e8e7f77290b7bb9f237d644869234fb29cdb49ffe30dbc656"
+    },
+    {
+      "name": "1789448460_7164.jsonl",
+      "sha256": "1ca6bb0ef427b363322a59d81eb3afb607702dc60e1c87708e6fc5c246a63b0f"
+    },
+    {
+      "name": "1789482103_6961.jsonl",
+      "sha256": "9b17e2035089f513ac3c0119c50faf14dfbbe0c05a57569fd7843eeafefc4b92"
+    },
+    {
+      "name": "1789483635_6358.jsonl",
+      "sha256": "bc35c20d9fcd44935f9686bca2840854da2b74cb96dfcaa849dd96d800551ee5"
+    },
+    {
+      "name": "1789569717_7315.jsonl",
+      "sha256": "cd86654539859553592e64f4264f1169639e4bc1b158cc1ca3dedc0264c9dc8a"
+    },
+    {
+      "name": "1789657888_6133.jsonl",
+      "sha256": "72d71213527b042e1ce233cbb15563082294a919c1247bc1e55ad4bc1c7bf8e2"
+    },
+    {
+      "name": "1789660716_5938.jsonl",
+      "sha256": "15f7d832435f0dbc558bda16e58559bc9fa5cf60c6fb5adb5f0b2e7c9ae7f537"
+    },
+    {
+      "name": "1789742748_7487.jsonl",
+      "sha256": "a8f80eb465bc1a866f51df7d8fd4b02b92b4ad95ddf5d385cc9f201581a3748a"
+    },
+    {
+      "name": "1789824949_6246.jsonl",
+      "sha256": "1d795d923f98f976ae066e4329fe5f4e27efb6522a45b3939f47bfc2c8877415"
+    },
+    {
+      "name": "1789915632_7249.jsonl",
+      "sha256": "db27ea7f946184d8e65650bed6eed252729e9742d76a5701f10fb12795022851"
+    },
+    {
+      "name": "1789918912_4774.jsonl",
+      "sha256": "7cd86c0ddf9e75fcc17d793fbd3824d21cefc153edfe9a851b22d641be6e5436"
+    },
+    {
+      "name": "1789919095_4579.jsonl",
+      "sha256": "fb32b0ef791c2a5d60461689fc52ff8cb8b49b5acbcd77285eee10be642dadc3"
+    },
+    {
+      "name": "1789919199_5016.jsonl",
+      "sha256": "ff6b47a7e0188e4a3d8cc4acaeca2ffae31621a9c21889b40ed93105aa30302c"
+    },
+    {
+      "name": "1790005021_6481.jsonl",
+      "sha256": "2619143e73b53b70376c18e00d21a4c53fad977e472ba4ade22cdccaef6e248a"
+    },
+    {
+      "name": "1790047810_6884.jsonl",
+      "sha256": "a30ed8420346c68f04b071b2aef3bd10af4d86acdd08db33af95bee0edde971b"
+    },
+    {
+      "name": "1790049048_1244932.jsonl",
+      "sha256": "07d3221f50dea3224df20dd0cd959ba15ccc24a080d471548a43df51928e9e0f"
+    },
+    {
+      "name": "1790087402_5374.jsonl",
+      "sha256": "706c9a588bd57b576a56f2b20a40054a0be8e9910ceb29109776b84b35fffeb7"
+    },
+    {
+      "name": "1790174934_6319.jsonl",
+      "sha256": "d8c0a1dc3e5072fd3917217019306341957bc321cf03cd61f647641192db5a78"
+    },
+    {
+      "name": "1790177535_5783.jsonl",
+      "sha256": "121617c3cfb431654ac3c22dab7bdb05d56e5031a1c3f116308e485199c47893"
+    },
+    {
+      "name": "1790261469_6731.jsonl",
+      "sha256": "f5ac4cb20ed1653aaa451e66ddb00900124cfb4f46801e730f2de548e6cc7d24"
+    }
+  ],
+  "recommendations_generated": 0,
+  "game_actions_submitted": 0,
+  "limits": "Historical observations only; no missing context inferred; not live validation."
+}

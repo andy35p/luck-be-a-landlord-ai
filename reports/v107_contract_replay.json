@@ -1,0 +1,16 @@
+{
+  "v102": {
+    "counts": {
+      "ordinary_ready_records": 47,
+      "contract_passed": 47
+    },
+    "reasons": {}
+  },
+  "v105": {
+    "counts": {
+      "ordinary_ready_records": 64,
+      "contract_passed": 64
+    },
+    "reasons": {}
+  }
+}

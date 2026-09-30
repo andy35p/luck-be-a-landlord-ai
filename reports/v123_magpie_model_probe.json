@@ -1,0 +1,14 @@
+{
+  "samples": {
+    "train": 409,
+    "validation": 368,
+    "test": 409
+  },
+  "padded_candidates_checked": 13802,
+  "legal_logits_finite": true,
+  "reload_logits_exact": true,
+  "old_interface_rejects": true,
+  "optimizer_updates": 0,
+  "checkpoint": "outputs\\v123-magpie-prototype\\untrained.pt",
+  "purpose": "raw-scalar untrained interface probe, not a deployable policy"
+}

@@ -1,0 +1,510 @@
+{
+  "checkpoint_sha256": "7514a2ee0609820803d1a2f280fd3a7d8030bbafb6afc461122f4ffdf656a3e1",
+  "sources": {
+    "teacher": {
+      "path": "logs\\spatial-dataset-v063\\heuristic.jsonl.gz",
+      "sha256": "58c68b0d75e06e582bd54fe8c1dd5e765fcfc5016ab5d16389cd79749364ae99"
+    },
+    "own": {
+      "path": "logs\\spatial-diagnosis-v067\\model_with_teacher.jsonl.gz",
+      "sha256": "b5bb9856e7d2edc6c4595632558197f1ecbba07771ae124674c4431899c40b9f"
+    }
+  },
+  "groups": {
+    "train": {
+      "deck": {
+        "<18": {
+          "decisions": 4180,
+          "exact": 2925,
+          "equal_teacher_score": 1124,
+          "lower_teacher_score": 126,
+          "model_skips_teacher_pick": 5
+        },
+        "18-19": {
+          "decisions": 650,
+          "exact": 462,
+          "equal_teacher_score": 101,
+          "model_skips_teacher_pick": 70,
+          "lower_teacher_score": 17
+        },
+        "20-24": {
+          "decisions": 1229,
+          "exact": 1147,
+          "lower_teacher_score": 25,
+          "model_picks_teacher_skip": 40,
+          "model_skips_teacher_pick": 17
+        },
+        "25+": {
+          "decisions": 1651,
+          "exact": 1526,
+          "lower_teacher_score": 47,
+          "model_skips_teacher_pick": 68,
+          "model_picks_teacher_skip": 10
+        }
+      },
+      "stage": {
+        "0-5": {
+          "decisions": 4934,
+          "exact": 3495,
+          "equal_teacher_score": 1201,
+          "lower_teacher_score": 147,
+          "model_picks_teacher_skip": 33,
+          "model_skips_teacher_pick": 58
+        },
+        "6+": {
+          "decisions": 2776,
+          "exact": 2565,
+          "equal_teacher_score": 24,
+          "lower_teacher_score": 68,
+          "model_skips_teacher_pick": 102,
+          "model_picks_teacher_skip": 17
+        }
+      },
+      "teacher_action": {
+        "pick": {
+          "decisions": 6563,
+          "exact": 4963,
+          "equal_teacher_score": 1225,
+          "lower_teacher_score": 215,
+          "model_skips_teacher_pick": 160
+        },
+        "skip": {
+          "decisions": 1147,
+          "exact": 1097,
+          "model_picks_teacher_skip": 50
+        }
+      },
+      "synergy": {
+        "cheese:0": {
+          "decisions": 97,
+          "exact": 69,
+          "equal_teacher_score": 28
+        },
+        "mouse:1": {
+          "decisions": 275,
+          "lower_teacher_score": 89,
+          "exact": 119,
+          "model_skips_teacher_pick": 67
+        },
+        "cheese:1": {
+          "decisions": 366,
+          "exact": 320,
+          "lower_teacher_score": 46
+        },
+        "mouse:0": {
+          "decisions": 155,
+          "exact": 147,
+          "equal_teacher_score": 6,
+          "model_skips_teacher_pick": 2
+        },
+        "cheese:2-3": {
+          "decisions": 750,
+          "exact": 742,
+          "lower_teacher_score": 8
+        },
+        "cheese:4+": {
+          "decisions": 351,
+          "lower_teacher_score": 45,
+          "exact": 306
+        },
+        "mouse:2-3": {
+          "decisions": 54,
+          "exact": 22,
+          "model_skips_teacher_pick": 17,
+          "lower_teacher_score": 15
+        },
+        "mouse:4+": {
+          "decisions": 1,
+          "model_skips_teacher_pick": 1
+        }
+      },
+      "synergy_margin": {
+        "tie": {
+          "decisions": 252,
+          "exact": 216,
+          "equal_teacher_score": 34,
+          "model_skips_teacher_pick": 2
+        },
+        ">1": {
+          "decisions": 1653,
+          "lower_teacher_score": 89,
+          "exact": 1479,
+          "model_skips_teacher_pick": 85
+        },
+        "(0,1]": {
+          "decisions": 144,
+          "exact": 30,
+          "lower_teacher_score": 114
+        }
+      }
+    },
+    "validation": {
+      "deck": {
+        "<18": {
+          "decisions": 558,
+          "equal_teacher_score": 140,
+          "exact": 399,
+          "lower_teacher_score": 19
+        },
+        "18-19": {
+          "decisions": 56,
+          "exact": 46,
+          "model_skips_teacher_pick": 4,
+          "equal_teacher_score": 5,
+          "lower_teacher_score": 1
+        },
+        "20-24": {
+          "decisions": 56,
+          "exact": 48,
+          "lower_teacher_score": 5,
+          "model_picks_teacher_skip": 2,
+          "model_skips_teacher_pick": 1
+        },
+        "25+": {
+          "decisions": 150,
+          "exact": 141,
+          "lower_teacher_score": 6,
+          "model_skips_teacher_pick": 3
+        }
+      },
+      "stage": {
+        "0-5": {
+          "decisions": 564,
+          "equal_teacher_score": 139,
+          "exact": 403,
+          "lower_teacher_score": 20,
+          "model_skips_teacher_pick": 1,
+          "model_picks_teacher_skip": 1
+        },
+        "6+": {
+          "decisions": 256,
+          "exact": 231,
+          "lower_teacher_score": 11,
+          "model_skips_teacher_pick": 7,
+          "equal_teacher_score": 6,
+          "model_picks_teacher_skip": 1
+        }
+      },
+      "teacher_action": {
+        "pick": {
+          "decisions": 749,
+          "equal_teacher_score": 145,
+          "exact": 565,
+          "lower_teacher_score": 31,
+          "model_skips_teacher_pick": 8
+        },
+        "skip": {
+          "decisions": 71,
+          "exact": 69,
+          "model_picks_teacher_skip": 2
+        }
+      },
+      "synergy": {
+        "cheese:0": {
+          "decisions": 14,
+          "exact": 13,
+          "equal_teacher_score": 1
+        },
+        "mouse:1": {
+          "decisions": 30,
+          "lower_teacher_score": 11,
+          "exact": 18,
+          "model_skips_teacher_pick": 1
+        },
+        "cheese:1": {
+          "decisions": 40,
+          "lower_teacher_score": 6,
+          "exact": 34
+        },
+        "cheese:2-3": {
+          "decisions": 76,
+          "exact": 75,
+          "lower_teacher_score": 1
+        },
+        "mouse:2-3": {
+          "decisions": 10,
+          "lower_teacher_score": 4,
+          "model_skips_teacher_pick": 3,
+          "exact": 3
+        },
+        "mouse:0": {
+          "decisions": 10,
+          "model_skips_teacher_pick": 1,
+          "exact": 9
+        },
+        "cheese:4+": {
+          "decisions": 63,
+          "exact": 54,
+          "lower_teacher_score": 9
+        }
+      },
+      "synergy_margin": {
+        "tie": {
+          "decisions": 24,
+          "exact": 22,
+          "model_skips_teacher_pick": 1,
+          "equal_teacher_score": 1
+        },
+        ">1": {
+          "decisions": 204,
+          "lower_teacher_score": 16,
+          "exact": 184,
+          "model_skips_teacher_pick": 4
+        },
+        "(0,1]": {
+          "decisions": 15,
+          "lower_teacher_score": 15
+        }
+      }
+    },
+    "test": {
+      "deck": {
+        "<18": {
+          "decisions": 623,
+          "exact": 435,
+          "equal_teacher_score": 164,
+          "lower_teacher_score": 23,
+          "model_skips_teacher_pick": 1
+        },
+        "18-19": {
+          "decisions": 88,
+          "exact": 62,
+          "model_skips_teacher_pick": 13,
+          "equal_teacher_score": 9,
+          "lower_teacher_score": 4
+        },
+        "20-24": {
+          "decisions": 198,
+          "exact": 178,
+          "model_skips_teacher_pick": 4,
+          "model_picks_teacher_skip": 10,
+          "lower_teacher_score": 6
+        },
+        "25+": {
+          "decisions": 355,
+          "exact": 323,
+          "model_skips_teacher_pick": 22,
+          "model_picks_teacher_skip": 1,
+          "lower_teacher_score": 9
+        }
+      },
+      "stage": {
+        "0-5": {
+          "decisions": 742,
+          "exact": 523,
+          "equal_teacher_score": 168,
+          "lower_teacher_score": 30,
+          "model_picks_teacher_skip": 10,
+          "model_skips_teacher_pick": 11
+        },
+        "6+": {
+          "decisions": 522,
+          "exact": 475,
+          "model_skips_teacher_pick": 29,
+          "model_picks_teacher_skip": 1,
+          "lower_teacher_score": 12,
+          "equal_teacher_score": 5
+        }
+      },
+      "teacher_action": {
+        "pick": {
+          "decisions": 1058,
+          "exact": 803,
+          "equal_teacher_score": 173,
+          "model_skips_teacher_pick": 40,
+          "lower_teacher_score": 42
+        },
+        "skip": {
+          "decisions": 206,
+          "exact": 195,
+          "model_picks_teacher_skip": 11
+        }
+      },
+      "synergy": {
+        "mouse:0": {
+          "decisions": 20,
+          "exact": 19,
+          "equal_teacher_score": 1
+        },
+        "cheese:1": {
+          "decisions": 59,
+          "exact": 55,
+          "lower_teacher_score": 4
+        },
+        "mouse:1": {
+          "decisions": 49,
+          "exact": 14,
+          "model_skips_teacher_pick": 16,
+          "lower_teacher_score": 19
+        },
+        "cheese:2-3": {
+          "decisions": 126,
+          "exact": 124,
+          "lower_teacher_score": 2
+        },
+        "cheese:4+": {
+          "decisions": 71,
+          "exact": 64,
+          "lower_teacher_score": 7
+        },
+        "mouse:2-3": {
+          "decisions": 20,
+          "model_skips_teacher_pick": 10,
+          "lower_teacher_score": 7,
+          "exact": 3
+        },
+        "cheese:0": {
+          "decisions": 15,
+          "exact": 14,
+          "equal_teacher_score": 1
+        }
+      },
+      "synergy_margin": {
+        "tie": {
+          "decisions": 35,
+          "exact": 33,
+          "equal_teacher_score": 2
+        },
+        ">1": {
+          "decisions": 305,
+          "exact": 256,
+          "model_skips_teacher_pick": 26,
+          "lower_teacher_score": 23
+        },
+        "(0,1]": {
+          "decisions": 20,
+          "lower_teacher_score": 16,
+          "exact": 4
+        }
+      }
+    },
+    "own_development": {
+      "deck": {
+        "<18": {
+          "decisions": 2931,
+          "exact": 2040,
+          "equal_teacher_score": 758,
+          "lower_teacher_score": 128,
+          "model_skips_teacher_pick": 5
+        },
+        "18-19": {
+          "decisions": 406,
+          "exact": 256,
+          "model_skips_teacher_pick": 77,
+          "equal_teacher_score": 55,
+          "lower_teacher_score": 18
+        },
+        "20-24": {
+          "decisions": 662,
+          "exact": 607,
+          "model_picks_teacher_skip": 21,
+          "lower_teacher_score": 22,
+          "model_skips_teacher_pick": 12
+        },
+        "25+": {
+          "decisions": 78,
+          "exact": 70,
+          "lower_teacher_score": 6,
+          "model_skips_teacher_pick": 2
+        }
+      },
+      "stage": {
+        "0-5": {
+          "decisions": 3109,
+          "exact": 2164,
+          "equal_teacher_score": 771,
+          "lower_teacher_score": 138,
+          "model_skips_teacher_pick": 27,
+          "model_picks_teacher_skip": 9
+        },
+        "6+": {
+          "decisions": 968,
+          "model_skips_teacher_pick": 69,
+          "exact": 809,
+          "model_picks_teacher_skip": 12,
+          "equal_teacher_score": 42,
+          "lower_teacher_score": 36
+        }
+      },
+      "teacher_action": {
+        "pick": {
+          "decisions": 3777,
+          "exact": 2694,
+          "equal_teacher_score": 813,
+          "lower_teacher_score": 174,
+          "model_skips_teacher_pick": 96
+        },
+        "skip": {
+          "decisions": 300,
+          "exact": 279,
+          "model_picks_teacher_skip": 21
+        }
+      },
+      "synergy": {
+        "mouse:4+": {
+          "decisions": 11,
+          "lower_teacher_score": 5,
+          "exact": 6
+        },
+        "cheese:2-3": {
+          "decisions": 291,
+          "exact": 282,
+          "lower_teacher_score": 9
+        },
+        "mouse:1": {
+          "decisions": 121,
+          "exact": 61,
+          "lower_teacher_score": 45,
+          "model_skips_teacher_pick": 15
+        },
+        "mouse:0": {
+          "decisions": 96,
+          "model_skips_teacher_pick": 2,
+          "exact": 93,
+          "equal_teacher_score": 1
+        },
+        "cheese:4+": {
+          "decisions": 371,
+          "exact": 316,
+          "lower_teacher_score": 55
+        },
+        "cheese:0": {
+          "decisions": 41,
+          "exact": 32,
+          "equal_teacher_score": 9
+        },
+        "mouse:2-3": {
+          "decisions": 45,
+          "exact": 26,
+          "lower_teacher_score": 19
+        },
+        "cheese:1": {
+          "decisions": 196,
+          "exact": 163,
+          "lower_teacher_score": 33
+        }
+      },
+      "synergy_margin": {
+        ">1": {
+          "decisions": 967,
+          "lower_teacher_score": 102,
+          "exact": 850,
+          "model_skips_teacher_pick": 15
+        },
+        "tie": {
+          "decisions": 137,
+          "model_skips_teacher_pick": 2,
+          "exact": 125,
+          "equal_teacher_score": 10
+        },
+        "(0,1]": {
+          "decisions": 68,
+          "lower_teacher_score": 64,
+          "exact": 4
+        }
+      }
+    }
+  },
+  "training_updates": 0,
+  "limits": "Observed feature coverage and descriptive error rates, not causal proof or an independent holdout."
+}

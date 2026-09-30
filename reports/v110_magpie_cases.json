@@ -1,0 +1,524 @@
+{
+  "scope": "Three worst and three best stage deltas, selected after holdout. Diagnostic only; no tuning or new test set.",
+  "replay_matches_saved_outcomes": true,
+  "cases": [
+    {
+      "seed": 1121,
+      "selection": "worst",
+      "stage_delta": -11,
+      "baseline": {
+        "seed": 1121,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 113.0,
+        "reward": 873.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1121,
+        "won": 0,
+        "stage": 2,
+        "spins": 16,
+        "coins": 81.0,
+        "reward": 21.0,
+        "decisions": 63,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 0
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 2,
+          "spin": 1,
+          "coins": 5.0,
+          "rent": 25,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "cheese",
+            "cat"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 2,
+          "spin": 1,
+          "coins": 5.0,
+          "rent": 25,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "cheese",
+            "cat"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000005": {
+          "acquired_spin": 1,
+          "acquired_decision": 2,
+          "appearances": 15,
+          "symbol_payout": 12.0,
+          "cycle_resets": 3,
+          "removed": false
+        },
+        "s00000010": {
+          "acquired_spin": 6,
+          "acquired_decision": 23,
+          "appearances": 10,
+          "symbol_payout": 8.0,
+          "cycle_resets": 2,
+          "removed": false
+        }
+      }
+    },
+    {
+      "seed": 1188,
+      "selection": "worst",
+      "stage_delta": -11,
+      "baseline": {
+        "seed": 1188,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 664.0,
+        "reward": 1424.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1188,
+        "won": 0,
+        "stage": 2,
+        "spins": 16,
+        "coins": 86.0,
+        "reward": 26.0,
+        "decisions": 63,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 0
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 23,
+          "spin": 6,
+          "coins": 10.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "present",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 23,
+          "spin": 6,
+          "coins": 10.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "present",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000010": {
+          "acquired_spin": 6,
+          "acquired_decision": 23,
+          "appearances": 10,
+          "symbol_payout": 8.0,
+          "cycle_resets": 2,
+          "removed": false
+        }
+      }
+    },
+    {
+      "seed": 1323,
+      "selection": "worst",
+      "stage_delta": -11,
+      "baseline": {
+        "seed": 1323,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 596.0,
+        "reward": 1356.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1323,
+        "won": 0,
+        "stage": 2,
+        "spins": 16,
+        "coins": 86.0,
+        "reward": 26.0,
+        "decisions": 63,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 0
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 23,
+          "spin": 6,
+          "coins": 10.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "coin",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 23,
+          "spin": 6,
+          "coins": 10.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "coin",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000010": {
+          "acquired_spin": 6,
+          "acquired_decision": 23,
+          "appearances": 10,
+          "symbol_payout": 8.0,
+          "cycle_resets": 2,
+          "removed": false
+        }
+      }
+    },
+    {
+      "seed": 1170,
+      "selection": "best",
+      "stage_delta": 10,
+      "baseline": {
+        "seed": 1170,
+        "won": 0,
+        "stage": 3,
+        "spins": 22,
+        "coins": 137.0,
+        "reward": 97.0,
+        "decisions": 88,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1170,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 246.0,
+        "reward": 1006.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 2,
+          "spin": 1,
+          "coins": 5.0,
+          "rent": 25,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "coal",
+            "goldfish"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "coal"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 2,
+          "spin": 1,
+          "coins": 5.0,
+          "rent": 25,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "coal",
+            "goldfish"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000005": {
+          "acquired_spin": 1,
+          "acquired_decision": 2,
+          "appearances": 15,
+          "symbol_payout": 12.0,
+          "cycle_resets": 3,
+          "removed": true,
+          "removed_spin": 16,
+          "remaining_at_removal": 1
+        },
+        "s00000016": {
+          "acquired_spin": 12,
+          "acquired_decision": 48,
+          "appearances": 5,
+          "symbol_payout": 4.0,
+          "cycle_resets": 1,
+          "removed": true,
+          "removed_spin": 17,
+          "remaining_at_removal": 3
+        }
+      }
+    },
+    {
+      "seed": 1674,
+      "selection": "best",
+      "stage_delta": 10,
+      "baseline": {
+        "seed": 1674,
+        "won": 0,
+        "stage": 3,
+        "spins": 22,
+        "coins": 132.0,
+        "reward": 92.0,
+        "decisions": 88,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1674,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 507.0,
+        "reward": 1267.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 48,
+          "spin": 12,
+          "coins": 85.0,
+          "rent": 100,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "pearl",
+            "coal"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "coal"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 48,
+          "spin": 12,
+          "coins": 85.0,
+          "rent": 100,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "pearl",
+            "coal"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000019": {
+          "acquired_spin": 12,
+          "acquired_decision": 48,
+          "appearances": 4,
+          "symbol_payout": 5.0,
+          "cycle_resets": 1,
+          "removed": true,
+          "removed_spin": 16,
+          "remaining_at_removal": 4
+        },
+        "s00000032": {
+          "acquired_spin": 25,
+          "acquired_decision": 102,
+          "appearances": 61,
+          "symbol_payout": 74.0,
+          "cycle_resets": 15,
+          "removed": false
+        }
+      }
+    },
+    {
+      "seed": 1064,
+      "selection": "best",
+      "stage_delta": 9,
+      "baseline": {
+        "seed": 1064,
+        "won": 0,
+        "stage": 4,
+        "spins": 29,
+        "coins": 182.0,
+        "reward": 162.0,
+        "decisions": 117,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "cycle": {
+        "seed": 1064,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 818.0,
+        "reward": 1578.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "first_divergence": {
+        "baseline": {
+          "index": 23,
+          "spin": 6,
+          "coins": 16.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "bar_of_soap",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "magpie_score": 1.25
+        },
+        "cycle": {
+          "index": 23,
+          "spin": 6,
+          "coins": 16.0,
+          "rent": 50,
+          "spins_until_rent": 4,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "bar_of_soap",
+            "magpie"
+          ],
+          "action": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "magpie_score": 1.25
+        }
+      },
+      "baseline_magpies": {},
+      "cycle_magpies": {
+        "s00000010": {
+          "acquired_spin": 6,
+          "acquired_decision": 23,
+          "appearances": 10,
+          "symbol_payout": 8.0,
+          "cycle_resets": 2,
+          "removed": true,
+          "removed_spin": 16,
+          "remaining_at_removal": 2
+        },
+        "s00000018": {
+          "acquired_spin": 12,
+          "acquired_decision": 48,
+          "appearances": 5,
+          "symbol_payout": 4.0,
+          "cycle_resets": 1,
+          "removed": true,
+          "removed_spin": 17,
+          "remaining_at_removal": 3
+        },
+        "s00000048": {
+          "acquired_spin": 40,
+          "acquired_decision": 164,
+          "appearances": 41,
+          "symbol_payout": 49.0,
+          "cycle_resets": 10,
+          "removed": false
+        }
+      }
+    }
+  ]
+}

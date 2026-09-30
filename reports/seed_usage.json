@@ -1,5 +1,5 @@
 {
-  "version": "v0.4.6",
+  "version": "v1.4.0-audit",
   "ranges": [
     {
       "start": 0,
@@ -39,7 +39,174 @@
       "end": 40999,
       "usage": "V0.4.6 reserved then consumed frozen BC validation; never fresh again",
       "run": "logs/bc-frozen-validation-v046"
+    },
+    {
+      "start": 0,
+      "end": 9999,
+      "usage": "V0.5.6 goldfish development batch evaluation; consumed, not a fresh holdout",
+      "run": "logs/reused/random-20260923T152232896723Z"
+    },
+    {
+      "start": 9000,
+      "end": 9031,
+      "usage": "V128 magpie corpus training episodes; consumed training data",
+      "run": "logs/v128-magpie-shards"
+    },
+    {
+      "start": 10000,
+      "end": 10007,
+      "usage": "V128 magpie corpus validation episodes; consumed validation data",
+      "run": "logs/v128-magpie-shards"
+    },
+    {
+      "start": 11000,
+      "end": 11007,
+      "usage": "V128 magpie corpus test partition; structural checks only, never tune on these seeds",
+      "run": "logs/v128-magpie-shards"
+    },
+    {
+      "start": 12000,
+      "end": 12031,
+      "usage": "V131 model rollout development comparison; consumed, not a holdout",
+      "run": "logs/v131-model-rollouts"
+    },
+    {
+      "start": 200000,
+      "end": 200999,
+      "usage": "V140 repository-audit Random/Heuristic baseline and exact reproduction; consumed",
+      "run": "logs/repository-audit-v140 and logs/repository-audit-v140-after"
+    },
+    {
+      "start": 13000,
+      "end": 13007,
+      "usage": "V141 pre/post integration BC action-trace regression; consumed",
+      "run": "V141 console evidence"
+    },
+    {
+      "start": 14000,
+      "end": 14007,
+      "usage": "V141 unified BC smoke with same-state teacher diagnostics; consumed",
+      "run": "logs/v141-smoke"
+    },
+    {
+      "start": 14100,
+      "end": 14101,
+      "usage": "V141 BC adapter and evaluator regression tests; consumed",
+      "run": "tests/test_bc_unified_evaluation.py"
+    },
+    {
+      "start": 14200,
+      "end": 14201,
+      "usage": "V141 single/two-process deterministic comparison; consumed",
+      "run": "logs/v141-multiprocess"
+    },
+    {
+      "start": 15000,
+      "end": 15127,
+      "usage": "V141 unified 128-episode development benchmark; V142 frozen BC diagnostic replay and limited branches; consumed, not holdout or training",
+      "run": "logs/v141-unified; logs/v142-diagnostics"
+    },
+    {
+      "start": 16000,
+      "end": 16063,
+      "usage": "V143 frozen paired Legacy/V143 reroll development benchmark; first4 shadow, first32 smoke,64 medium; consumed, not holdout or training",
+      "run": "logs/v143-reroll"
+    },
+    {
+      "start": 143000,
+      "end": 143000,
+      "usage": "V143 RNG/compatibility test fixture and constructed opportunity suite; consumed, not benchmark or training",
+      "run": "tests/test_v143_reroll.py; logs/v143-reroll/opportunity_suite.csv"
     }
   ],
-  "rule": "Rerunning a consumed range is reproduction only, not fresh holdout validation."
+  "rule": "Rerunning a consumed range is reproduction only, not fresh holdout validation.",
+  "diagnostic_namespaces": [
+    {
+      "version": "V144",
+      "source_seeds": [
+        16000,
+        16063
+      ],
+      "namespace": "sha256([v144-independent,state_id,branch,trial])",
+      "usage": "Consumed diagnostic continuations only;20 existing states,current/reroll32 each;4 inventory probes32 each;1408 total,smoke8 separate. Not training or holdout.",
+      "run": "logs/v144-reroll-calibration"
+    },
+    {
+      "version": "V145",
+      "source_seeds": [
+        16000,
+        16063
+      ],
+      "namespace": "sha256([v145-independent,state_id,branch,continuation_id])",
+      "usage": "Consumed diagnostic continuations only; 40 existing states from 37 development episodes, current/reroll32 each; 2560 formal full paths plus256 additional convergence paths =2816 unique full paths.192 pilot prefixes reused. Not training or holdout.",
+      "run": "logs/v145-rollout"
+    },
+    {
+      "version": "V146",
+      "source_seeds": {
+        "dataset_train": [
+          9000,
+          9031
+        ],
+        "dataset_validation": [
+          10000,
+          10007
+        ],
+        "model_initialization": [
+          123,
+          456,
+          789
+        ]
+      },
+      "namespace": "v146-bc-audit/{tiny_overfit,budget_scaling,symbol_only,interference}",
+      "usage": "Existing V128 train/validation shards only; new offline model initialization and update experiments. Test 11000-11007 sealed; no new teacher episodes, no online rollout, not a fresh holdout.",
+      "run": "logs/v146-bc-audit"
+    },
+    {
+      "version": "V147",
+      "source_seeds": {
+        "dataset_train": [
+          9000,
+          9031
+        ],
+        "dataset_validation": [
+          10000,
+          10007
+        ],
+        "training_initialization": [
+          123,
+          456,
+          789,
+          24680,
+          13579
+        ]
+      },
+      "namespace": "v147-generalization/fixed-budget-grid",
+      "usage": "Existing frozen V128 train/validation episodes; five model initialization/sampler seeds across pre-registered 200/300/500/750/1000 update grid. V146 exact prior checkpoints reused. Test 11000-11007 metrics sealed. Conditional online 17000-17031 NOT consumed because gate failed.",
+      "run": "logs/v147-generalization"
+    },
+    {
+      "version": "V148",
+      "source_seeds": {
+        "dataset_fit_selection": [9000, 9031],
+        "development_validation_audit": [10000, 10007],
+        "training_initialization": [123, 456, 789, 24680, 13579],
+        "episode_split": [148001, 148002, 148003]
+      },
+      "namespace": "v148-checkpoint-selection/{primary-a,robustness-b,robustness-c}",
+      "usage": "Derived episode-level 24 FIT/8 SELECTION splits from frozen V128 train; 11 diagnostic training trajectories. Development validation opened only after checkpoint-choice lock. Test shards 11000-11007 and V128 manifest with embedded test outcomes were not opened by V148 experiment processes. No full-train refit or online seeds consumed.",
+      "run": "logs/v148-checkpoint-selection"
+    },
+    {
+      "version": "V149",
+      "source_seeds": {
+        "dataset_train": [9000, 9031],
+        "development_validation": [10000, 10007],
+        "training_initialization": [123, 456, 789, 24680, 13579]
+      },
+      "namespace": "v149-label-smoothing/epsilon-{0.00,0.02,0.05,0.10}",
+      "usage": "Frozen V128 train/development-validation only; 20 fixed-500-update label-smoothing runs. Test 11000-11007 and V128 manifest were not opened. Offline gate failed, so conditional online 17000-17031 remains unconsumed.",
+      "run": "logs/v149-label-smoothing"
+    }
+  ]
 }

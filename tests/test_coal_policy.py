@@ -6,6 +6,17 @@ from luck_agent.env.action import Action, ActionType as T
 
 
 class CoalPolicyTests(unittest.TestCase):
+    def test_goldfish_pool_only_coal_score_changes(self):
+        env = GameEnv(EnvConfig(floor=1, rule_version="instance-goldfish-v1"))
+        base = HeuristicAgent(env.catalog)
+        candidate = HeuristicAgent(env.catalog, coal_score_adjustment=-1.2)
+        view = SimpleNamespace(catalog=env.catalog,
+            deck=["mouse", "cheese", "goldfish", "bubble", "coal", "bar_of_soap"],
+            items=["time_machine"], coins=50, state=lambda: {"rent":100})
+        for symbol in env.catalog["symbol_pool"]:
+            self.assertAlmostEqual(candidate.prior.score_symbol(view,symbol)-base.prior.score_symbol(view,symbol),
+                                   -1.2 if symbol == "coal" else 0)
+
     def test_only_coal_score_changes_and_default_matches_prior(self):
         from luck_agent.legacy.fast_env import HeuristicAgent as Prior
         env = GameEnv(EnvConfig(floor=1, rule_version="instance-coal-v1"))

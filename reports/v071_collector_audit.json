@@ -1,0 +1,232 @@
+{
+  "files": [
+    {
+      "file": "1789312882_3061.jsonl",
+      "sha256": "05f7071e3dce68329169b5e393067b0c6066127d72ef4fa17df67fc1f7686a40",
+      "records": 1,
+      "action_attempts": 0,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 0
+    },
+    {
+      "file": "1789312915_35386.jsonl",
+      "sha256": "8f88a31968dcbb4c0404831bbd2afb778bd8e1bce4a20895f7cf92f4e53e12b3",
+      "records": 1692,
+      "action_attempts": 303,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1680
+    },
+    {
+      "file": "1789401029_5757.jsonl",
+      "sha256": "34ca0a5b0ed3e29e8e7f77290b7bb9f237d644869234fb29cdb49ffe30dbc656",
+      "records": 1735,
+      "action_attempts": 298,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1337
+    },
+    {
+      "file": "1789448460_7164.jsonl",
+      "sha256": "1ca6bb0ef427b363322a59d81eb3afb607702dc60e1c87708e6fc5c246a63b0f",
+      "records": 3973,
+      "action_attempts": 731,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 2973
+    },
+    {
+      "file": "1789482103_6961.jsonl",
+      "sha256": "9b17e2035089f513ac3c0119c50faf14dfbbe0c05a57569fd7843eeafefc4b92",
+      "records": 1815,
+      "action_attempts": 332,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1436
+    },
+    {
+      "file": "1789483635_6358.jsonl",
+      "sha256": "bc35c20d9fcd44935f9686bca2840854da2b74cb96dfcaa849dd96d800551ee5",
+      "records": 6180,
+      "action_attempts": 1052,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 4264
+    },
+    {
+      "file": "1789569717_7315.jsonl",
+      "sha256": "cd86654539859553592e64f4264f1169639e4bc1b158cc1ca3dedc0264c9dc8a",
+      "records": 4414,
+      "action_attempts": 867,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 3422
+    },
+    {
+      "file": "1789657888_6133.jsonl",
+      "sha256": "72d71213527b042e1ce233cbb15563082294a919c1247bc1e55ad4bc1c7bf8e2",
+      "records": 1186,
+      "action_attempts": 218,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 930
+    },
+    {
+      "file": "1789660716_5938.jsonl",
+      "sha256": "15f7d832435f0dbc558bda16e58559bc9fa5cf60c6fb5adb5f0b2e7c9ae7f537",
+      "records": 4197,
+      "action_attempts": 763,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 2990
+    },
+    {
+      "file": "1789742748_7487.jsonl",
+      "sha256": "a8f80eb465bc1a866f51df7d8fd4b02b92b4ad95ddf5d385cc9f201581a3748a",
+      "records": 6326,
+      "action_attempts": 1297,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 5141
+    },
+    {
+      "file": "1789824949_6246.jsonl",
+      "sha256": "1d795d923f98f976ae066e4329fe5f4e27efb6522a45b3939f47bfc2c8877415",
+      "records": 2454,
+      "action_attempts": 461,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1544
+    },
+    {
+      "file": "1789915632_7249.jsonl",
+      "sha256": "db27ea7f946184d8e65650bed6eed252729e9742d76a5701f10fb12795022851",
+      "records": 3246,
+      "action_attempts": 622,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 2786
+    },
+    {
+      "file": "1789918912_4774.jsonl",
+      "sha256": "7cd86c0ddf9e75fcc17d793fbd3824d21cefc153edfe9a851b22d641be6e5436",
+      "records": 1,
+      "action_attempts": 0,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 0
+    },
+    {
+      "file": "1789919095_4579.jsonl",
+      "sha256": "fb32b0ef791c2a5d60461689fc52ff8cb8b49b5acbcd77285eee10be642dadc3",
+      "records": 1,
+      "action_attempts": 0,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 0
+    },
+    {
+      "file": "1789919199_5016.jsonl",
+      "sha256": "ff6b47a7e0188e4a3d8cc4acaeca2ffae31621a9c21889b40ed93105aa30302c",
+      "records": 2148,
+      "action_attempts": 416,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1761
+    },
+    {
+      "file": "1790005021_6481.jsonl",
+      "sha256": "2619143e73b53b70376c18e00d21a4c53fad977e472ba4ade22cdccaef6e248a",
+      "records": 4177,
+      "action_attempts": 776,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 3123
+    },
+    {
+      "file": "1790047810_6884.jsonl",
+      "sha256": "a30ed8420346c68f04b071b2aef3bd10af4d86acdd08db33af95bee0edde971b",
+      "records": 1971,
+      "action_attempts": 369,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1394
+    },
+    {
+      "file": "1790049048_1244932.jsonl",
+      "sha256": "07d3221f50dea3224df20dd0cd959ba15ccc24a080d471548a43df51928e9e0f",
+      "records": 4231,
+      "action_attempts": 704,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 2779
+    },
+    {
+      "file": "1790087402_5374.jsonl",
+      "sha256": "706c9a588bd57b576a56f2b20a40054a0be8e9910ceb29109776b84b35fffeb7",
+      "records": 5513,
+      "action_attempts": 884,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 4306
+    },
+    {
+      "file": "1790174934_6319.jsonl",
+      "sha256": "d8c0a1dc3e5072fd3917217019306341957bc321cf03cd61f647641192db5a78",
+      "records": 3676,
+      "action_attempts": 750,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 3055
+    },
+    {
+      "file": "1790177535_5783.jsonl",
+      "sha256": "121617c3cfb431654ac3c22dab7bdb05d56e5031a1c3f116308e485199c47893",
+      "records": 4652,
+      "action_attempts": 880,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 3534
+    },
+    {
+      "file": "1790261469_6731.jsonl",
+      "sha256": "f5ac4cb20ed1653aaa451e66ddb00900124cfb4f46801e730f2de548e6cc7d24",
+      "records": 2231,
+      "action_attempts": 411,
+      "readiness_hints": 0,
+      "hints_with_scope_blockers": 0,
+      "records_with_empty_slots": 1398
+    }
+  ],
+  "totals": {
+    "records": 65820,
+    "action_attempts": 12134,
+    "readiness_hints": 0,
+    "hints_with_scope_blockers": 0,
+    "records_with_empty_slots": 49853
+  },
+  "floor_record_counts": {
+    "1": 839,
+    "2": 855,
+    "3": 874,
+    "4": 861,
+    "5": 849,
+    "6": 888,
+    "7": 1232,
+    "8": 1004,
+    "9": 1815,
+    "10": 2164,
+    "11": 1516,
+    "12": 1502,
+    "13": 998,
+    "14": 1512,
+    "15": 1273,
+    "16": 1629,
+    "17": 1177,
+    "18": 1100,
+    "19": 1361,
+    "20": 42371
+  },
+  "limits": "Readiness hints are not verified legal decision points. No GameState adapter, recommendation, or live UI tested."
+}

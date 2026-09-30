@@ -1,0 +1,7 @@
+{
+  "heuristic_1000_all_episode_metrics_equal": true,
+  "references": [
+    "logs/reused/heuristic-20260923T143837784452Z/episodes.csv",
+    "logs/reused/heuristic-20260923T152152145862Z/episodes.csv"
+  ]
+}

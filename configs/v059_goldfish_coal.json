@@ -1,0 +1,12 @@
+{
+  "environment": {"floor": 1, "rent_reward": 20, "death_reward": -100, "win_reward": 500, "max_decisions": 10000, "rule_version": "instance-goldfish-v1"},
+  "baseline_run": "logs/reused/heuristic-20260923T152721958253Z",
+  "seed_start": 0,
+  "games": 10000,
+  "workers": 2,
+  "baseline_coal_adjustment": 0.0,
+  "candidate_coal_adjustment": -1.2,
+  "bootstrap_seed": 57,
+  "bootstrap_samples": 2000,
+  "scope": "Development only; one prespecified candidate; no default promotion"
+}

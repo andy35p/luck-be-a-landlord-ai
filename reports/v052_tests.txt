@@ -1,0 +1,7 @@
+...............................................................................................................................................................................................................................C:\Users\14489\Documents\ChatGPT\���˷���\.venv-model\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+...........................................................................................................................
+----------------------------------------------------------------------
+Ran 346 tests in 8.658s
+
+OK

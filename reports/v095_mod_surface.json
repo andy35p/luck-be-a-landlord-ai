@@ -1,0 +1,11 @@
+{
+  "scope": "Read-only facts about installed text scene; no loader bypass or Workshop upload",
+  "main_scene_sha256": "8fc8547be296d731a504ad42fa3241443a79d7ba12827731063d1ca43957400a",
+  "reference_matches": false,
+  "has_mod_validator": true,
+  "empty_function_allowlist": true,
+  "init_exception_present": true,
+  "rejects_unknown_assignments": true,
+  "validator_call_sites": 2,
+  "implication": "Installed loader restrictions block current polling/file-I/O/overlay implementation through the ordinary mod entry"
+}

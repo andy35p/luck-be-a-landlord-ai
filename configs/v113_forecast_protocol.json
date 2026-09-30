@@ -1,0 +1,16 @@
+{
+  "rule_version": "instance-magpie-v1",
+  "floor": 1,
+  "baseline": "heuristic",
+  "candidate": "forecast",
+  "trials": 8,
+  "forecast_seed": 20270927,
+  "seed_start": 4000,
+  "games": 200,
+  "primary_metric": "paired mean rent stages",
+  "interval": "normal 95% paired differences",
+  "success_gate": "stage interval lower bound > 0; candidate win rate >= baseline; no truncations",
+  "promotion": "Research evidence only; no live/default/training promotion",
+  "no_optional_stopping": true,
+  "no_parameter_sweep": true
+}

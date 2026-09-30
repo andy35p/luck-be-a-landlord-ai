@@ -1,0 +1,67 @@
+{
+  "version": "v148-checkpoint-selection-v1",
+  "frozen_before_training": true,
+  "source_dataset": "logs/v128-magpie-shards",
+  "test_metrics": "SEALED; test shards and manifest entries must not be read",
+  "episode_split_algorithm": "sort train episode ids by sha256(v148-episode-split-v1:split_seed:episode_id); first 8 selection, remaining 24 fit",
+  "train_episode_ids": [9000, 9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010, 9011, 9012, 9013, 9014, 9015, 9016, 9017, 9018, 9019, 9020, 9021, 9022, 9023, 9024, 9025, 9026, 9027, 9028, 9029, 9030, 9031],
+  "development_validation_episode_ids": [10000, 10001, 10002, 10003, 10004, 10005, 10006, 10007],
+  "splits": [
+    {
+      "name": "primary-a",
+      "split_seed": 148001,
+      "fit_episode_ids": [9001, 9002, 9003, 9004, 9006, 9007, 9008, 9009, 9010, 9011, 9012, 9013, 9014, 9017, 9018, 9019, 9020, 9021, 9022, 9023, 9024, 9025, 9027, 9029],
+      "selection_episode_ids": [9000, 9005, 9015, 9016, 9026, 9028, 9030, 9031],
+      "training_seeds": [123, 456, 789, 24680, 13579],
+      "role": "primary"
+    },
+    {
+      "name": "robustness-b",
+      "split_seed": 148002,
+      "fit_episode_ids": [9000, 9001, 9002, 9003, 9005, 9006, 9009, 9010, 9011, 9012, 9013, 9014, 9015, 9017, 9018, 9020, 9021, 9022, 9025, 9026, 9027, 9028, 9029, 9030],
+      "selection_episode_ids": [9004, 9007, 9008, 9016, 9019, 9023, 9024, 9031],
+      "training_seeds": [123, 456, 789],
+      "role": "secondary_split_robustness"
+    },
+    {
+      "name": "robustness-c",
+      "split_seed": 148003,
+      "fit_episode_ids": [9000, 9001, 9002, 9003, 9004, 9005, 9006, 9009, 9010, 9011, 9012, 9016, 9017, 9018, 9019, 9021, 9022, 9023, 9024, 9025, 9026, 9027, 9029, 9030],
+      "selection_episode_ids": [9007, 9008, 9013, 9014, 9015, 9020, 9028, 9031],
+      "training_seeds": [123, 456, 789],
+      "role": "secondary_split_robustness"
+    }
+  ],
+  "model": {
+    "width": 16,
+    "expected_parameters": 28785,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 64,
+    "loss": "candidate cross entropy over FIT multi-candidate decisions only",
+    "gradient_clip_norm": 1.0,
+    "scheduler": null,
+    "scaler": "z-score fit on every transition from FIT episodes only; selection and development validation excluded"
+  },
+  "candidate_checkpoints": [200, 300, 400, 500, 600, 750, 1000],
+  "primary_selection_metric": "SELECTION symbol cross entropy",
+  "primary_selection_rule": "minimum selection symbol CE; exact tie selects earlier checkpoint",
+  "secondary_selection_metric": "SELECTION symbol top1; exact tie selects earlier checkpoint",
+  "audit_primary_metric": "development validation symbol top1 teacher agreement",
+  "fixed_comparators": [200, 300, 500],
+  "regret_oracle": "highest development validation symbol top1 among pre-registered checkpoints; diagnostic only; tie selects earlier checkpoint",
+  "primary_success_gate": {
+    "ce_selected_mean_top1_delta_vs_fixed500_min_pp": 0.0,
+    "ce_selected_non_materially_worse_seed_count_min": 4,
+    "per_seed_non_materially_worse_tolerance_pp": 0.5,
+    "mean_validation_ce_delta_vs_fixed500_max": 0.0,
+    "mean_teacher_rank_delta_vs_fixed500_max": 0.0,
+    "mean_high_confidence_wrong_delta_vs_fixed500_max": 0.0,
+    "selected_at_1000_count_max": 2
+  },
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 1482026,
+  "online_smoke": "NOT APPLICABLE",
+  "full_train_refit": "forbidden in V148"
+}

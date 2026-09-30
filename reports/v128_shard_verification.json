@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "episodes": 48,
+  "transitions_by_split": {
+    "train": 11755,
+    "validation": 3149,
+    "test": 2985
+  },
+  "train_decisions_by_phase": {
+    "symbol": 2843,
+    "item": 351,
+    "remove": 655
+  },
+  "test_outcomes_inspected": false
+}

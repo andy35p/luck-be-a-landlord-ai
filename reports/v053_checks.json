@@ -1,0 +1,21 @@
+{
+  "new_trace": {
+    "episodes": 10,
+    "transitions": 2014,
+    "exact_replay": true
+  },
+  "episodes_read": 10,
+  "old_traces": {
+    "instance-milk-v1": {
+      "episodes": 10,
+      "transitions": 709,
+      "exact_replay": true
+    },
+    "instance-cheese-v1": {
+      "episodes": 10,
+      "transitions": 1416,
+      "exact_replay": true
+    }
+  },
+  "cheese_100_games_equal": true
+}

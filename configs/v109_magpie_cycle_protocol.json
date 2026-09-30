@@ -1,0 +1,11 @@
+{
+  "rule_version": "instance-magpie-v1",
+  "baseline": "heuristic",
+  "candidate": "heuristic_magpie_cycle",
+  "development_seeds": [0, 999],
+  "holdout_seeds_if_promising": [1000, 1999],
+  "primary_metric": "paired mean completed rent stages",
+  "secondary_metrics": ["win rate", "truncated games", "decisions differing"],
+  "promotion": "No default/live/training promotion from development alone. Run fixed holdout only if development improves stage mean without truncation or win-rate regression.",
+  "assumptions": "Fixed inventory independent appearance probability; excludes future choices and capacity displacement. No parameter sweep."
+}

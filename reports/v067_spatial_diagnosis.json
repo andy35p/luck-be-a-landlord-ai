@@ -1,0 +1,1305 @@
+{
+  "checkpoint_sha256": "7514a2ee0609820803d1a2f280fd3a7d8030bbafb6afc461122f4ffdf656a3e1",
+  "offline_test": {
+    "by_phase": {
+      "symbol": {
+        "exact": 998,
+        "equal_teacher_score": 173,
+        "model_skips_teacher_pick": 40,
+        "model_picks_teacher_skip": 11,
+        "lower_teacher_score": 42
+      },
+      "item": {
+        "exact": 141,
+        "different_item": 23
+      },
+      "remove": {
+        "exact": 66,
+        "different_removal_target": 4
+      }
+    },
+    "by_stage": {
+      "0": {
+        "exact": 58,
+        "equal_teacher_score": 30
+      },
+      "1": {
+        "equal_teacher_score": 37,
+        "exact": 86,
+        "lower_teacher_score": 9
+      },
+      "2": {
+        "exact": 111,
+        "equal_teacher_score": 35,
+        "lower_teacher_score": 8
+      },
+      "3": {
+        "exact": 171,
+        "equal_teacher_score": 24,
+        "different_item": 4,
+        "lower_teacher_score": 3,
+        "different_removal_target": 4
+      },
+      "4": {
+        "exact": 135,
+        "different_item": 3,
+        "equal_teacher_score": 29,
+        "model_skips_teacher_pick": 5,
+        "model_picks_teacher_skip": 5,
+        "lower_teacher_score": 4
+      },
+      "5": {
+        "exact": 125,
+        "equal_teacher_score": 13,
+        "different_item": 2,
+        "model_picks_teacher_skip": 5,
+        "model_skips_teacher_pick": 6,
+        "lower_teacher_score": 6
+      },
+      "6": {
+        "exact": 91,
+        "model_skips_teacher_pick": 6,
+        "lower_teacher_score": 4,
+        "different_item": 4,
+        "equal_teacher_score": 3
+      },
+      "7": {
+        "exact": 77,
+        "model_skips_teacher_pick": 2,
+        "equal_teacher_score": 2
+      },
+      "8": {
+        "exact": 74,
+        "different_item": 4,
+        "model_skips_teacher_pick": 1,
+        "lower_teacher_score": 1
+      },
+      "9": {
+        "exact": 77,
+        "model_skips_teacher_pick": 2,
+        "lower_teacher_score": 1
+      },
+      "10": {
+        "exact": 65,
+        "model_picks_teacher_skip": 1,
+        "model_skips_teacher_pick": 6,
+        "different_item": 2,
+        "lower_teacher_score": 3
+      },
+      "11": {
+        "exact": 68,
+        "lower_teacher_score": 3,
+        "model_skips_teacher_pick": 4,
+        "different_item": 2
+      },
+      "12": {
+        "exact": 67,
+        "model_skips_teacher_pick": 8,
+        "different_item": 2
+      }
+    },
+    "first_30_disagreements": [
+      {
+        "seed": 11,
+        "step": 6,
+        "phase": "symbol",
+        "stage": 0,
+        "deck_size": 6,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cat"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "milk"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 10,
+        "phase": "symbol",
+        "stage": 0,
+        "deck_size": 7,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "goldfish"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cheese"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 18,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 9,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "goldfish"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 23,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 10,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "present"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 44,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "milk"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "coin"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 60,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "present"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 91,
+        "phase": "item",
+        "stage": 4,
+        "deck_size": 16,
+        "category": "different_item",
+        "teacher": {
+          "action_type": 2,
+          "secondary_target_id": null,
+          "target_id": "undertaker"
+        },
+        "model": {
+          "action_type": 2,
+          "secondary_target_id": null,
+          "target_id": "time_machine"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 94,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "goldfish"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 98,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 16,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cat"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 123,
+        "phase": "symbol",
+        "stage": 5,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cherry"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 160,
+        "phase": "symbol",
+        "stage": 6,
+        "deck_size": 23,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        }
+      },
+      {
+        "seed": 11,
+        "step": 215,
+        "phase": "item",
+        "stage": 8,
+        "deck_size": 27,
+        "category": "different_item",
+        "teacher": {
+          "action_type": 2,
+          "secondary_target_id": null,
+          "target_id": "undertaker"
+        },
+        "model": {
+          "action_type": 2,
+          "secondary_target_id": null,
+          "target_id": "time_machine"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 222,
+        "phase": "symbol",
+        "stage": 8,
+        "deck_size": 28,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        }
+      },
+      {
+        "seed": 11,
+        "step": 308,
+        "phase": "symbol",
+        "stage": 10,
+        "deck_size": 33,
+        "category": "model_picks_teacher_skip",
+        "teacher": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 361,
+        "phase": "symbol",
+        "stage": 11,
+        "deck_size": 41,
+        "category": "lower_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cheese"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "spirit"
+        }
+      },
+      {
+        "seed": 11,
+        "step": 374,
+        "phase": "symbol",
+        "stage": 12,
+        "deck_size": 41,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        }
+      },
+      {
+        "seed": 11,
+        "step": 390,
+        "phase": "symbol",
+        "stage": 12,
+        "deck_size": 42,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        }
+      },
+      {
+        "seed": 11,
+        "step": 406,
+        "phase": "symbol",
+        "stage": 12,
+        "deck_size": 45,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 1,
+          "secondary_target_id": null,
+          "target_id": null
+        }
+      },
+      {
+        "seed": 33,
+        "step": 2,
+        "phase": "symbol",
+        "stage": 0,
+        "deck_size": 5,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "pearl"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "coin"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 10,
+        "phase": "symbol",
+        "stage": 0,
+        "deck_size": 7,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cherry"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cat"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 18,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 8,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cherry"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 35,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 13,
+        "category": "lower_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cheese"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 52,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 12,
+        "category": "lower_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "mouse"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cheese"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 73,
+        "phase": "symbol",
+        "stage": 3,
+        "deck_size": 11,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "milk"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 77,
+        "phase": "symbol",
+        "stage": 3,
+        "deck_size": 11,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "cat"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 85,
+        "phase": "symbol",
+        "stage": 3,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "present"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 89,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "goldfish"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 94,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "milk"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 118,
+        "phase": "symbol",
+        "stage": 5,
+        "deck_size": 11,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "pearl"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "milk"
+        }
+      },
+      {
+        "seed": 33,
+        "step": 131,
+        "phase": "symbol",
+        "stage": 5,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "coin"
+        },
+        "model": {
+          "action_type": 0,
+          "secondary_target_id": null,
+          "target_id": "bar_of_soap"
+        }
+      }
+    ]
+  },
+  "online_own_states": {
+    "by_phase": {
+      "symbol": {
+        "exact": 2973,
+        "equal_teacher_score": 813,
+        "lower_teacher_score": 174,
+        "model_skips_teacher_pick": 96,
+        "model_picks_teacher_skip": 21
+      },
+      "item": {
+        "exact": 503,
+        "different_item": 50
+      },
+      "remove": {
+        "exact": 386,
+        "different_removal_target": 22
+      }
+    },
+    "by_stage": {
+      "0": {
+        "exact": 263,
+        "equal_teacher_score": 126,
+        "lower_teacher_score": 11
+      },
+      "1": {
+        "equal_teacher_score": 132,
+        "exact": 439,
+        "lower_teacher_score": 29
+      },
+      "2": {
+        "equal_teacher_score": 154,
+        "exact": 493,
+        "lower_teacher_score": 38,
+        "model_picks_teacher_skip": 1
+      },
+      "3": {
+        "equal_teacher_score": 127,
+        "exact": 723,
+        "different_item": 13,
+        "lower_teacher_score": 28,
+        "different_removal_target": 22,
+        "model_picks_teacher_skip": 1
+      },
+      "4": {
+        "exact": 554,
+        "equal_teacher_score": 144,
+        "different_item": 14,
+        "lower_teacher_score": 17,
+        "model_skips_teacher_pick": 7,
+        "model_picks_teacher_skip": 6
+      },
+      "5": {
+        "exact": 453,
+        "equal_teacher_score": 88,
+        "lower_teacher_score": 15,
+        "model_skips_teacher_pick": 20,
+        "different_item": 4,
+        "model_picks_teacher_skip": 1
+      },
+      "6": {
+        "model_skips_teacher_pick": 27,
+        "exact": 267,
+        "equal_teacher_score": 36,
+        "different_item": 8,
+        "model_picks_teacher_skip": 5,
+        "lower_teacher_score": 10
+      },
+      "7": {
+        "exact": 142,
+        "model_picks_teacher_skip": 4,
+        "equal_teacher_score": 6,
+        "different_item": 2,
+        "model_skips_teacher_pick": 13,
+        "lower_teacher_score": 3
+      },
+      "8": {
+        "exact": 105,
+        "model_skips_teacher_pick": 5,
+        "lower_teacher_score": 7,
+        "model_picks_teacher_skip": 2,
+        "different_item": 1
+      },
+      "9": {
+        "exact": 105,
+        "model_skips_teacher_pick": 9,
+        "lower_teacher_score": 3,
+        "different_item": 2,
+        "model_picks_teacher_skip": 1
+      },
+      "10": {
+        "exact": 109,
+        "model_skips_teacher_pick": 6,
+        "lower_teacher_score": 4,
+        "different_item": 2
+      },
+      "11": {
+        "exact": 112,
+        "model_skips_teacher_pick": 4,
+        "lower_teacher_score": 2,
+        "different_item": 3
+      },
+      "12": {
+        "exact": 97,
+        "model_skips_teacher_pick": 5,
+        "lower_teacher_score": 7,
+        "different_item": 1
+      }
+    },
+    "first_30_disagreements": [
+      {
+        "seed": 1000,
+        "step": 18,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 8,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "present",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 27,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 11,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "present",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 31,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 35,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 16,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 39,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "pearl",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 44,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "present",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 48,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cherry",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 52,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 15,
+        "category": "lower_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "mouse",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "coal",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 60,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "coin",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 64,
+        "phase": "symbol",
+        "stage": 3,
+        "deck_size": 15,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 66,
+        "phase": "item",
+        "stage": 3,
+        "deck_size": 15,
+        "category": "different_item",
+        "teacher": {
+          "action_type": 2,
+          "target_id": "undertaker",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 2,
+          "target_id": "time_machine",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 77,
+        "phase": "symbol",
+        "stage": 3,
+        "deck_size": 16,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "pearl",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 106,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 16,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "milk",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 147,
+        "phase": "symbol",
+        "stage": 6,
+        "deck_size": 18,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "mouse",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 1,
+          "target_id": null,
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 168,
+        "phase": "symbol",
+        "stage": 6,
+        "deck_size": 19,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 1,
+          "target_id": null,
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 176,
+        "phase": "symbol",
+        "stage": 6,
+        "deck_size": 19,
+        "category": "model_skips_teacher_pick",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "milk",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 1,
+          "target_id": null,
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1000,
+        "step": 189,
+        "phase": "symbol",
+        "stage": 7,
+        "deck_size": 20,
+        "category": "model_picks_teacher_skip",
+        "teacher": {
+          "action_type": 1,
+          "target_id": null,
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "mouse",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 23,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 9,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "coin",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 31,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 13,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "pearl",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 44,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "flower",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 48,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 52,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cherry",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 60,
+        "phase": "symbol",
+        "stage": 2,
+        "deck_size": 16,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "flower",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 89,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 14,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cherry",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 110,
+        "phase": "symbol",
+        "stage": 4,
+        "deck_size": 13,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "milk",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 131,
+        "phase": "symbol",
+        "stage": 5,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 172,
+        "phase": "symbol",
+        "stage": 6,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "bar_of_soap",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1001,
+        "step": 180,
+        "phase": "symbol",
+        "stage": 7,
+        "deck_size": 17,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "present",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "goldfish",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1002,
+        "step": 2,
+        "phase": "symbol",
+        "stage": 0,
+        "deck_size": 5,
+        "category": "equal_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "cat",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "cheese",
+          "secondary_target_id": null
+        }
+      },
+      {
+        "seed": 1002,
+        "step": 18,
+        "phase": "symbol",
+        "stage": 1,
+        "deck_size": 9,
+        "category": "lower_teacher_score",
+        "teacher": {
+          "action_type": 0,
+          "target_id": "mouse",
+          "secondary_target_id": null
+        },
+        "model": {
+          "action_type": 0,
+          "target_id": "bubble",
+          "secondary_target_id": null
+        }
+      }
+    ]
+  },
+  "replay": {
+    "episodes": 100,
+    "transitions": 16961,
+    "exact_replay": true
+  },
+  "online_rows_exact": true,
+  "trajectory": "logs\\spatial-diagnosis-v067\\model_with_teacher.jsonl.gz",
+  "trajectory_sha256": "b5bb9856e7d2edc6c4595632558197f1ecbba07771ae124674c4431899c40b9f",
+  "training_updates": 0,
+  "limits": "Heuristic scores are preferences, not action values; own-state labels are diagnostic development data, not automatically training data."
+}

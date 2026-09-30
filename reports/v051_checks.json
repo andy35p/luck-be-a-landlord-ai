@@ -1,0 +1,8 @@
+{
+  "time_backend_100_games_equal": true,
+  "cheese_replay": {
+    "episodes": 10,
+    "transitions": 1416,
+    "exact_replay": true
+  }
+}

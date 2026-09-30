@@ -1,0 +1,16 @@
+{
+  "dataset": "logs/spatial-dataset-v063",
+  "scaler": "logs/spatial-preprocessing-v064/scaler.json",
+  "initial_checkpoint": "logs/spatial-model-v065/untrained.pt",
+  "initial_checkpoint_sha256": "cd84e955d0c4176a348cc526e4f359534e6035fb70ab90dd77bee8e3d86cc715",
+  "policies": ["heuristic"],
+  "epochs": 3,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "gradient_clip": 1.0,
+  "shuffle_seed": 66,
+  "online_seed_start": 1000,
+  "online_games": 100,
+  "selection": "Final epoch only; no hyperparameter search or checkpoint selection",
+  "scope": "Development smoke training, not independent holdout validation"
+}

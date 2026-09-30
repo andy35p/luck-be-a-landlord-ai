@@ -1,0 +1,51 @@
+{
+  "scope": "Restricted simulator research; fixed inventory score approximation, no live promotion",
+  "rule_identity": {
+    "rule_version": "instance-magpie-v1",
+    "revision": 1
+  },
+  "seed_start": 1000,
+  "games": 1000,
+  "stage_difference": {
+    "mean": 0.086,
+    "normal_95_interval": [
+      -0.07471196054015602,
+      0.246711960540156
+    ],
+    "improved": 138,
+    "equal": 709,
+    "worse": 153
+  },
+  "win_difference": {
+    "mean": 0.021,
+    "normal_95_interval": [
+      0.001531993998931027,
+      0.04046800600106898
+    ],
+    "improved": 60,
+    "equal": 901,
+    "worse": 39
+  },
+  "baseline": {
+    "stage": 6.545,
+    "win_rate": 0.182,
+    "truncated": 0
+  },
+  "cycle": {
+    "stage": 6.631,
+    "win_rate": 0.203,
+    "truncated": 0
+  },
+  "candidate_state_disagreements": {
+    "all": 204340,
+    "different": 811,
+    "symbol_choices": 49228,
+    "different_symbol_choices": 811
+  },
+  "seconds": [
+    18.696494700000017,
+    22.35762740000007
+  ],
+  "interval_method": "Normal approximation on paired per-seed differences; exploratory, not a promotion guarantee",
+  "full_manifest": "logs/v109-holdout/comparison.json"
+}

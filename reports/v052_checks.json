@@ -1,0 +1,19 @@
+{
+  "instance-milk-v1": {
+    "episodes": 10,
+    "transitions": 709,
+    "exact_replay": true,
+    "episodes_read": 10
+  },
+  "instance-cheese-v1": {
+    "episodes": 10,
+    "transitions": 1416,
+    "exact_replay": true,
+    "episodes_read": 10
+  },
+  "historical_coal": {
+    "episodes": 100,
+    "transitions": 6757,
+    "exact_replay": true
+  }
+}

@@ -1,0 +1,2514 @@
+{
+  "version": "V144 Reroll Value Calibration",
+  "training_updates": 0,
+  "tests": {
+    "count": 531,
+    "passed": true
+  },
+  "frozen_assets_verified": 421,
+  "opportunities": 1369,
+  "selected": 125,
+  "rejected": 1244,
+  "immediate": {
+    "0": {
+      "n": 125,
+      "correlation": null,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "bias": 0.0
+    },
+    "1": {
+      "n": 125,
+      "correlation": 0.4421235843010036,
+      "mae": 0.2563613986384952,
+      "rmse": 0.34200311223548974,
+      "bias": -0.09158695927128427
+    },
+    "2": {
+      "n": 125,
+      "correlation": 0.6309166038886269,
+      "mae": 44.765902120539074,
+      "rmse": 61.198026171000436,
+      "bias": 7.4874293258297255
+    },
+    "observed_sign_accuracy": 0.704,
+    "cost_adjusted_sign_accuracy": 0.536,
+    "gross_offer_gain_component_errors": {
+      "0": {
+        "n": 125,
+        "correlation": null,
+        "mae": 0,
+        "rmse": 0.0,
+        "bias": 0
+      },
+      "1": {
+        "n": 125,
+        "correlation": 0.43875006706975195,
+        "mae": 0.2599375,
+        "rmse": 0.3319678248245604,
+        "bias": -0.0346875
+      },
+      "2": {
+        "n": 125,
+        "correlation": 0.6311903308407438,
+        "mae": 44.778375,
+        "rmse": 61.238596132259595,
+        "bias": 7.942625
+      }
+    }
+  },
+  "sampling_stability": {
+    "8": {
+      "n": 1369,
+      "sign_flip_rate": 0.013878743608473338,
+      "selected_positive_to_negative": 13,
+      "selected_n": 125,
+      "hot_ms": 2.525808400287565,
+      "cold_plus_hot_ms": 206.7846775018211
+    },
+    "16": {
+      "n": 1369,
+      "sign_flip_rate": 0,
+      "selected_positive_to_negative": 0,
+      "selected_n": 125,
+      "hot_ms": 3.2556479181832554,
+      "cold_plus_hot_ms": 207.5145170197168
+    },
+    "32": {
+      "n": 1369,
+      "sign_flip_rate": 0.006574141709276844,
+      "selected_positive_to_negative": 1,
+      "selected_n": 125,
+      "hot_ms": 5.133476040908354,
+      "cold_plus_hot_ms": 209.3923451424419
+    },
+    "64": {
+      "n": 1369,
+      "sign_flip_rate": 0.006574141709276844,
+      "selected_positive_to_negative": 0,
+      "selected_n": 125,
+      "hot_ms": 9.026320160707147,
+      "cold_plus_hot_ms": 213.2851892622407
+    },
+    "128": {
+      "n": 1369,
+      "sign_flip_rate": 0.01095690284879474,
+      "selected_positive_to_negative": 4,
+      "selected_n": 125,
+      "hot_ms": 16.974520891158402,
+      "cold_plus_hot_ms": 221.23338999269194
+    }
+  },
+  "calibration_table": [
+    {
+      "bucket": "axis0_moderate_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 1,
+      "final_stage": 11,
+      "win_rate": 0,
+      "mean_std": [
+        0.18602938905922903,
+        0.18602938905922903,
+        74.61723248873108
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": -9.40625
+    },
+    {
+      "bucket": "axis0_near_zero_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 1,
+      "final_stage": 11,
+      "win_rate": 0,
+      "mean_std": [
+        0.05412658773652741,
+        0.05412658773652741,
+        16.533339600920772
+      ],
+      "cf_states": 1,
+      "cf_stage": 0.125,
+      "cf_reward": 9.84375
+    },
+    {
+      "bucket": "axis0_strong_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 1,
+      "final_stage": 10,
+      "win_rate": 0,
+      "mean_std": [
+        0.3630921887069453,
+        0.3630921887069453,
+        163.02493937853495
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": -0.0625
+    },
+    {
+      "bucket": "axis1_moderate_negative",
+      "count": 236,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 0.9915254237288136,
+      "final_stage": 12.110169491525424,
+      "win_rate": 0.5805084745762712,
+      "mean_std": [
+        0.0,
+        0.004375124604247562,
+        23.06540438743787
+      ],
+      "cf_states": 2,
+      "cf_stage": 0.0625,
+      "cf_reward": 46.203125
+    },
+    {
+      "bucket": "axis1_moderate_positive",
+      "count": 41,
+      "reroll_rate": 1,
+      "immediate_n": 41,
+      "immediate_improve": 0.6585365853658537,
+      "sign_stability": 1,
+      "final_stage": 11.902439024390244,
+      "win_rate": 0.5365853658536586,
+      "mean_std": [
+        0.0,
+        0.2796669386637919,
+        43.08259751118306
+      ],
+      "cf_states": 2,
+      "cf_stage": -0.390625,
+      "cf_reward": -77.0
+    },
+    {
+      "bucket": "axis1_near_zero_negative",
+      "count": 593,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 0.9898819561551433,
+      "final_stage": 11.962900505902192,
+      "win_rate": 0.5025295109612141,
+      "mean_std": [
+        0.0,
+        0.0031689273478742934,
+        16.40727862544475
+      ],
+      "cf_states": 2,
+      "cf_stage": -0.078125,
+      "cf_reward": 4.296875
+    },
+    {
+      "bucket": "axis1_near_zero_positive",
+      "count": 41,
+      "reroll_rate": 1,
+      "immediate_n": 41,
+      "immediate_improve": 0.6341463414634146,
+      "sign_stability": 0.926829268292683,
+      "final_stage": 12.365853658536585,
+      "win_rate": 0.7317073170731707,
+      "mean_std": [
+        0.0,
+        0.22060038575196958,
+        27.888502474752897
+      ],
+      "cf_states": 2,
+      "cf_stage": 0.078125,
+      "cf_reward": 138.9375
+    },
+    {
+      "bucket": "axis1_strong_negative",
+      "count": 409,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 0.9975550122249389,
+      "final_stage": 11.95843520782396,
+      "win_rate": 0.530562347188264,
+      "mean_std": [
+        0.0,
+        0.09430443366577876,
+        27.90284588627163
+      ],
+      "cf_states": 2,
+      "cf_stage": 0.21875,
+      "cf_reward": -27.25
+    },
+    {
+      "bucket": "axis1_strong_positive",
+      "count": 40,
+      "reroll_rate": 1,
+      "immediate_n": 40,
+      "immediate_improve": 0.85,
+      "sign_stability": 1,
+      "final_stage": 12.025,
+      "win_rate": 0.45,
+      "mean_std": [
+        0.0,
+        0.37924991197726093,
+        75.70680481072341
+      ],
+      "cf_states": 2,
+      "cf_stage": -0.03125,
+      "cf_reward": -25.359375
+    },
+    {
+      "bucket": "axis2_moderate_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 0,
+      "final_stage": 12,
+      "win_rate": 0,
+      "mean_std": [
+        0.0,
+        0.24206145913796356,
+        47.117971852408665
+      ],
+      "cf_states": 1,
+      "cf_stage": -0.25,
+      "cf_reward": -68.5
+    },
+    {
+      "bucket": "axis2_moderate_positive",
+      "count": 1,
+      "reroll_rate": 1,
+      "immediate_n": 1,
+      "immediate_improve": 0,
+      "sign_stability": 1,
+      "final_stage": 13,
+      "win_rate": 1,
+      "mean_std": [
+        0.0,
+        0.0,
+        12.284619051251651
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": 11.9375
+    },
+    {
+      "bucket": "axis2_near_zero_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 0,
+      "final_stage": 13,
+      "win_rate": 1,
+      "mean_std": [
+        0.0,
+        0.0,
+        0.7806247497997998
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": 23.34375
+    },
+    {
+      "bucket": "axis2_near_zero_positive",
+      "count": 1,
+      "reroll_rate": 1,
+      "immediate_n": 1,
+      "immediate_improve": 0,
+      "sign_stability": 0,
+      "final_stage": 13,
+      "win_rate": 1,
+      "mean_std": [
+        0.0,
+        0.0,
+        8.54288569489805
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": -12.65625
+    },
+    {
+      "bucket": "axis2_strong_negative",
+      "count": 1,
+      "reroll_rate": 0,
+      "immediate_n": 0,
+      "immediate_improve": null,
+      "sign_stability": 1,
+      "final_stage": 13,
+      "win_rate": 1,
+      "mean_std": [
+        0.0,
+        0.0,
+        9.475283946108158
+      ],
+      "cf_states": 1,
+      "cf_stage": 0,
+      "cf_reward": 17.40625
+    },
+    {
+      "bucket": "axis2_strong_positive",
+      "count": 1,
+      "reroll_rate": 1,
+      "immediate_n": 1,
+      "immediate_improve": 1,
+      "sign_stability": 1,
+      "final_stage": 12,
+      "win_rate": 0,
+      "mean_std": [
+        0.0,
+        0.24803918541230538,
+        24.00742479551899
+      ],
+      "cf_states": 0,
+      "cf_stage": null,
+      "cf_reward": null
+    }
+  ],
+  "counterfactual": [
+    {
+      "state_id": "16008-300",
+      "bucket": "axis0_moderate_negative",
+      "pressure": "medium",
+      "tokens": 2,
+      "advantage": [
+        -0.2109375,
+        -0.2183779761904762,
+        84.18266369047615
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11,
+        "branch_b_mean": 11
+      },
+      "reward": {
+        "delta": -9.40625,
+        "ci95": [
+          -39.639518522513995,
+          20.827018522513995
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 14.820229667899017,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 111.5625,
+        "branch_b_mean": 102.15625
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0,
+        "branch_b_mean": 0
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16008-250",
+      "bucket": "axis0_near_zero_negative",
+      "pressure": "medium",
+      "tokens": 2,
+      "advantage": [
+        -0.03125,
+        -0.0411876223091977,
+        6.154874021526439
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0.125,
+        "ci95": [
+          -0.11517382817854133,
+          0.3651738281785413
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.11773226871497124,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 10.6875,
+        "branch_b_mean": 10.8125
+      },
+      "reward": {
+        "delta": 9.84375,
+        "ci95": [
+          -33.251881228675416,
+          52.939381228675416
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 21.125309425821282,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 283.125,
+        "branch_b_mean": 292.96875
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0,
+        "branch_b_mean": 0
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16014-268",
+      "bucket": "axis0_strong_negative",
+      "pressure": "medium",
+      "tokens": 1,
+      "advantage": [
+        -0.28125,
+        -0.30514705882352944,
+        126.05882352941177
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 10,
+        "branch_b_mean": 10
+      },
+      "reward": {
+        "delta": -0.0625,
+        "ci95": [
+          -31.563957195557613,
+          31.438957195557613
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 15.441890782136085,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 53.875,
+        "branch_b_mean": 53.8125
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0,
+        "branch_b_mean": 0
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16063-181",
+      "bucket": "axis1_moderate_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.05208333333333326,
+        11.395833333333314
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0.0,
+        "ci95": [
+          -0.15103373635095252,
+          0.15103373635095252
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.07403614527007477,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.90625,
+        "branch_b_mean": 12.90625
+      },
+      "reward": {
+        "delta": -4.125,
+        "ci95": [
+          -137.7364001057007,
+          129.4864001057007
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 65.49578436553956,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 492.21875,
+        "branch_b_mean": 488.09375
+      },
+      "win": {
+        "delta": 0.0,
+        "ci95": [
+          -0.15103373635095252,
+          0.15103373635095252
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.07403614527007477,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.90625,
+        "branch_b_mean": 0.90625
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16020-148",
+      "bucket": "axis1_moderate_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.0625,
+        27.5625
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0.125,
+        "ci95": [
+          -0.5896753718274992,
+          0.8396753718274992
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.35033106462132313,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.6875,
+        "branch_b_mean": 11.8125
+      },
+      "reward": {
+        "delta": 96.53125,
+        "ci95": [
+          -27.73136154658313,
+          220.79386154658312
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 60.913044875776045,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 329.53125,
+        "branch_b_mean": 426.0625
+      },
+      "win": {
+        "delta": 0.03125,
+        "ci95": [
+          -0.22452000678532996,
+          0.28702000678532996
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.1253774543065343,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.40625,
+        "branch_b_mean": 0.4375
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16032-64",
+      "bucket": "axis1_moderate_positive",
+      "pressure": "medium",
+      "tokens": 2,
+      "advantage": [
+        0.0,
+        0.17902542372881358,
+        -18.005296610169495
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": -0.375,
+        "ci95": [
+          -1.152746628760541,
+          0.4027466287605411
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.3812483474316378,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.84375,
+        "branch_b_mean": 11.46875
+      },
+      "reward": {
+        "delta": -104.6875,
+        "ci95": [
+          -235.11208051116017,
+          25.737080511160173
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 63.93361789762753,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 824.46875,
+        "branch_b_mean": 719.78125
+      },
+      "win": {
+        "delta": -0.09375,
+        "ci95": [
+          -0.34849281385286895,
+          0.16099281385286895
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.12487392835924947,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.46875,
+        "branch_b_mean": 0.375
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16060-123",
+      "bucket": "axis1_moderate_positive",
+      "pressure": "low",
+      "tokens": 2,
+      "advantage": [
+        0.0,
+        0.19791666666666674,
+        -52.322916666666686
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": -0.40625,
+        "ci95": [
+          -1.0992253739864157,
+          0.28672537398641584
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.3396938107776548,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 10.375,
+        "branch_b_mean": 9.96875
+      },
+      "reward": {
+        "delta": -49.3125,
+        "ci95": [
+          -129.29040117533273,
+          30.665401175332732
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 39.20485351731997,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 326.625,
+        "branch_b_mean": 277.3125
+      },
+      "win": {
+        "delta": -0.03125,
+        "ci95": [
+          -0.14047449322086525,
+          0.07797449322086525
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.05354141824552218,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.0625,
+        "branch_b_mean": 0.03125
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16005-272",
+      "bucket": "axis1_near_zero_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.03125,
+        40.140625
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 13,
+        "branch_b_mean": 13
+      },
+      "reward": {
+        "delta": -1.34375,
+        "ci95": [
+          -141.15221484922859,
+          138.46471484922859
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 68.53356120060225,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 393.5,
+        "branch_b_mean": 392.15625
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16061-223",
+      "bucket": "axis1_near_zero_negative",
+      "pressure": "medium",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.03472222222222232,
+        -7.3793402777777715
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": -0.15625,
+        "ci95": [
+          -0.426960590465764,
+          0.11446059046576401
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.13270126983615882,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.53125,
+        "branch_b_mean": 12.375
+      },
+      "reward": {
+        "delta": 9.9375,
+        "ci95": [
+          -47.269940138125904,
+          67.1449401381259
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 28.042862812806813,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 323.90625,
+        "branch_b_mean": 333.84375
+      },
+      "win": {
+        "delta": -0.125,
+        "ci95": [
+          -0.38153770237907625,
+          0.13153770237907625
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.12575377567601775,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.53125,
+        "branch_b_mean": 0.40625
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16062-157",
+      "bucket": "axis1_near_zero_positive",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0625,
+        -3.0078125
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": 0.03125,
+        "ci95": [
+          -0.07797449322086525,
+          0.14047449322086525
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.05354141824552218,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.9375,
+        "branch_b_mean": 12.96875
+      },
+      "reward": {
+        "delta": 155.125,
+        "ci95": [
+          -23.674822678657506,
+          333.9248226786575
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 87.64697190130269,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 499.1875,
+        "branch_b_mean": 654.3125
+      },
+      "win": {
+        "delta": 0.03125,
+        "ci95": [
+          -0.07797449322086525,
+          0.14047449322086525
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.05354141824552218,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.9375,
+        "branch_b_mean": 0.96875
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16027-78",
+      "bucket": "axis1_near_zero_positive",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.03125,
+        -16.078125
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": 0.125,
+        "ci95": [
+          -0.04864539088093742,
+          0.29864539088093744
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.08512028964751835,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.84375,
+        "branch_b_mean": 12.96875
+      },
+      "reward": {
+        "delta": 122.75,
+        "ci95": [
+          -96.4341331780108,
+          341.9341331780108
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 107.44320253824058,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 983.78125,
+        "branch_b_mean": 1106.53125
+      },
+      "win": {
+        "delta": 0.09375,
+        "ci95": [
+          -0.043170148320577834,
+          0.23067014832057783
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.06711771976498913,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.875,
+        "branch_b_mean": 0.96875
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16011-90",
+      "bucket": "axis1_strong_negative",
+      "pressure": "medium",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.0774793388429752,
+        -2.7135847107438167
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": -0.15625,
+        "ci95": [
+          -1.0970198621170546,
+          0.7845198621170546
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.46116169711620325,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.375,
+        "branch_b_mean": 11.21875
+      },
+      "reward": {
+        "delta": 1.1875,
+        "ci95": [
+          -171.1612146076678,
+          173.5362146076678
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 84.48466402336656,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 618.09375,
+        "branch_b_mean": 619.28125
+      },
+      "win": {
+        "delta": 0.0625,
+        "ci95": [
+          -0.19403770237907625,
+          0.31903770237907625
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.12575377567601775,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.40625,
+        "branch_b_mean": 0.46875
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16011-128",
+      "bucket": "axis1_strong_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        -0.12760416666666674,
+        4.541666666666657
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0.59375,
+        "ci95": [
+          -0.11715494209391208,
+          1.304654942093912
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.34848281475191767,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.375,
+        "branch_b_mean": 11.96875
+      },
+      "reward": {
+        "delta": -55.6875,
+        "ci95": [
+          -263.3011495329222,
+          151.92614953292215
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 101.7713968298638,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 469.25,
+        "branch_b_mean": 413.5625
+      },
+      "win": {
+        "delta": 0.03125,
+        "ci95": [
+          -0.22452000678532996,
+          0.28702000678532996
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.1253774543065343,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.40625,
+        "branch_b_mean": 0.4375
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16015-106",
+      "bucket": "axis1_strong_positive",
+      "pressure": "low",
+      "tokens": 2,
+      "advantage": [
+        0.0,
+        0.3802083333333335,
+        -82.73177083333334
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": 0.09375,
+        "ci95": [
+          -0.4436610485286334,
+          0.6311610485286334
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.26343678849442814,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.9375,
+        "branch_b_mean": 12.03125
+      },
+      "reward": {
+        "delta": 29.75,
+        "ci95": [
+          -59.04351660753312,
+          118.54351660753312
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 43.52623363114368,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 337.5625,
+        "branch_b_mean": 367.3125
+      },
+      "win": {
+        "delta": 0.0,
+        "ci95": [
+          -0.25085338218736203,
+          0.25085338218736203
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.12296734420949118,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.375,
+        "branch_b_mean": 0.375
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16051-81",
+      "bucket": "axis1_strong_positive",
+      "pressure": "low",
+      "tokens": 2,
+      "advantage": [
+        0.0,
+        0.640625,
+        -125.9375
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": -0.15625,
+        "ci95": [
+          -0.7221778617969472,
+          0.4096778617969472
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.2774156185279153,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.4375,
+        "branch_b_mean": 12.28125
+      },
+      "reward": {
+        "delta": -80.46875,
+        "ci95": [
+          -335.9489879536011,
+          175.0114879536011
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 125.23541076156916,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 783.03125,
+        "branch_b_mean": 702.5625
+      },
+      "win": {
+        "delta": 0.0625,
+        "ci95": [
+          -0.1771273568716442,
+          0.30212735687164416
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.117464390623355,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.65625,
+        "branch_b_mean": 0.71875
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16033-148",
+      "bucket": "axis2_moderate_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0,
+        -4.703125
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": -0.25,
+        "ci95": [
+          -0.8462716825028995,
+          0.3462716825028995
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.2922900404425978,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.3125,
+        "branch_b_mean": 11.0625
+      },
+      "reward": {
+        "delta": -68.5,
+        "ci95": [
+          -138.31305473903836,
+          1.313054739038364
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 34.22208565639136,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 322.71875,
+        "branch_b_mean": 254.21875
+      },
+      "win": {
+        "delta": -0.03125,
+        "ci95": [
+          -0.21119832927726062,
+          0.14869832927726062
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.0882099653319905,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.15625,
+        "branch_b_mean": 0.125
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16005-370",
+      "bucket": "axis2_moderate_positive",
+      "pressure": "medium",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0,
+        3.171875
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 13,
+        "branch_b_mean": 13
+      },
+      "reward": {
+        "delta": 11.9375,
+        "ci95": [
+          -15.123033671021417,
+          38.99803367102142
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 13.264967485794813,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 420.84375,
+        "branch_b_mean": 432.78125
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16058-375",
+      "bucket": "axis2_near_zero_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0,
+        -0.8125
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 13,
+        "branch_b_mean": 13
+      },
+      "reward": {
+        "delta": 23.34375,
+        "ci95": [
+          1.0720667690106467,
+          45.61543323098935
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 10.917491779896741,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 357.3125,
+        "branch_b_mean": 380.65625
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16058-379",
+      "bucket": "axis2_near_zero_positive",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0,
+        0.3984375
+      ],
+      "did_reroll": true,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 13,
+        "branch_b_mean": 13
+      },
+      "reward": {
+        "delta": -12.65625,
+        "ci95": [
+          -34.12288252693284,
+          8.810382526932841
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 10.522859081829823,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 270.75,
+        "branch_b_mean": 258.09375
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16058-370",
+      "bucket": "axis2_strong_negative",
+      "pressure": "low",
+      "tokens": 1,
+      "advantage": [
+        0.0,
+        0.0,
+        -8.546875
+      ],
+      "did_reroll": false,
+      "stage": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 13,
+        "branch_b_mean": 13
+      },
+      "reward": {
+        "delta": 17.40625,
+        "ci95": [
+          -8.53583623561429,
+          43.34833623561429
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 12.716708939026613,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 429.375,
+        "branch_b_mean": 446.78125
+      },
+      "win": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      },
+      "next_rent_survival": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    }
+  ],
+  "longterm_component_correlations": {
+    "0": -0.04757359247208635,
+    "1": -0.32648918179638525,
+    "2": 0.22570974839191674
+  },
+  "resource_cost": [
+    {
+      "state_id": "16014-268",
+      "tokens": 1,
+      "estimated_reservation": [
+        0.0,
+        0.02389705882352941,
+        0.19117647058823528
+      ],
+      "pure_inventory_stage_value": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 10,
+        "branch_b_mean": 10
+      },
+      "pure_inventory_reward_value": {
+        "delta": 9.125,
+        "ci95": [
+          -18.154156745433603,
+          36.4041567454336
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 13.372135659526275,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 44.75,
+        "branch_b_mean": 53.875
+      },
+      "pure_inventory_win_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0,
+        "branch_b_mean": 0
+      },
+      "pure_inventory_next_rent_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16008-300",
+      "tokens": 2,
+      "estimated_reservation": [
+        0.0,
+        0.007440476190476191,
+        0.05952380952380953
+      ],
+      "pure_inventory_stage_value": {
+        "delta": 0,
+        "ci95": [
+          -6.803319508059493,
+          6.803319508059493
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11,
+        "branch_b_mean": 11
+      },
+      "pure_inventory_reward_value": {
+        "delta": 14.0625,
+        "ci95": [
+          -18.87292667772119,
+          46.99792667772119
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 16.144816998882934,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 97.5,
+        "branch_b_mean": 111.5625
+      },
+      "pure_inventory_win_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0,
+        "branch_b_mean": 0
+      },
+      "pure_inventory_next_rent_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16027-78",
+      "tokens": 1,
+      "estimated_reservation": [
+        0.0,
+        0.09375,
+        0.75
+      ],
+      "pure_inventory_stage_value": {
+        "delta": 0.09375,
+        "ci95": [
+          -0.23790024510867647,
+          0.42540024510867647
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.16257364956307668,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 12.75,
+        "branch_b_mean": 12.84375
+      },
+      "pure_inventory_reward_value": {
+        "delta": 41.78125,
+        "ci95": [
+          -145.61899225471805,
+          229.18149225471805
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 91.86286385035199,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 942.0,
+        "branch_b_mean": 983.78125
+      },
+      "pure_inventory_win_value": {
+        "delta": 0.0,
+        "ci95": [
+          -0.171365483783223,
+          0.171365483783223
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.08400268812903088,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.875,
+        "branch_b_mean": 0.875
+      },
+      "pure_inventory_next_rent_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    },
+    {
+      "state_id": "16032-64",
+      "tokens": 2,
+      "estimated_reservation": [
+        0.0,
+        0.039724576271186446,
+        0.31779661016949157
+      ],
+      "pure_inventory_stage_value": {
+        "delta": 0.21875,
+        "ci95": [
+          -0.5468495634352584,
+          0.9843495634352584
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.3752939036447345,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 11.625,
+        "branch_b_mean": 11.84375
+      },
+      "pure_inventory_reward_value": {
+        "delta": 42.03125,
+        "ci95": [
+          -114.88083034249394,
+          198.94333034249394
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 76.91768644239899,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 782.4375,
+        "branch_b_mean": 824.46875
+      },
+      "pure_inventory_win_value": {
+        "delta": 0.0625,
+        "ci95": [
+          -0.19403770237907625,
+          0.31903770237907625
+        ],
+        "ci_method": "approximate independent t (2.04); no multiplicity adjustment",
+        "se": 0.12575377567601775,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 0.40625,
+        "branch_b_mean": 0.46875
+      },
+      "pure_inventory_next_rent_value": {
+        "delta": 0,
+        "ci95": [
+          -0.5233322698507302,
+          0.5233322698507302
+        ],
+        "ci_method": "bounded Hoeffding union interval; zero empirical variance",
+        "se": 0.0,
+        "n_per_branch": [
+          32,
+          32
+        ],
+        "branch_a_mean": 1,
+        "branch_b_mean": 1
+      }
+    }
+  ],
+  "pressure": {
+    "low": {
+      "count": 1217,
+      "selected": 114,
+      "cf_states": 13
+    },
+    "medium": {
+      "count": 152,
+      "selected": 11,
+      "cf_states": 7
+    },
+    "high": {
+      "count": 0,
+      "selected": 0,
+      "cf_states": 0
+    }
+  },
+  "longterm_active_axis_correlations": {
+    "0": {
+      "n": 3,
+      "stage_correlation": 0.9621032142443144,
+      "reward_correlation": 0.7088618662283063
+    },
+    "1": {
+      "n": 12,
+      "stage_correlation": -0.3759494463680732,
+      "reward_correlation": -0.3271111206700009
+    },
+    "2": {
+      "n": 5,
+      "stage_correlation": 0.3176808071289755,
+      "reward_correlation": 0.18455309440923034
+    }
+  },
+  "confidence_groups": [
+    {
+      "group": "ratio_le1",
+      "n": 26,
+      "failure_rate": 0.4230769230769231
+    },
+    {
+      "group": "ratio_gt1",
+      "n": 99,
+      "failure_rate": 0.26262626262626265
+    },
+    {
+      "group": "zero_SE",
+      "n": 0,
+      "failure_rate": null
+    }
+  ],
+  "adaptive_research": {
+    "mean_samples": 19.70489408327246,
+    "allocation": {
+      "16": 1300,
+      "128": 35,
+      "64": 19,
+      "32": 15
+    },
+    "disagreements_vs128": 7
+  },
+  "failure_attribution": [
+    {
+      "state_id": "16001-127",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16001-128",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16005-370",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16006-69",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16009-173",
+      "category": "SAMPLING NOISE",
+      "evidence": "N128 sign reversal",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16010-114",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16010-115",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16012-69",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16012-70",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16013-110",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16016-107",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16018-73",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16021-85",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16022-85",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16024-95",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16026-81",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16026-86",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16027-77",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16027-78",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16029-111",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16030-169",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16031-124",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16032-70",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16034-73",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16035-69",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16040-161",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16043-82",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16047-110",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16048-69",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16048-70",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16052-77",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16054-81",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16057-69",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16057-74",
+      "category": "SAMPLING NOISE",
+      "evidence": "N128 sign reversal",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16058-379",
+      "category": "SAMPLING NOISE",
+      "evidence": "N128 sign reversal",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16059-107",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    },
+    {
+      "state_id": "16061-227",
+      "category": "NO CLEAR ERROR",
+      "evidence": "Single worse offer; no demonstrated systematic error",
+      "confidence": "candidate explanation, not causal classification"
+    }
+  ],
+  "failure_counts": {
+    "SAMPLING NOISE": 3,
+    "RESOURCE COST ERROR": 0,
+    "SHORT-HORIZON VALUE ERROR": 0,
+    "BUILD / SYNERGY ERROR": 0,
+    "RANDOM OUTCOME": 0,
+    "NO CLEAR ERROR": 34
+  },
+  "v145_decision": "D (provisional): limited rollout / long-term value validation; keep V143 frozen, defer BC optimization and new teacher labels",
+  "protocol": {
+    "version": "V144",
+    "training_updates": 0,
+    "online_episodes_added": 0,
+    "selected_state_ids": [
+      "16008-300",
+      "16008-250",
+      "16014-268",
+      "16063-181",
+      "16020-148",
+      "16032-64",
+      "16060-123",
+      "16005-272",
+      "16061-223",
+      "16062-157",
+      "16027-78",
+      "16011-90",
+      "16011-128",
+      "16015-106",
+      "16051-81",
+      "16033-148",
+      "16005-370",
+      "16058-375",
+      "16058-379",
+      "16058-370"
+    ],
+    "bucket_limits": {
+      "1:0": [
+        0.046875,
+        0.07291666666666663
+      ],
+      "1:1": [
+        0.1024305555555555,
+        0.2734375
+      ],
+      "2:1": [
+        2.247395833333333,
+        3.833333333333333
+      ],
+      "0:0": [
+        0.15104166666666666,
+        0.234375
+      ],
+      "2:0": [
+        3.40625,
+        5.984375
+      ]
+    },
+    "N": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "sampling_scope": "all 1369 observed opportunities, nested public-offer samples",
+    "continuation_policy": "frozen forecast_rents_v143 (16 samples, unchanged)",
+    "continuation_samples": 32,
+    "branches": [
+      "current",
+      "reroll"
+    ],
+    "workers": 3,
+    "resource_state_ids": [
+      "16014-268",
+      "16008-300"
+    ],
+    "continuation_seeds": "sha256(v144-independent:state_id:branch:trial), disjoint independent branches; no CRN",
+    "primary_metrics": [
+      "final_stage",
+      "remaining_reward",
+      "win",
+      "next_rent_survival"
+    ],
+    "budget": "20 states x 32 x 2 plus two resource states x 32; smoke 2 states x 2 trials before full execution",
+    "selection": "empirical axis/sign tertile buckets, deterministic hashes plus token/pressure coverage; no rollout outcome selection",
+    "limitations": "Development opportunities, conditional on observed trajectories; 20 states are not population-weighted; candidate forecasts exclude future choices."
+  },
+  "build_context": {
+    "better": {
+      "candidate_rows": 60,
+      "episodes_with_context_bonus": 7
+    },
+    "worse": {
+      "candidate_rows": 60,
+      "episodes_with_context_bonus": 4
+    }
+  },
+  "interpretation": {
+    "v145_decision": "D (provisional): limited rollout / long-term value validation; keep V143 frozen, defer BC optimization and new teacher labels",
+    "evidence_strength": "Exploratory development audit, not a policy promotion or confirmed causal error",
+    "q1_immediate": "Observed gross improvement 88/125 (70.4%); after subtracting the fixed reservation vector, realized positive advantage is 67/125 (53.6%). Active rent-axis buckets improve 63.4%,65.9%,85.0% from near/moderate/strong positive. This supports some local ordering, not calibrated probabilities or all-opportunity accuracy; rejected offers are unobserved.",
+    "q2_longterm": "Not established. In 20 stratified states, all final-stage intervals include zero. The active rent coordinate (n=12) has descriptive correlations -0.376 with stage difference and -0.327 with reward difference. Bucket means are not monotonic. One reward interval excludes zero before multiple-comparison correction; it is not confirmatory evidence. Do not infer V143 superiority, no effect, or a proven systematic value error.",
+    "q3_samples16": "A baseline budget, not universally reliable near the boundary: 15/1369 signs change at N128; 4/125 selected positives turn negative, including 3 observed non-improving offers. N128 is a larger diagnostic sample, not ground truth. N16 to128 adds about14ms with shared candidate forecasts; adaptive normal-interval research uses19.70 mean samples but still disagrees with128 in7 states. Do not change V143 policy in this audit.",
+    "q4_resource_cost": "No demonstrated systematic bias. Four existing states cover late/early token1/2 inventory interventions (32 independent samples each). Early full-versus-scarce stage values are +0.09375 and +0.21875, both intervals include zero; late point values are0. Counts occur in different states, so this does not isolate a scarcity gradient or prove the last token is more valuable. Forecast reservation and full-run stage have different horizons. Tokens3+ N/A.",
+    "q5_risk": "Low active-coordinate confidence is an exploratory risk signal: observed failure rates 42.3% (26 states, ratio<=1) versus26.3% (99 states, ratio>1). Boundary sign reversals and lexicographic rent reservation deserve scrutiny. Continuous rerolls/token scarcity/build damage are not established causal failure categories; random bad offers are compatible with beneficial expected actions.",
+    "q6_teacher_freeze": "Keep the existing V143 implementation immutable as the audit reference. Evidence is insufficient to certify it as a reliable long-term labeling teacher or to regenerate a dataset. These are different meanings of freeze.",
+    "q7_next": "Continue teacher value calibration with a predeclared limited-rollout study designed to distinguish local forecast from long-term action value; include cheap larger-sample controls. Do not hand-tune resource cost from episode outcomes. BC train symbol fit around72.9% remains an independent deferred problem.",
+    "why_not_A_B_C_E": "A: no demonstrated long-term calibration. B: 3.2% selected sign reversals do not establish sampling as the main failure. C: inventory intervals and cross-state context do not establish cost bias. E: wide intervals and stratification do not establish negligible causal effect. D is a research priority under uncertainty, not a finding that short-horizon error is proven.",
+    "selection_limit": "20 states across15 episodes, 8 selected rerolls and12 rejected opportunities; one singleton cash-positive bucket has no CF sample (N/A). State means are not an unbiased overall policy effect. The separately frozen resource coverage amendment reused existing states and did not alter primary continuations."
+  },
+  "resource_addendum": {
+    "state_ids": [
+      "16027-78",
+      "16032-64"
+    ],
+    "continuation_samples": 32,
+    "branch": "scarce",
+    "reason": "Original resource probes are stages9/10; add earliest stage token1/2 from the existing20 to cover early reservation. No primary CF state/seed count or policy changed.",
+    "selector": "minimum rent_stage among existing20 per token count; digest tie-break; no continuation outcome criterion",
+    "scope": "Supplementary inventory audit, not significance-driven benchmark expansion"
+  },
+  "limitations": [
+    "Observed immediate calibration covers 125 selected offers; rejected offers are N/A, not assumed failures.",
+    "Three score axes are lexicographic; correlations/errors cannot be collapsed to one scalar.",
+    "20 stratified states, 32 independent seeds per branch; not new holdout or population policy improvement estimate.",
+    "Normal marginal sampling intervals omit inner 8-trial forecast error; nested N comparisons are correlated.",
+    "Resource probe has only one state per token count; stage value and forecast rents have different horizons.",
+    "Zero offer variance at a leading coordinate does not establish zero population probability.",
+    "No online benchmark, parameter changes or training."
+  ]
+}

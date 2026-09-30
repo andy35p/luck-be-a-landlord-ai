@@ -1,0 +1,133 @@
+{
+  "encoder_version": "goldfish-spatial-candidates-v1",
+  "symbols": {
+    "bar_of_soap": 1,
+    "bubble": 2,
+    "cat": 3,
+    "cheese": 4,
+    "cherry": 5,
+    "coal": 6,
+    "coin": 7,
+    "diamond": 8,
+    "flower": 9,
+    "goldfish": 10,
+    "milk": 11,
+    "mouse": 12,
+    "pearl": 13,
+    "present": 14,
+    "spirit": 15
+  },
+  "items": {
+    "time_machine": 1,
+    "undertaker": 2
+  },
+  "scalar_fields": [
+    "coins",
+    "current_rent",
+    "spins_until_rent",
+    "rent_stage",
+    "reroll_tokens",
+    "removal_tokens",
+    "last_spin_income",
+    "spin_count"
+  ],
+  "board_columns": [
+    "symbol_token",
+    "permanent_bonus",
+    "remaining_appearances_or_zero",
+    "has_timer",
+    "current_deck_pointer_plus_one_or_zero"
+  ],
+  "sources": {
+    "baseline": {
+      "path": "logs\\late-income-v060\\baseline.jsonl.gz",
+      "sha256": "15a7bbee871c357ec1c85c2c51e2bf8d537c908bb17158b4edd916e22e4da808",
+      "splits": {
+        "train": {
+          "transitions": 4341,
+          "seeds": [
+            89,
+            747,
+            807,
+            1088,
+            1618,
+            1764,
+            2786,
+            2968,
+            3225,
+            3588,
+            3808,
+            5583,
+            6072,
+            6390,
+            6767,
+            7905,
+            7968
+          ],
+          "batches": 68
+        },
+        "validation": {
+          "transitions": 526,
+          "seeds": [
+            7560,
+            9352
+          ],
+          "batches": 9
+        },
+        "test": {
+          "transitions": 409,
+          "seeds": [
+            2131
+          ],
+          "batches": 7
+        }
+      }
+    },
+    "candidate": {
+      "path": "logs\\late-income-v060\\candidate.jsonl.gz",
+      "sha256": "26986344e23e64ba3aea92759f4da7729128bffb4e858ac589284bd51689c2bd",
+      "splits": {
+        "train": {
+          "transitions": 5463,
+          "seeds": [
+            89,
+            747,
+            807,
+            1088,
+            1618,
+            1764,
+            2786,
+            2968,
+            3225,
+            3588,
+            3808,
+            5583,
+            6072,
+            6390,
+            6767,
+            7905,
+            7968
+          ],
+          "batches": 86
+        },
+        "validation": {
+          "transitions": 621,
+          "seeds": [
+            7560,
+            9352
+          ],
+          "batches": 10
+        },
+        "test": {
+          "transitions": 249,
+          "seeds": [
+            2131
+          ],
+          "batches": 4
+        }
+      }
+    }
+  },
+  "training_steps": 0,
+  "scope": "Encoding audit on outcome-selected diagnosis traces, not representative training data"
+}

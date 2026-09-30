@@ -1,0 +1,1018 @@
+{
+  "test_fixture": "controlled-timer-v103",
+  "scope": "Controlled real-game rule test only; never natural evaluation or training",
+  "source_sha256": "c2493880d924a6f50a7e1f1ffb3f891022d299aa4710272385c5815cbc6904a9",
+  "cases": [
+    {
+      "spin": 18,
+      "sequence": 51,
+      "state": {
+        "symbols": [
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-0"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-1"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-2"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-3"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-4"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-5"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-6"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-7"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-8"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-9"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-10"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-11"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-12"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-13"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-14"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-15"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-16"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-17"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-18"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-19"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-20"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-21"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-22"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-23"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-24"
+          }
+        ],
+        "displayed_board": {
+          "width": 5,
+          "height": 4,
+          "rows": [
+            [
+              "symbol-1",
+              "symbol-6",
+              "symbol-11",
+              "symbol-16",
+              "symbol-21"
+            ],
+            [
+              "symbol-2",
+              "symbol-7",
+              "symbol-12",
+              "symbol-17",
+              "symbol-22"
+            ],
+            [
+              "symbol-3",
+              "symbol-8",
+              "symbol-13",
+              "symbol-18",
+              "symbol-23"
+            ],
+            [
+              "symbol-4",
+              "symbol-9",
+              "symbol-14",
+              "symbol-19",
+              "symbol-24"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "spin": 19,
+      "sequence": 119,
+      "state": {
+        "symbols": [
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-18"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-5"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-19"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-17"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-15"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-0"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-16"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-6"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-21"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-2"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-1"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-9"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-3"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-12"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-7"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-10"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-20"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-13"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-24"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-23"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 0,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-4"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-22"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-8"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-14"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-11"
+          }
+        ],
+        "displayed_board": {
+          "width": 5,
+          "height": 4,
+          "rows": [
+            [
+              "symbol-18",
+              "symbol-2",
+              "symbol-12",
+              "symbol-13",
+              "symbol-22"
+            ],
+            [
+              "symbol-5",
+              "symbol-0",
+              "symbol-7",
+              "symbol-24",
+              "symbol-8"
+            ],
+            [
+              "symbol-19",
+              "symbol-16",
+              "symbol-1",
+              "symbol-23",
+              "symbol-14"
+            ],
+            [
+              "symbol-17",
+              "symbol-6",
+              "symbol-9",
+              "symbol-10",
+              "symbol-11"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "spin": 20,
+      "sequence": 142,
+      "state": {
+        "symbols": [
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-19"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-3"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-23"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-14"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-2"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-10"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-21"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-16"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-0"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-6"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-5"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-12"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-7"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-17"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-18"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-24"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-9"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-13"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-20"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-15"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-8"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-22"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-11"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 1,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-4"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "instance_id": "symbol-1"
+          }
+        ],
+        "displayed_board": {
+          "width": 5,
+          "height": 4,
+          "rows": [
+            [
+              "symbol-19",
+              "symbol-6",
+              "symbol-17",
+              "symbol-13",
+              "symbol-22"
+            ],
+            [
+              "symbol-3",
+              "symbol-10",
+              "symbol-18",
+              "symbol-20",
+              "symbol-11"
+            ],
+            [
+              "symbol-23",
+              "symbol-21",
+              "symbol-5",
+              "symbol-15",
+              "symbol-4"
+            ],
+            [
+              "symbol-14",
+              "symbol-16",
+              "symbol-12",
+              "symbol-24",
+              "symbol-1"
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "payload_files": 27,
+  "isolated_cli_import": true,
+  "research_artifacts_absent": true
+}

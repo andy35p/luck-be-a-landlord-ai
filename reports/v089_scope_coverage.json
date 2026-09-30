@@ -1,0 +1,57 @@
+{
+  "scope": "Offline observed-decision coverage; not win rate, independent games, or live freshness",
+  "counts": {
+    "records": 922,
+    "controlled_excluded": 258,
+    "not_settled_symbol_choice": 366,
+    "unique_symbol_decisions": 11,
+    "policy_rejected": 11,
+    "duplicate_decision_records": 287
+  },
+  "blockers": {
+    "items_or_missing_items_unsupported": 11,
+    "unsupported_candidate": 11,
+    "unsupported_symbol": 11
+  },
+  "unsupported_inventory_symbols": {
+    "lockbox": 11,
+    "sand_dollar": 11,
+    "hearts": 11,
+    "magpie": 11,
+    "rain": 11,
+    "sapphire": 11,
+    "anchor": 11,
+    "ninja": 11,
+    "gambler": 11,
+    "crab": 11,
+    "bartender": 1
+  },
+  "owned_items": {
+    "egg_carton": 11,
+    "tax_evasion": 11
+  },
+  "unsupported_candidates": {
+    "cultist": 4,
+    "crab": 4,
+    "goose": 1,
+    "gambler": 1,
+    "jellyfish": 1,
+    "void_creature": 1,
+    "candy": 1,
+    "banana_peel": 1,
+    "monkey": 1,
+    "oyster": 1,
+    "dog": 1,
+    "coal": 1,
+    "sapphire": 1,
+    "owl": 1,
+    "shiny_pebble": 1,
+    "sand_dollar": 1,
+    "time_capsule": 1,
+    "billionaire": 1,
+    "bartender": 1,
+    "coconut_half": 1,
+    "hex_of_destruction": 1,
+    "ninja": 1
+  }
+}

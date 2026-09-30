@@ -1,0 +1,867 @@
+{
+  "scope": "V102 natural one-spin board membership trace; off-board slots are empty symbols",
+  "source_sha256": "775d694347d79ea69c3ff1998d38d528f36fd1467835496c77670f792176c9ba",
+  "cases": [
+    {
+      "spin": 18,
+      "sequence": 44,
+      "coins": 54,
+      "state": {
+        "symbols": [
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 9,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              -1
+            ],
+            "instance_id": "symbol-0"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 11,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              0
+            ],
+            "instance_id": "symbol-1"
+          },
+          {
+            "type": "hearts",
+            "values": [
+              1,
+              1,
+              3,
+              0
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              1
+            ],
+            "instance_id": "symbol-2"
+          },
+          {
+            "type": "sapphire",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              2
+            ],
+            "instance_id": "symbol-3"
+          },
+          {
+            "type": "pearl",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 18,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              3
+            ],
+            "instance_id": "symbol-4"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 14,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              -1
+            ],
+            "instance_id": "symbol-5"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4,
+              0,
+              0
+            ],
+            "times_displayed": 2,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              0
+            ],
+            "instance_id": "symbol-6"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              1
+            ],
+            "instance_id": "symbol-7"
+          },
+          {
+            "type": "flower",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 18,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              2
+            ],
+            "instance_id": "symbol-8"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              3
+            ],
+            "instance_id": "symbol-9"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 10,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              -1
+            ],
+            "instance_id": "symbol-10"
+          },
+          {
+            "type": "cherry",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 18,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              0
+            ],
+            "instance_id": "symbol-11"
+          },
+          {
+            "type": "ninja",
+            "values": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 9,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              1
+            ],
+            "instance_id": "symbol-12"
+          },
+          {
+            "type": "lockbox",
+            "values": [
+              15,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 12,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              2
+            ],
+            "instance_id": "symbol-13"
+          },
+          {
+            "type": "gambler",
+            "values": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "times_displayed": 5,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              3
+            ],
+            "instance_id": "symbol-14"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 7,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              -1
+            ],
+            "instance_id": "symbol-15"
+          },
+          {
+            "type": "crab",
+            "values": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 15,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              0
+            ],
+            "instance_id": "symbol-16"
+          },
+          {
+            "type": "cherry",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 14,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              1
+            ],
+            "instance_id": "symbol-17"
+          },
+          {
+            "type": "cat",
+            "values": [
+              9,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 18,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              2
+            ],
+            "instance_id": "symbol-18"
+          },
+          {
+            "type": "rain",
+            "values": [
+              2,
+              50,
+              0,
+              0
+            ],
+            "times_displayed": 8,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              3
+            ],
+            "instance_id": "symbol-19"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 12,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              -1
+            ],
+            "instance_id": "symbol-20"
+          },
+          {
+            "type": "anchor",
+            "values": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 3,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              0
+            ],
+            "instance_id": "symbol-21"
+          },
+          {
+            "type": "sand_dollar",
+            "values": [
+              10,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 4,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              1
+            ],
+            "instance_id": "symbol-22"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 8,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              2
+            ],
+            "instance_id": "symbol-23"
+          },
+          {
+            "type": "coin",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 18,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              3
+            ],
+            "instance_id": "symbol-24"
+          }
+        ],
+        "displayed_board": {
+          "width": 5,
+          "height": 4,
+          "rows": [
+            [
+              "symbol-1",
+              "symbol-6",
+              "symbol-11",
+              "symbol-16",
+              "symbol-21"
+            ],
+            [
+              "symbol-2",
+              "symbol-7",
+              "symbol-12",
+              "symbol-17",
+              "symbol-22"
+            ],
+            [
+              "symbol-3",
+              "symbol-8",
+              "symbol-13",
+              "symbol-18",
+              "symbol-23"
+            ],
+            [
+              "symbol-4",
+              "symbol-9",
+              "symbol-14",
+              "symbol-19",
+              "symbol-24"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "spin": 19,
+      "sequence": 87,
+      "coins": 73,
+      "state": {
+        "symbols": [
+          {
+            "type": "cat",
+            "values": [
+              9
+            ],
+            "times_displayed": 19,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              0
+            ],
+            "instance_id": "symbol-18"
+          },
+          {
+            "type": "rain",
+            "values": [
+              2,
+              50
+            ],
+            "times_displayed": 9,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              1
+            ],
+            "instance_id": "symbol-19"
+          },
+          {
+            "type": "sand_dollar",
+            "values": [
+              10
+            ],
+            "times_displayed": 5,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              2
+            ],
+            "instance_id": "symbol-22"
+          },
+          {
+            "type": "sapphire",
+            "values": [],
+            "times_displayed": 3,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              3
+            ],
+            "instance_id": "symbol-3"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 12,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              0,
+              -1
+            ],
+            "instance_id": "symbol-17"
+          },
+          {
+            "type": "gambler",
+            "values": [
+              0,
+              2
+            ],
+            "times_displayed": 6,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              1
+            ],
+            "instance_id": "symbol-14"
+          },
+          {
+            "type": "hearts",
+            "values": [
+              1,
+              1,
+              3
+            ],
+            "times_displayed": 14,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              2
+            ],
+            "instance_id": "symbol-2"
+          },
+          {
+            "type": "flower",
+            "values": [],
+            "times_displayed": 19,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              3
+            ],
+            "instance_id": "symbol-8"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              -1
+            ],
+            "instance_id": "symbol-16"
+          },
+          {
+            "type": "lockbox",
+            "values": [
+              15
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              1,
+              0
+            ],
+            "instance_id": "symbol-13"
+          },
+          {
+            "type": "cherry",
+            "values": [],
+            "times_displayed": 15,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              2
+            ],
+            "instance_id": "symbol-20"
+          },
+          {
+            "type": "empty",
+            "values": [],
+            "times_displayed": 12,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              3
+            ],
+            "instance_id": "symbol-1"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 10,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              -1
+            ],
+            "instance_id": "symbol-10"
+          },
+          {
+            "type": "coin",
+            "values": [],
+            "times_displayed": 19,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              0
+            ],
+            "instance_id": "symbol-9"
+          },
+          {
+            "type": "magpie",
+            "values": [
+              9,
+              4
+            ],
+            "times_displayed": 3,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              2,
+              1
+            ],
+            "instance_id": "symbol-6"
+          },
+          {
+            "type": "empty",
+            "values": [],
+            "times_displayed": 9,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              3
+            ],
+            "instance_id": "symbol-23"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 13,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              -1
+            ],
+            "instance_id": "symbol-24"
+          },
+          {
+            "type": "cherry",
+            "values": [],
+            "times_displayed": 19,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              0
+            ],
+            "instance_id": "symbol-11"
+          },
+          {
+            "type": "crab",
+            "values": [
+              3
+            ],
+            "times_displayed": 16,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              1
+            ],
+            "instance_id": "symbol-7"
+          },
+          {
+            "type": "empty",
+            "values": [],
+            "times_displayed": 8,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              3,
+              2
+            ],
+            "instance_id": "symbol-15"
+          },
+          {
+            "type": "empty",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "times_displayed": 14,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              -1
+            ],
+            "instance_id": "symbol-5"
+          },
+          {
+            "type": "ninja",
+            "values": [
+              1
+            ],
+            "times_displayed": 10,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              0
+            ],
+            "instance_id": "symbol-12"
+          },
+          {
+            "type": "anchor",
+            "values": [
+              4
+            ],
+            "times_displayed": 4,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              1
+            ],
+            "instance_id": "symbol-21"
+          },
+          {
+            "type": "empty",
+            "values": [],
+            "times_displayed": 10,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              2
+            ],
+            "instance_id": "symbol-0"
+          },
+          {
+            "type": "pearl",
+            "values": [],
+            "times_displayed": 19,
+            "modded": false,
+            "inherit_effects": false,
+            "grid_position": [
+              4,
+              3
+            ],
+            "instance_id": "symbol-4"
+          }
+        ],
+        "displayed_board": {
+          "width": 5,
+          "height": 4,
+          "rows": [
+            [
+              "symbol-18",
+              "symbol-13",
+              "symbol-9",
+              "symbol-11",
+              "symbol-12"
+            ],
+            [
+              "symbol-19",
+              "symbol-14",
+              "symbol-6",
+              "symbol-7",
+              "symbol-21"
+            ],
+            [
+              "symbol-22",
+              "symbol-2",
+              "symbol-20",
+              "symbol-15",
+              "symbol-0"
+            ],
+            [
+              "symbol-3",
+              "symbol-8",
+              "symbol-1",
+              "symbol-23",
+              "symbol-4"
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "alternating_seconds": {
+    "deepcopy": [
+      3.818674499998451,
+      4.233556999999564,
+      4.07956510000804
+    ],
+    "optimized": [
+      3.345531899991329,
+      3.2671646000089822,
+      2.8809915999881923
+    ]
+  },
+  "median_speedup": 1.248656128312857,
+  "all_episode_metrics_equal": true,
+  "goldfish_replay": {
+    "episodes": 10,
+    "transitions": 2014,
+    "exact_replay": true
+  },
+  "historical_coal_replay": {
+    "episodes": 100,
+    "transitions": 6757,
+    "exact_replay": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "LandlordResearch",
+  "AssemblyPath": "LandlordResearch.dll",
+  "Dependencies": [],
+  "Metadata": {
+    "Name": "Landlord Research Collector",
+    "Version": "0.3.0",
+    "Author": "Local course project",
+    "Description": "Read-only snapshots with input context; no automatic actions"
+  }
+}

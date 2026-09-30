@@ -1,0 +1,54 @@
+{
+  "version": "v149-label-smoothing-v1",
+  "frozen_before_results": true,
+  "dataset": "V128 frozen train 9000-9031 and development validation 10000-10007",
+  "test_access": "FORBIDDEN; do not open test shards or V128 manifest",
+  "epsilons": [0.0, 0.02, 0.05, 0.1],
+  "training_seeds": [123, 456, 789, 24680, 13579],
+  "updates": 500,
+  "curve_updates": [0, 100, 200, 300, 400, 500],
+  "model": {
+    "width": 16,
+    "expected_parameters": 28785,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 64,
+    "gradient_clip_norm": 1.0,
+    "scheduler": null
+  },
+  "loss": {
+    "epsilon_zero": "torch.nn.functional.cross_entropy exact legacy path",
+    "positive_epsilon": "(1-epsilon)*hard_ce + epsilon*uniform_ce over valid legal candidates only",
+    "evaluation": "standard hard-label cross entropy for every epsilon"
+  },
+  "primary_metric": "development validation symbol top1 teacher agreement",
+  "high_confidence_wrong_threshold": 0.8,
+  "calibration": {
+    "ece_bins": 10,
+    "ece_intervals": "[i/10,(i+1)/10), with confidence 1 in final bin",
+    "brier": "mean multiclass squared error summed over valid candidates",
+    "quantile_method": "linear interpolation at (n-1)*q"
+  },
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 1492026,
+  "candidate_gate": {
+    "mean_validation_symbol_top1_delta_min_exclusive": 0.0,
+    "non_lower_seed_count_min": 4,
+    "mean_teacher_rank_delta_max": 0.0,
+    "standard_validation_ce_delta_max": 0.005,
+    "mean_high_confidence_wrong_delta_max_exclusive": 0.0
+  },
+  "selection_rule": "smallest epsilon that passes every candidate gate condition",
+  "canonical_seed_rule": "median validation symbol top1 seed for selected epsilon; sort by (top1, numeric seed) and take third",
+  "online_smoke": {
+    "trigger": "only after candidate gate passes",
+    "episode_seeds": [17000, 17001, 17002, 17003, 17004, 17005, 17006, 17007, 17008, 17009, 17010, 17011, 17012, 17013, 17014, 17015, 17016, 17017, 17018, 17019, 17020, 17021, 17022, 17023, 17024, 17025, 17026, 17027, 17028, 17029, 17030, 17031],
+    "baseline": "V130",
+    "runner": "V141 public evaluate.py",
+    "interpretation": "regression gate only"
+  },
+  "tracked_confusions": [["bar_of_soap", "SKIP"], ["goldfish", "bar_of_soap"]],
+  "frequency_mapping": "V146 frozen train-target frequency terciles",
+  "validation_tail": "exploratory only"
+}

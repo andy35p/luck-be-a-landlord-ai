@@ -1,0 +1,16 @@
+{
+  "dataset": "logs/spatial-dataset-v063",
+  "policies": ["heuristic"],
+  "source_checkpoint": "logs/spatial-bc-v066/final.pt",
+  "source_checkpoint_sha256": "7514a2ee0609820803d1a2f280fd3a7d8030bbafb6afc461122f4ffdf656a3e1",
+  "additional_epochs": 7,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "gradient_clip": 1.0,
+  "shuffle_seed": 70,
+  "optimizer": "Fresh Adam; original optimizer state was not saved",
+  "selection": "Fixed final epoch, no early stopping or best-checkpoint selection",
+  "online_seed_start": 1000,
+  "online_games": 100,
+  "scope": "Development diagnostic; train and validation only offline, previously exposed online seeds; no promotion"
+}

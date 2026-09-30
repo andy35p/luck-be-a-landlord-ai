@@ -1,0 +1,18 @@
+{
+  "rule_version": "instance-goldfish-v1",
+  "encoder_version": "goldfish-spatial-candidates-v1",
+  "default_policy": "heuristic",
+  "models": {
+    "initial": {
+      "checkpoint": "logs/spatial-model-v065/untrained.pt",
+      "status": "untrained comparison only"
+    },
+    "trained_smoke": {
+      "checkpoint": "logs/spatial-bc-v066/final.pt",
+      "sha256": "7514a2ee0609820803d1a2f280fd3a7d8030bbafb6afc461122f4ffdf656a3e1",
+      "training_updates": 429,
+      "status": "development smoke; not promoted; below teacher on mean stage and observed win count"
+    }
+  },
+  "results_sha256": "e4c90b299d324ef190cb021b86dc94acef162375474319c1c98f8ceaba55b2c3"
+}

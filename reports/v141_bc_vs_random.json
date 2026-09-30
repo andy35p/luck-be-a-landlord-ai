@@ -1,0 +1,1047 @@
+{
+  "sources": {
+    "baseline": {
+      "directory": "C:\\Users\\14489\\Documents\\ChatGPT\\\u5e78\u8fd0\u623f\u4e1c\\logs\\v141-unified\\random-20260928T144928218572Z",
+      "agent": "random",
+      "sha256": {
+        "manifest.json": "217cd6aba40610702a201a9ef8e296985b68d12727f192cbc43bb5f83e99f345",
+        "episodes.csv": "8c463696316c187fdec46da8918f22fdd28d91b1773c9599f8b6c47c03947e4d"
+      }
+    },
+    "experiment": {
+      "directory": "C:\\Users\\14489\\Documents\\ChatGPT\\\u5e78\u8fd0\u623f\u4e1c\\logs\\v141-unified\\bc-20260928T150505900238Z",
+      "agent": "bc",
+      "sha256": {
+        "manifest.json": "8d2ec3fc3f2c914c64e79107783a9822e6a26fc06fdaba1fce8cad71f763d706",
+        "episodes.csv": "017827f4d511a9e001e3ba2a91102a7eb5803df7b6019b7b6e8e18aa805ace9c"
+      }
+    }
+  },
+  "rule_identity": {
+    "rule_version": "instance-magpie-v1",
+    "revision": 1
+  },
+  "paired": {
+    "mean_stage_delta": 6.4140625,
+    "paired_bootstrap_interval": [
+      6.0234375,
+      6.8046875
+    ],
+    "confidence": 0.95,
+    "paired_bootstrap_95": [
+      6.0234375,
+      6.8046875
+    ],
+    "improved": 127,
+    "unchanged": 1,
+    "worse": 0,
+    "worst_pairs": [
+      {
+        "seed": 15008,
+        "baseline_stage": 8,
+        "experiment_stage": 8,
+        "delta": 0,
+        "rerolls_used": 0
+      },
+      {
+        "seed": 15007,
+        "baseline_stage": 4,
+        "experiment_stage": 5,
+        "delta": 1,
+        "rerolls_used": 0
+      },
+      {
+        "seed": 15113,
+        "baseline_stage": 5,
+        "experiment_stage": 6,
+        "delta": 1,
+        "rerolls_used": 0
+      },
+      {
+        "seed": 15010,
+        "baseline_stage": 4,
+        "experiment_stage": 6,
+        "delta": 2,
+        "rerolls_used": 0
+      },
+      {
+        "seed": 15028,
+        "baseline_stage": 5,
+        "experiment_stage": 7,
+        "delta": 2,
+        "rerolls_used": 0
+      }
+    ]
+  },
+  "summaries": {
+    "baseline": {
+      "games": 128,
+      "win_rate": 0.0,
+      "win_rate_95_ci": [
+        0.0,
+        0.029136956273508402
+      ],
+      "average_stage": 3.21875,
+      "average_spins": 24.234375,
+      "average_coins": 148.3125,
+      "mean_reward": 112.6875,
+      "median_reward": 99.0,
+      "std": {
+        "stage": 1.688019386387164,
+        "spins": 11.373739871362336,
+        "coins": 94.7217017763172,
+        "reward": 127.2826076285539
+      },
+      "mean_95_ci": {
+        "stage": [
+          2.9263209346037042,
+          3.5111790653962958
+        ],
+        "spins": [
+          22.264011301890065,
+          26.204738698109935
+        ],
+        "coins": [
+          131.90310390741155,
+          164.72189609258845
+        ],
+        "reward": [
+          90.63731841429846,
+          134.73768158570152
+        ]
+      },
+      "rent_survival": {
+        "1": 0.96875,
+        "2": 0.78125,
+        "3": 0.7109375,
+        "4": 0.421875,
+        "5": 0.21875,
+        "6": 0.078125,
+        "7": 0.0234375,
+        "8": 0.015625,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.9224023687386392,
+          0.9877817347549466
+        ],
+        "2": [
+          0.7020157030455345,
+          0.8440947590506169
+        ],
+        "3": [
+          0.6271668442501395,
+          0.7824160023219742
+        ],
+        "4": [
+          0.3398211233888366,
+          0.5084815260288991
+        ],
+        "5": [
+          0.15590524094938307,
+          0.2979842969544654
+        ],
+        "6": [
+          0.042987375050982234,
+          0.13784693180479046
+        ],
+        "7": [
+          0.008002416396755481,
+          0.06664374505143222
+        ],
+        "8": [
+          0.004295449710144079,
+          0.05518097667981718
+        ],
+        "9": [
+          0.0,
+          0.029136956273508402
+        ],
+        "10": [
+          0.0,
+          0.029136956273508402
+        ],
+        "11": [
+          0.0,
+          0.029136956273508402
+        ],
+        "12": [
+          0.0,
+          0.029136956273508402
+        ],
+        "13": [
+          0.0,
+          0.029136956273508402
+        ]
+      },
+      "truncated_games": 0,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    },
+    "experiment": {
+      "games": 128,
+      "win_rate": 0.03125,
+      "win_rate_95_ci": [
+        0.01221826524505338,
+        0.07759763126136074
+      ],
+      "average_stage": 9.6328125,
+      "average_spins": 76.421875,
+      "average_coins": 557.8515625,
+      "mean_reward": 669.2578125,
+      "median_reward": 642.5,
+      "std": {
+        "stage": 1.6451843050666983,
+        "spins": 15.18370934678213,
+        "coins": 154.72607697210307,
+        "reward": 188.74680979079034
+      },
+      "mean_95_ci": {
+        "stage": [
+          9.347804097481,
+          9.917820902519
+        ],
+        "spins": [
+          73.7914798935601,
+          79.0522701064399
+        ],
+        "coins": [
+          531.0471297747175,
+          584.6559952252825
+        ],
+        "reward": [
+          636.5596968096428,
+          701.9559281903572
+        ]
+      },
+      "rent_survival": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 0.9921875,
+        "7": 0.96875,
+        "8": 0.890625,
+        "9": 0.78125,
+        "10": 0.5390625,
+        "11": 0.2890625,
+        "12": 0.140625,
+        "13": 0.03125
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.9708630437264916,
+          1.0
+        ],
+        "2": [
+          0.9708630437264916,
+          1.0
+        ],
+        "3": [
+          0.9708630437264916,
+          1.0
+        ],
+        "4": [
+          0.9708630437264916,
+          1.0
+        ],
+        "5": [
+          0.9708630437264916,
+          1.0
+        ],
+        "6": [
+          0.9570737405611394,
+          0.9986195681071257
+        ],
+        "7": [
+          0.9224023687386392,
+          0.9877817347549466
+        ],
+        "8": [
+          0.8247655486183226,
+          0.9337212042929989
+        ],
+        "9": [
+          0.7020157030455345,
+          0.8440947590506169
+        ],
+        "10": [
+          0.4528298312720518,
+          0.6230188440190805
+        ],
+        "11": [
+          0.21758399767802578,
+          0.3728331557498606
+        ],
+        "12": [
+          0.09083969494262252,
+          0.21135249237896164
+        ],
+        "13": [
+          0.01221826524505338,
+          0.07759763126136074
+        ]
+      },
+      "truncated_games": 0,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    }
+  },
+  "bootstrap": {
+    "seed": 57,
+    "samples": 2000,
+    "unit": "paired episode seed"
+  },
+  "failure_seeds": [
+    {
+      "seed": 15000,
+      "stage": 12,
+      "spins": 100,
+      "coins": 945.0
+    },
+    {
+      "seed": 15001,
+      "stage": 11,
+      "spins": 90,
+      "coins": 703.0
+    },
+    {
+      "seed": 15002,
+      "stage": 9,
+      "spins": 70,
+      "coins": 521.0
+    },
+    {
+      "seed": 15003,
+      "stage": 11,
+      "spins": 90,
+      "coins": 631.0
+    },
+    {
+      "seed": 15004,
+      "stage": 9,
+      "spins": 70,
+      "coins": 547.0
+    },
+    {
+      "seed": 15005,
+      "stage": 9,
+      "spins": 70,
+      "coins": 536.0
+    },
+    {
+      "seed": 15006,
+      "stage": 10,
+      "spins": 80,
+      "coins": 490.0
+    },
+    {
+      "seed": 15007,
+      "stage": 5,
+      "spins": 36,
+      "coins": 294.0
+    },
+    {
+      "seed": 15008,
+      "stage": 8,
+      "spins": 61,
+      "coins": 439.0
+    },
+    {
+      "seed": 15009,
+      "stage": 8,
+      "spins": 61,
+      "coins": 552.0
+    },
+    {
+      "seed": 15010,
+      "stage": 6,
+      "spins": 44,
+      "coins": 357.0
+    },
+    {
+      "seed": 15011,
+      "stage": 9,
+      "spins": 70,
+      "coins": 537.0
+    },
+    {
+      "seed": 15012,
+      "stage": 12,
+      "spins": 100,
+      "coins": 902.0
+    },
+    {
+      "seed": 15013,
+      "stage": 12,
+      "spins": 100,
+      "coins": 988.0
+    },
+    {
+      "seed": 15014,
+      "stage": 10,
+      "spins": 80,
+      "coins": 602.0
+    },
+    {
+      "seed": 15015,
+      "stage": 9,
+      "spins": 70,
+      "coins": 406.0
+    },
+    {
+      "seed": 15016,
+      "stage": 10,
+      "spins": 80,
+      "coins": 658.0
+    },
+    {
+      "seed": 15017,
+      "stage": 9,
+      "spins": 70,
+      "coins": 563.0
+    },
+    {
+      "seed": 15018,
+      "stage": 9,
+      "spins": 70,
+      "coins": 636.0
+    },
+    {
+      "seed": 15019,
+      "stage": 7,
+      "spins": 52,
+      "coins": 317.0
+    },
+    {
+      "seed": 15020,
+      "stage": 12,
+      "spins": 100,
+      "coins": 633.0
+    },
+    {
+      "seed": 15021,
+      "stage": 10,
+      "spins": 80,
+      "coins": 696.0
+    },
+    {
+      "seed": 15022,
+      "stage": 10,
+      "spins": 80,
+      "coins": 625.0
+    },
+    {
+      "seed": 15023,
+      "stage": 12,
+      "spins": 100,
+      "coins": 975.0
+    },
+    {
+      "seed": 15024,
+      "stage": 12,
+      "spins": 100,
+      "coins": 615.0
+    },
+    {
+      "seed": 15025,
+      "stage": 10,
+      "spins": 80,
+      "coins": 483.0
+    },
+    {
+      "seed": 15026,
+      "stage": 9,
+      "spins": 70,
+      "coins": 565.0
+    },
+    {
+      "seed": 15027,
+      "stage": 10,
+      "spins": 80,
+      "coins": 573.0
+    },
+    {
+      "seed": 15028,
+      "stage": 7,
+      "spins": 52,
+      "coins": 334.0
+    },
+    {
+      "seed": 15029,
+      "stage": 10,
+      "spins": 80,
+      "coins": 542.0
+    },
+    {
+      "seed": 15030,
+      "stage": 8,
+      "spins": 61,
+      "coins": 467.0
+    },
+    {
+      "seed": 15031,
+      "stage": 8,
+      "spins": 61,
+      "coins": 574.0
+    },
+    {
+      "seed": 15032,
+      "stage": 12,
+      "spins": 100,
+      "coins": 798.0
+    },
+    {
+      "seed": 15033,
+      "stage": 12,
+      "spins": 100,
+      "coins": 914.0
+    },
+    {
+      "seed": 15034,
+      "stage": 9,
+      "spins": 70,
+      "coins": 549.0
+    },
+    {
+      "seed": 15035,
+      "stage": 8,
+      "spins": 61,
+      "coins": 550.0
+    },
+    {
+      "seed": 15036,
+      "stage": 10,
+      "spins": 80,
+      "coins": 620.0
+    },
+    {
+      "seed": 15037,
+      "stage": 11,
+      "spins": 90,
+      "coins": 606.0
+    },
+    {
+      "seed": 15038,
+      "stage": 9,
+      "spins": 70,
+      "coins": 505.0
+    },
+    {
+      "seed": 15039,
+      "stage": 8,
+      "spins": 61,
+      "coins": 521.0
+    },
+    {
+      "seed": 15040,
+      "stage": 9,
+      "spins": 70,
+      "coins": 579.0
+    },
+    {
+      "seed": 15041,
+      "stage": 10,
+      "spins": 80,
+      "coins": 581.0
+    },
+    {
+      "seed": 15043,
+      "stage": 10,
+      "spins": 80,
+      "coins": 516.0
+    },
+    {
+      "seed": 15044,
+      "stage": 12,
+      "spins": 100,
+      "coins": 762.0
+    },
+    {
+      "seed": 15045,
+      "stage": 12,
+      "spins": 100,
+      "coins": 718.0
+    },
+    {
+      "seed": 15046,
+      "stage": 11,
+      "spins": 90,
+      "coins": 491.0
+    },
+    {
+      "seed": 15047,
+      "stage": 9,
+      "spins": 70,
+      "coins": 468.0
+    },
+    {
+      "seed": 15048,
+      "stage": 10,
+      "spins": 80,
+      "coins": 537.0
+    },
+    {
+      "seed": 15049,
+      "stage": 9,
+      "spins": 70,
+      "coins": 476.0
+    },
+    {
+      "seed": 15050,
+      "stage": 7,
+      "spins": 52,
+      "coins": 360.0
+    },
+    {
+      "seed": 15051,
+      "stage": 8,
+      "spins": 61,
+      "coins": 574.0
+    },
+    {
+      "seed": 15052,
+      "stage": 9,
+      "spins": 70,
+      "coins": 548.0
+    },
+    {
+      "seed": 15053,
+      "stage": 8,
+      "spins": 61,
+      "coins": 599.0
+    },
+    {
+      "seed": 15054,
+      "stage": 8,
+      "spins": 61,
+      "coins": 561.0
+    },
+    {
+      "seed": 15055,
+      "stage": 9,
+      "spins": 70,
+      "coins": 507.0
+    },
+    {
+      "seed": 15056,
+      "stage": 9,
+      "spins": 70,
+      "coins": 530.0
+    },
+    {
+      "seed": 15057,
+      "stage": 9,
+      "spins": 70,
+      "coins": 583.0
+    },
+    {
+      "seed": 15058,
+      "stage": 11,
+      "spins": 90,
+      "coins": 759.0
+    },
+    {
+      "seed": 15059,
+      "stage": 9,
+      "spins": 70,
+      "coins": 580.0
+    },
+    {
+      "seed": 15060,
+      "stage": 9,
+      "spins": 70,
+      "coins": 446.0
+    },
+    {
+      "seed": 15061,
+      "stage": 11,
+      "spins": 90,
+      "coins": 535.0
+    },
+    {
+      "seed": 15062,
+      "stage": 7,
+      "spins": 52,
+      "coins": 426.0
+    },
+    {
+      "seed": 15063,
+      "stage": 10,
+      "spins": 80,
+      "coins": 573.0
+    },
+    {
+      "seed": 15064,
+      "stage": 10,
+      "spins": 80,
+      "coins": 507.0
+    },
+    {
+      "seed": 15065,
+      "stage": 9,
+      "spins": 70,
+      "coins": 431.0
+    },
+    {
+      "seed": 15066,
+      "stage": 10,
+      "spins": 80,
+      "coins": 545.0
+    },
+    {
+      "seed": 15067,
+      "stage": 7,
+      "spins": 52,
+      "coins": 390.0
+    },
+    {
+      "seed": 15068,
+      "stage": 10,
+      "spins": 80,
+      "coins": 508.0
+    },
+    {
+      "seed": 15069,
+      "stage": 10,
+      "spins": 80,
+      "coins": 687.0
+    },
+    {
+      "seed": 15070,
+      "stage": 11,
+      "spins": 90,
+      "coins": 521.0
+    },
+    {
+      "seed": 15071,
+      "stage": 7,
+      "spins": 52,
+      "coins": 349.0
+    },
+    {
+      "seed": 15072,
+      "stage": 11,
+      "spins": 90,
+      "coins": 717.0
+    },
+    {
+      "seed": 15073,
+      "stage": 8,
+      "spins": 61,
+      "coins": 529.0
+    },
+    {
+      "seed": 15074,
+      "stage": 7,
+      "spins": 52,
+      "coins": 398.0
+    },
+    {
+      "seed": 15076,
+      "stage": 11,
+      "spins": 90,
+      "coins": 744.0
+    },
+    {
+      "seed": 15077,
+      "stage": 8,
+      "spins": 61,
+      "coins": 546.0
+    },
+    {
+      "seed": 15078,
+      "stage": 11,
+      "spins": 90,
+      "coins": 530.0
+    },
+    {
+      "seed": 15079,
+      "stage": 11,
+      "spins": 90,
+      "coins": 676.0
+    },
+    {
+      "seed": 15080,
+      "stage": 10,
+      "spins": 80,
+      "coins": 409.0
+    },
+    {
+      "seed": 15081,
+      "stage": 10,
+      "spins": 80,
+      "coins": 607.0
+    },
+    {
+      "seed": 15082,
+      "stage": 11,
+      "spins": 90,
+      "coins": 723.0
+    },
+    {
+      "seed": 15083,
+      "stage": 11,
+      "spins": 90,
+      "coins": 575.0
+    },
+    {
+      "seed": 15084,
+      "stage": 9,
+      "spins": 70,
+      "coins": 507.0
+    },
+    {
+      "seed": 15085,
+      "stage": 9,
+      "spins": 70,
+      "coins": 596.0
+    },
+    {
+      "seed": 15086,
+      "stage": 10,
+      "spins": 80,
+      "coins": 631.0
+    },
+    {
+      "seed": 15087,
+      "stage": 12,
+      "spins": 100,
+      "coins": 855.0
+    },
+    {
+      "seed": 15088,
+      "stage": 9,
+      "spins": 70,
+      "coins": 576.0
+    },
+    {
+      "seed": 15089,
+      "stage": 11,
+      "spins": 90,
+      "coins": 504.0
+    },
+    {
+      "seed": 15090,
+      "stage": 6,
+      "spins": 44,
+      "coins": 369.0
+    },
+    {
+      "seed": 15091,
+      "stage": 10,
+      "spins": 80,
+      "coins": 574.0
+    },
+    {
+      "seed": 15092,
+      "stage": 8,
+      "spins": 61,
+      "coins": 582.0
+    },
+    {
+      "seed": 15093,
+      "stage": 10,
+      "spins": 80,
+      "coins": 539.0
+    },
+    {
+      "seed": 15095,
+      "stage": 9,
+      "spins": 70,
+      "coins": 463.0
+    },
+    {
+      "seed": 15096,
+      "stage": 8,
+      "spins": 61,
+      "coins": 467.0
+    },
+    {
+      "seed": 15097,
+      "stage": 9,
+      "spins": 70,
+      "coins": 493.0
+    },
+    {
+      "seed": 15098,
+      "stage": 11,
+      "spins": 90,
+      "coins": 545.0
+    },
+    {
+      "seed": 15099,
+      "stage": 10,
+      "spins": 80,
+      "coins": 696.0
+    },
+    {
+      "seed": 15100,
+      "stage": 9,
+      "spins": 70,
+      "coins": 414.0
+    },
+    {
+      "seed": 15101,
+      "stage": 10,
+      "spins": 80,
+      "coins": 524.0
+    },
+    {
+      "seed": 15102,
+      "stage": 9,
+      "spins": 70,
+      "coins": 612.0
+    },
+    {
+      "seed": 15103,
+      "stage": 7,
+      "spins": 52,
+      "coins": 397.0
+    },
+    {
+      "seed": 15104,
+      "stage": 11,
+      "spins": 90,
+      "coins": 561.0
+    },
+    {
+      "seed": 15105,
+      "stage": 7,
+      "spins": 52,
+      "coins": 322.0
+    },
+    {
+      "seed": 15106,
+      "stage": 10,
+      "spins": 80,
+      "coins": 453.0
+    },
+    {
+      "seed": 15107,
+      "stage": 12,
+      "spins": 100,
+      "coins": 740.0
+    },
+    {
+      "seed": 15108,
+      "stage": 11,
+      "spins": 90,
+      "coins": 569.0
+    },
+    {
+      "seed": 15109,
+      "stage": 9,
+      "spins": 70,
+      "coins": 619.0
+    },
+    {
+      "seed": 15110,
+      "stage": 9,
+      "spins": 70,
+      "coins": 611.0
+    },
+    {
+      "seed": 15111,
+      "stage": 7,
+      "spins": 52,
+      "coins": 330.0
+    },
+    {
+      "seed": 15112,
+      "stage": 10,
+      "spins": 80,
+      "coins": 624.0
+    },
+    {
+      "seed": 15113,
+      "stage": 6,
+      "spins": 44,
+      "coins": 320.0
+    },
+    {
+      "seed": 15114,
+      "stage": 12,
+      "spins": 100,
+      "coins": 823.0
+    },
+    {
+      "seed": 15115,
+      "stage": 11,
+      "spins": 90,
+      "coins": 547.0
+    },
+    {
+      "seed": 15116,
+      "stage": 10,
+      "spins": 80,
+      "coins": 527.0
+    },
+    {
+      "seed": 15117,
+      "stage": 9,
+      "spins": 70,
+      "coins": 486.0
+    },
+    {
+      "seed": 15118,
+      "stage": 10,
+      "spins": 80,
+      "coins": 636.0
+    },
+    {
+      "seed": 15120,
+      "stage": 10,
+      "spins": 80,
+      "coins": 523.0
+    },
+    {
+      "seed": 15121,
+      "stage": 10,
+      "spins": 80,
+      "coins": 535.0
+    },
+    {
+      "seed": 15122,
+      "stage": 9,
+      "spins": 70,
+      "coins": 613.0
+    },
+    {
+      "seed": 15123,
+      "stage": 10,
+      "spins": 80,
+      "coins": 502.0
+    },
+    {
+      "seed": 15124,
+      "stage": 10,
+      "spins": 80,
+      "coins": 681.0
+    },
+    {
+      "seed": 15125,
+      "stage": 11,
+      "spins": 90,
+      "coins": 672.0
+    },
+    {
+      "seed": 15126,
+      "stage": 8,
+      "spins": 61,
+      "coins": 407.0
+    },
+    {
+      "seed": 15127,
+      "stage": 12,
+      "spins": 100,
+      "coins": 733.0
+    }
+  ],
+  "training_steps": 0,
+  "limitations": "Development seeds; approximate restricted simulator; no policy promotion or causal failure diagnosis."
+}

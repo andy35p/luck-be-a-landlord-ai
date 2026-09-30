@@ -1,0 +1,19 @@
+{
+  "before_seconds": [
+    3.222227100006421,
+    3.093373200012138,
+    3.2556494000018574
+  ],
+  "after_seconds": [
+    2.799052100002882,
+    3.2545326000108616,
+    2.944295500012231
+  ],
+  "median_speedup": 1.0943966391936664,
+  "all_100_episode_metrics_equal_each_repeat": true,
+  "replay": {
+    "episodes": 10,
+    "transitions": 2014,
+    "exact_replay": true
+  }
+}

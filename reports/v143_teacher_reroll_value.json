@@ -1,0 +1,1109 @@
+{
+  "version": "V143 Teacher Reroll Value Integration",
+  "protocol": {
+    "version": "forecast_rents_v143",
+    "environment": {
+      "floor": 1,
+      "rent_reward": 20.0,
+      "death_reward": -100.0,
+      "win_reward": 500.0,
+      "max_decisions": 10000,
+      "rule_version": "instance-magpie-v1"
+    },
+    "samples": 16,
+    "cost_model": "token_aware",
+    "base_cost": [
+      0,
+      0.125,
+      1
+    ],
+    "threshold": 0,
+    "sampling_seed": 20260929,
+    "legacy_trials": 8,
+    "legacy_seed": 20270927,
+    "horizon": 30,
+    "convergence_tolerances": [
+      0.0625,
+      0.0625,
+      5
+    ],
+    "max_deltas_vs64": {
+      "8": [
+        0,
+        0,
+        5.484375
+      ],
+      "16": [
+        0,
+        0,
+        3.859375
+      ],
+      "32": [
+        0,
+        0,
+        4.8984375
+      ],
+      "64": [
+        0,
+        0,
+        0.0
+      ]
+    },
+    "shadow_seeds": [
+      16000,
+      16001,
+      16002,
+      16003
+    ],
+    "online_seeds": [
+      16000,
+      16001,
+      16002,
+      16003,
+      16004,
+      16005,
+      16006,
+      16007,
+      16008,
+      16009,
+      16010,
+      16011,
+      16012,
+      16013,
+      16014,
+      16015,
+      16016,
+      16017,
+      16018,
+      16019,
+      16020,
+      16021,
+      16022,
+      16023,
+      16024,
+      16025,
+      16026,
+      16027,
+      16028,
+      16029,
+      16030,
+      16031,
+      16032,
+      16033,
+      16034,
+      16035,
+      16036,
+      16037,
+      16038,
+      16039,
+      16040,
+      16041,
+      16042,
+      16043,
+      16044,
+      16045,
+      16046,
+      16047,
+      16048,
+      16049,
+      16050,
+      16051,
+      16052,
+      16053,
+      16054,
+      16055,
+      16056,
+      16057,
+      16058,
+      16059,
+      16060,
+      16061,
+      16062,
+      16063
+    ],
+    "test_fixture_seed": 143000,
+    "training_updates": 0,
+    "limitations": "State-dependent vector reservation proxy, conditional forecasts; finite-budget sampling. Development only."
+  },
+  "frozen_v141": {
+    "teacher_stage": 11.609375,
+    "teacher_wins": 57,
+    "bc_stage": 9.6328125,
+    "bc_wins": 4,
+    "episodes": 128
+  },
+  "opportunity_suite": "logs\\v143-reroll\\opportunity_suite.csv",
+  "shadow": {
+    "episodes": 4,
+    "total_states": 1390,
+    "opportunities": 276,
+    "positive": 43,
+    "changed": 43,
+    "changed_non_reroll": 0,
+    "by_stage": {
+      "3": {
+        "opportunities": 24,
+        "positive": 5,
+        "rate": 0.20833333333333334,
+        "mean_advantage": [
+          0.0,
+          0.018673796994109492,
+          -10.159854415713792
+        ]
+      },
+      "4": {
+        "opportunities": 28,
+        "positive": 2,
+        "rate": 0.07142857142857142,
+        "mean_advantage": [
+          0.0,
+          -0.08828907485503425,
+          9.694078026159731
+        ]
+      },
+      "5": {
+        "opportunities": 28,
+        "positive": 4,
+        "rate": 0.14285714285714285,
+        "mean_advantage": [
+          0.0,
+          -0.028855023377647605,
+          10.509394187978804
+        ]
+      },
+      "6": {
+        "opportunities": 32,
+        "positive": 5,
+        "rate": 0.15625,
+        "mean_advantage": [
+          0.0,
+          -0.05324852882384183,
+          6.863806691284264
+        ]
+      },
+      "7": {
+        "opportunities": 32,
+        "positive": 7,
+        "rate": 0.21875,
+        "mean_advantage": [
+          0.0,
+          -0.024006556884690906,
+          0.016443638672458682
+        ]
+      },
+      "8": {
+        "opportunities": 36,
+        "positive": 2,
+        "rate": 0.05555555555555555,
+        "mean_advantage": [
+          -0.009548611111111112,
+          -0.020489701249414297,
+          6.269242112226899
+        ]
+      },
+      "9": {
+        "opportunities": 36,
+        "positive": 8,
+        "rate": 0.2222222222222222,
+        "mean_advantage": [
+          0.009331597222222222,
+          -0.006471287999114154,
+          -0.2700862762151341
+        ]
+      },
+      "10": {
+        "opportunities": 20,
+        "positive": 2,
+        "rate": 0.1,
+        "mean_advantage": [
+          -0.0015625,
+          -0.03466776124213564,
+          -2.4816389649371047
+        ]
+      },
+      "11": {
+        "opportunities": 20,
+        "positive": 1,
+        "rate": 0.05,
+        "mean_advantage": [
+          -0.00234375,
+          -0.006952036122644401,
+          5.150243086018866
+        ]
+      },
+      "12": {
+        "opportunities": 20,
+        "positive": 7,
+        "rate": 0.35,
+        "mean_advantage": [
+          0.000390625,
+          0.000390625,
+          -2.089453125
+        ]
+      }
+    },
+    "by_pressure": {
+      "low": {
+        "opportunities": 186,
+        "positive": 24,
+        "rate": 0.12903225806451613,
+        "mean_advantage": [
+          0.0,
+          -0.029499887992831528,
+          2.412312387992827
+        ]
+      },
+      "medium": {
+        "opportunities": 90,
+        "positive": 19,
+        "rate": 0.2111111111111111,
+        "mean_advantage": [
+          -0.0008680555555555555,
+          -0.01791362509894969,
+          3.565458360319511
+        ]
+      }
+    },
+    "by_tokens": {
+      "2": {
+        "opportunities": 276,
+        "positive": 43,
+        "rate": 0.15579710144927536,
+        "mean_advantage": [
+          -0.00028306159420289856,
+          -0.025721758788304842,
+          2.7883382485341373
+        ]
+      }
+    }
+  },
+  "resource_cost_comparison": {
+    "zero": {
+      "opportunities": 276,
+      "positive": 150,
+      "mean_advantage": [
+        -0.00028306159420289856,
+        -0.002151268115942029,
+        2.9769021739130435
+      ]
+    },
+    "constant": {
+      "opportunities": 276,
+      "positive": 19,
+      "mean_advantage": [
+        -0.00028306159420289856,
+        -0.12715126811594202,
+        1.9769021739130435
+      ]
+    },
+    "token_aware": {
+      "opportunities": 276,
+      "positive": 43,
+      "mean_advantage": [
+        -0.00028306159420289856,
+        -0.025721758788304842,
+        2.7883382485341373
+      ]
+    }
+  },
+  "coverage": {
+    "legacy": {
+      "opportunities": 4859,
+      "rerolls": 0,
+      "rerolls_per_episode": 0
+    },
+    "v143": {
+      "opportunities": 1369,
+      "rerolls": 125,
+      "rerolls_per_episode": 1.953125
+    }
+  },
+  "summaries": {
+    "legacy": {
+      "games": 64,
+      "win_rate": 0.484375,
+      "win_rate_95_ci": [
+        0.3663355166543264,
+        0.6041839852141988
+      ],
+      "average_stage": 11.671875,
+      "average_spins": 91.921875,
+      "average_coins": 623.875,
+      "mean_reward": 1047.9375,
+      "median_reward": 939.0,
+      "std": {
+        "stage": 1.6528444697762223,
+        "spins": 12.816537788069596,
+        "coins": 391.06259394239225,
+        "reward": 464.30688657463924
+      },
+      "mean_95_ci": {
+        "stage": [
+          11.26693554589905,
+          12.07681445410095
+        ],
+        "spins": [
+          88.78188094111087,
+          95.06186905888913
+        ],
+        "coins": [
+          528.0664250215125,
+          719.6835749784875
+        ],
+        "reward": [
+          934.1844030674729,
+          1161.6905969325271
+        ]
+      },
+      "rent_survival": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 0.984375,
+        "9": 0.96875,
+        "10": 0.828125,
+        "11": 0.75,
+        "12": 0.65625,
+        "13": 0.484375
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.9433759402071946,
+          1.0
+        ],
+        "2": [
+          0.9433759402071946,
+          1.0
+        ],
+        "3": [
+          0.9433759402071946,
+          1.0
+        ],
+        "4": [
+          0.9433759402071946,
+          1.0
+        ],
+        "5": [
+          0.9433759402071946,
+          1.0
+        ],
+        "6": [
+          0.9433759402071946,
+          1.0
+        ],
+        "7": [
+          0.9433759402071946,
+          1.0
+        ],
+        "8": [
+          0.9166589839990573,
+          0.9972364580766624
+        ],
+        "9": [
+          0.8930270822904169,
+          0.9913878616538281
+        ],
+        "10": [
+          0.717867883773418,
+          0.9012225769875535
+        ],
+        "11": [
+          0.631837235413303,
+          0.8398507346902941
+        ],
+        "12": [
+          0.5340364020991819,
+          0.7607685792155665
+        ],
+        "13": [
+          0.3663355166543264,
+          0.6041839852141988
+        ]
+      },
+      "truncated_games": 0,
+      "seconds": 352.48443779999957,
+      "episodes_per_second": 0.181568299580686,
+      "decisions_per_second": 68.24698460489034,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    },
+    "v143": {
+      "games": 64,
+      "win_rate": 0.5625,
+      "win_rate_95_ci": [
+        0.44086208956993017,
+        0.6770599029559692
+      ],
+      "average_stage": 12.078125,
+      "average_spins": 95.15625,
+      "average_coins": 593.8125,
+      "mean_reward": 1072.875,
+      "median_reward": 1017.0,
+      "std": {
+        "stage": 1.3129959380490608,
+        "spins": 9.593679715114034,
+        "coins": 325.09197111362147,
+        "reward": 357.59121380492024
+      },
+      "mean_95_ci": {
+        "stage": [
+          11.756446906197057,
+          12.399803093802943
+        ],
+        "spins": [
+          92.8058416598955,
+          97.5066583401045
+        ],
+        "coins": [
+          514.1664306192708,
+          673.4585693807292
+        ],
+        "reward": [
+          985.2667624692992,
+          1160.4832375307008
+        ]
+      },
+      "rent_survival": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 0.90625,
+        "11": 0.859375,
+        "12": 0.75,
+        "13": 0.5625
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.9433759402071946,
+          1.0
+        ],
+        "2": [
+          0.9433759402071946,
+          1.0
+        ],
+        "3": [
+          0.9433759402071946,
+          1.0
+        ],
+        "4": [
+          0.9433759402071946,
+          1.0
+        ],
+        "5": [
+          0.9433759402071946,
+          1.0
+        ],
+        "6": [
+          0.9433759402071946,
+          1.0
+        ],
+        "7": [
+          0.9433759402071946,
+          1.0
+        ],
+        "8": [
+          0.9433759402071946,
+          1.0
+        ],
+        "9": [
+          0.9433759402071946,
+          1.0
+        ],
+        "10": [
+          0.810171204003544,
+          0.9563217474148016
+        ],
+        "11": [
+          0.7538371825842297,
+          0.9242142744396914
+        ],
+        "12": [
+          0.631837235413303,
+          0.8398507346902941
+        ],
+        "13": [
+          0.44086208956993017,
+          0.6770599029559692
+        ]
+      },
+      "truncated_games": 0,
+      "seconds": 929.9456868000011,
+      "episodes_per_second": 0.06882122354933205,
+      "decisions_per_second": 26.91555039749658,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    }
+  },
+  "paired": {
+    "mean_stage_delta": 0.40625,
+    "paired_bootstrap_interval": [
+      -0.109375,
+      0.890625
+    ],
+    "confidence": 0.95,
+    "paired_bootstrap_95": [
+      -0.109375,
+      0.890625
+    ],
+    "improved": 24,
+    "unchanged": 24,
+    "worse": 16,
+    "worst_pairs": [
+      {
+        "seed": 16011,
+        "baseline_stage": 13,
+        "experiment_stage": 9,
+        "delta": -4,
+        "rerolls_used": 2
+      },
+      {
+        "seed": 16038,
+        "baseline_stage": 13,
+        "experiment_stage": 9,
+        "delta": -4,
+        "rerolls_used": 2
+      },
+      {
+        "seed": 16040,
+        "baseline_stage": 13,
+        "experiment_stage": 9,
+        "delta": -4,
+        "rerolls_used": 2
+      },
+      {
+        "seed": 16019,
+        "baseline_stage": 13,
+        "experiment_stage": 10,
+        "delta": -3,
+        "rerolls_used": 2
+      },
+      {
+        "seed": 16042,
+        "baseline_stage": 12,
+        "experiment_stage": 9,
+        "delta": -3,
+        "rerolls_used": 2
+      }
+    ],
+    "reward": {
+      "mean_delta": 24.9375,
+      "ci95": [
+        -104.90625,
+        135.0
+      ]
+    },
+    "won": {
+      "mean_delta": 0.078125,
+      "ci95": [
+        -0.09375,
+        0.234375
+      ]
+    }
+  },
+  "online_groups": {
+    "by_stage": {
+      "3": {
+        "opportunities": 372,
+        "positive": 56,
+        "rate": 0.15053763440860216,
+        "mean_advantage": [
+          0.0,
+          -0.049349791562206265,
+          -0.8760651335729193
+        ]
+      },
+      "4": {
+        "opportunities": 309,
+        "positive": 25,
+        "rate": 0.08090614886731391,
+        "mean_advantage": [
+          0.0,
+          -0.05732855666563998,
+          -2.350644027758775
+        ]
+      },
+      "5": {
+        "opportunities": 226,
+        "positive": 13,
+        "rate": 0.05752212389380531,
+        "mean_advantage": [
+          0.0,
+          -0.07757390669808858,
+          2.329042319424143
+        ]
+      },
+      "6": {
+        "opportunities": 193,
+        "positive": 16,
+        "rate": 0.08290155440414508,
+        "mean_advantage": [
+          0.0,
+          -0.0612491306101221,
+          0.4560885613366399
+        ]
+      },
+      "7": {
+        "opportunities": 99,
+        "positive": 8,
+        "rate": 0.08080808080808081,
+        "mean_advantage": [
+          0.0,
+          -0.06568619694406529,
+          2.6153721668717194
+        ]
+      },
+      "8": {
+        "opportunities": 60,
+        "positive": 5,
+        "rate": 0.08333333333333333,
+        "mean_advantage": [
+          0.0,
+          -0.05841867504763075,
+          -1.6765941920477079
+        ]
+      },
+      "9": {
+        "opportunities": 36,
+        "positive": 0,
+        "rate": 0,
+        "mean_advantage": [
+          -0.008680555555555556,
+          -0.03308621542634496,
+          -6.0290126400774255
+        ]
+      },
+      "10": {
+        "opportunities": 40,
+        "positive": 0,
+        "rate": 0,
+        "mean_advantage": [
+          -0.0052734375,
+          -0.02078646575052177,
+          6.096208273995833
+        ]
+      },
+      "11": {
+        "opportunities": 30,
+        "positive": 0,
+        "rate": 0,
+        "mean_advantage": [
+          0.0,
+          -0.007728907269349729,
+          4.190772908511864
+        ]
+      },
+      "12": {
+        "opportunities": 4,
+        "positive": 2,
+        "rate": 0.5,
+        "mean_advantage": [
+          0.0,
+          0.0,
+          -1.447265625
+        ]
+      }
+    },
+    "by_pressure": {
+      "low": {
+        "opportunities": 1217,
+        "positive": 114,
+        "rate": 0.09367296631059983,
+        "mean_advantage": [
+          0.0,
+          -0.05897142906053136,
+          0.203698473021091
+        ]
+      },
+      "medium": {
+        "opportunities": 152,
+        "positive": 11,
+        "rate": 0.07236842105263158,
+        "mean_advantage": [
+          -0.0034436677631578946,
+          -0.038945302825319,
+          -2.50456201141834
+        ]
+      }
+    },
+    "by_tokens": {
+      "2": {
+        "opportunities": 581,
+        "positive": 63,
+        "rate": 0.10843373493975904,
+        "mean_advantage": [
+          -0.0004168459552495697,
+          -0.0324401259603092,
+          -1.6194876600060535
+        ]
+      },
+      "1": {
+        "opportunities": 788,
+        "positive": 62,
+        "rate": 0.07868020304568528,
+        "mean_advantage": [
+          -0.0003569162436548223,
+          -0.07467030712331918,
+          1.0255456172520268
+        ]
+      }
+    }
+  },
+  "immediate_proxy": {
+    "n": 125,
+    "improved": 88,
+    "rate": 0.704
+  },
+  "consecutive": {
+    "1": 81,
+    "2": 22
+  },
+  "maximum_consecutive": 2,
+  "latency": {
+    "legacy": {
+      "legacy": {
+        "n": 24056,
+        "seconds": 331.5162352999789,
+        "mean": 0.013781020755735738
+      }
+    },
+    "v143": {
+      "non_reroll": {
+        "n": 23661,
+        "seconds": 290.1964749000326,
+        "mean": 0.012264759515660058
+      },
+      "reroll_opportunity": {
+        "n": 1369,
+        "seconds": 323.65914060000773,
+        "mean": 0.23642011731191215
+      }
+    }
+  },
+  "largest_differences": [
+    {
+      "seed": 16056,
+      "delta": 5,
+      "legacy": 7,
+      "v143": 12,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\legacy-16056.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16056.jsonl.gz"
+      }
+    },
+    {
+      "seed": 16000,
+      "delta": 4,
+      "legacy": 9,
+      "v143": 13,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\shadow-16000.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16000.jsonl.gz"
+      }
+    },
+    {
+      "seed": 16003,
+      "delta": 4,
+      "legacy": 9,
+      "v143": 13,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\shadow-16003.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16003.jsonl.gz"
+      }
+    },
+    {
+      "seed": 16009,
+      "delta": 4,
+      "legacy": 9,
+      "v143": 13,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\legacy-16009.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16009.jsonl.gz"
+      }
+    },
+    {
+      "seed": 16011,
+      "delta": -4,
+      "legacy": 13,
+      "v143": 9,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\legacy-16011.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16011.jsonl.gz"
+      }
+    },
+    {
+      "seed": 16024,
+      "delta": 4,
+      "legacy": 9,
+      "v143": 13,
+      "traces": {
+        "legacy": "logs\\v143-reroll\\reroll_episode_traces\\legacy-16024.jsonl.gz",
+        "v143": "logs\\v143-reroll\\reroll_episode_traces\\v143-16024.jsonl.gz"
+      }
+    }
+  ],
+  "smoke": {
+    "legacy": {
+      "games": 32,
+      "win_rate": 0.46875,
+      "win_rate_95_ci": [
+        0.3086938710806884,
+        0.6355048288102536
+      ],
+      "average_stage": 11.875,
+      "average_spins": 94.0625,
+      "average_coins": 632.4375,
+      "mean_reward": 1051.1875,
+      "median_reward": 960.0,
+      "std": {
+        "stage": 1.4535828926505883,
+        "spins": 11.319231422671772,
+        "coins": 332.5982694948483,
+        "reward": 390.9729334332741
+      },
+      "mean_95_ci": {
+        "stage": [
+          11.37136847751657,
+          12.37863152248343
+        ],
+        "spins": [
+          90.14065847065504,
+          97.98434152934496
+        ],
+        "coins": [
+          517.2001965837512,
+          747.6748034162488
+        ],
+        "reward": [
+          915.7247790844034,
+          1186.6502209155965
+        ]
+      },
+      "rent_survival": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 0.84375,
+        "11": 0.8125,
+        "12": 0.75,
+        "13": 0.46875
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.8928208017449296,
+          1.0
+        ],
+        "2": [
+          0.8928208017449296,
+          1.0
+        ],
+        "3": [
+          0.8928208017449296,
+          1.0
+        ],
+        "4": [
+          0.8928208017449296,
+          1.0
+        ],
+        "5": [
+          0.8928208017449296,
+          1.0
+        ],
+        "6": [
+          0.8928208017449296,
+          1.0
+        ],
+        "7": [
+          0.8928208017449296,
+          1.0
+        ],
+        "8": [
+          0.8928208017449296,
+          1.0
+        ],
+        "9": [
+          0.8928208017449296,
+          1.0
+        ],
+        "10": [
+          0.6824585040246961,
+          0.931355797174943
+        ],
+        "11": [
+          0.6469084479862404,
+          0.9111045531043405
+        ],
+        "12": [
+          0.5789344100575552,
+          0.8674759908149096
+        ],
+        "13": [
+          0.3086938710806884,
+          0.6355048288102536
+        ]
+      },
+      "truncated_games": 0,
+      "seconds": 185.64917320000063,
+      "episodes_per_second": 0.17236812558021072,
+      "decisions_per_second": 66.30247680521293,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    },
+    "v143": {
+      "games": 32,
+      "win_rate": 0.65625,
+      "win_rate_95_ci": [
+        0.48311087978962225,
+        0.7958956207556682
+      ],
+      "average_stage": 12.3125,
+      "average_spins": 96.5625,
+      "average_coins": 497.0625,
+      "mean_reward": 1037.0625,
+      "median_reward": 1022.0,
+      "std": {
+        "stage": 1.1482806221027917,
+        "spins": 7.873751821205408,
+        "coins": 256.7527915480997,
+        "reward": 254.11083910055294
+      },
+      "mean_95_ci": {
+        "stage": [
+          11.91464837360028,
+          12.71035162639972
+        ],
+        "spins": [
+          93.8344343097528,
+          99.2905656902472
+        ],
+        "coins": [
+          408.10383107025825,
+          586.0211689297417
+        ],
+        "reward": [
+          949.0192040704595,
+          1125.1057959295404
+        ]
+      },
+      "rent_survival": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 0.96875,
+        "11": 0.875,
+        "12": 0.8125,
+        "13": 0.65625
+      },
+      "rent_survival_95_ci": {
+        "1": [
+          0.8928208017449296,
+          1.0
+        ],
+        "2": [
+          0.8928208017449296,
+          1.0
+        ],
+        "3": [
+          0.8928208017449296,
+          1.0
+        ],
+        "4": [
+          0.8928208017449296,
+          1.0
+        ],
+        "5": [
+          0.8928208017449296,
+          1.0
+        ],
+        "6": [
+          0.8928208017449296,
+          1.0
+        ],
+        "7": [
+          0.8928208017449296,
+          1.0
+        ],
+        "8": [
+          0.8928208017449296,
+          1.0
+        ],
+        "9": [
+          0.8928208017449296,
+          1.0
+        ],
+        "10": [
+          0.8425573617998745,
+          0.994462139835997
+        ],
+        "11": [
+          0.7193169451834979,
+          0.9502986561251993
+        ],
+        "12": [
+          0.6469084479862404,
+          0.9111045531043405
+        ],
+        "13": [
+          0.48311087978962225,
+          0.7958956207556682
+        ]
+      },
+      "truncated_games": 0,
+      "seconds": 486.2793106000004,
+      "episodes_per_second": 0.06580580193822455,
+      "decisions_per_second": 26.112564781611727,
+      "warning": "Recovered approximate environment only; not original-game win rate."
+    }
+  },
+  "protected_artifacts_unchanged": true,
+  "training_updates": 0,
+  "result_case": "A: exploratory integration; improvement not established",
+  "next": "V144先做Teacher Reroll误差归因与估计不确定性审计；64局区间含零，暂不生成新数据或训练BC。独立BC Fit Capacity/Optimization问题保留。",
+  "selected_advantage_within_one_mc_se": 26,
+  "v128_shards_verified": 48,
+  "tests": {
+    "full_passed": 522,
+    "failed": 0
+  },
+  "limitations": [
+    "64 development episodes, not holdout",
+    "lexicographic vector resource proxy, not optimal token value",
+    "horizon30 excludes future offers; candidate MC uncertainty and forecast-trial noise differ",
+    "episode latency includes diagnostics/trace I/O; timings are not pure deployment throughput",
+    "same seeds after reroll do not preserve aligned future random events; paired policy outcomes are not causal effects of individual rerolls"
+  ],
+  "performance_wall_fresh32": {
+    "legacy": {
+      "fresh_episodes": 32,
+      "wall_seconds": 58.63815990000012,
+      "episodes_per_second": 0.5457197165561114,
+      "workers": 3,
+      "scope": "medium segment32 fresh episodes plus32 cached row reads and pool overhead"
+    },
+    "v143": {
+      "fresh_episodes": 32,
+      "wall_seconds": 150.54145789999984,
+      "episodes_per_second": 0.21256602962658058,
+      "workers": 3,
+      "scope": "medium segment32 fresh episodes plus32 cached row reads and pool overhead"
+    }
+  }
+}

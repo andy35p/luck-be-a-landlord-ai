@@ -1,0 +1,2521 @@
+{
+  "scope": "Three largest stage deficits, tie by seed; selected diagnostics, not causal or population estimate",
+  "checkpoint_sha256": "e6bcd874deb2650628810d6cb4afff443cc08db2436608442c60a21e5ab9c64e",
+  "source_hashes_verified": true,
+  "learner_replays_exact": true,
+  "teacher_labels_executed": false,
+  "training_updates_added": 0,
+  "cases": [
+    {
+      "seed": 12028,
+      "model_outcome": {
+        "seed": 12028,
+        "stage": 5,
+        "won": 0,
+        "truncated": 0,
+        "spins": 36,
+        "coins": 274.0,
+        "decisions": 146
+      },
+      "teacher_original_outcome": {
+        "seed": 12028,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 6.0,
+        "reward": 766.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 1
+      },
+      "rent_shortfall": 26.0,
+      "decisions_by_phase": {
+        "symbol": 35,
+        "item": 5,
+        "remove": 20
+      },
+      "disagreements_by_phase": {
+        "symbol": 20,
+        "item": 0,
+        "remove": 0
+      },
+      "disagreements": [
+        {
+          "step": 6,
+          "stage": 0,
+          "spin": 2,
+          "coins": 11.0,
+          "rent": 25,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "present",
+            "cat"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cat"
+          ]
+        },
+        {
+          "step": 14,
+          "stage": 0,
+          "spin": 4,
+          "coins": 26.0,
+          "rent": 25,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "flower",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "flower"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cherry"
+          ]
+        },
+        {
+          "step": 18,
+          "stage": 1,
+          "spin": 5,
+          "coins": 10.0,
+          "rent": 50,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "coal",
+            "milk",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "milk"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 35,
+          "stage": 1,
+          "spin": 9,
+          "coins": 70.0,
+          "rent": 50,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "bubble",
+            "goldfish",
+            "bar_of_soap"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "bubble": 5,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 39,
+          "stage": 2,
+          "spin": 10,
+          "coins": 42.0,
+          "rent": 100,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "coal",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "bubble": 6,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 48,
+          "stage": 2,
+          "spin": 12,
+          "coins": 91.0,
+          "rent": 100,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "goldfish",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "bubble": 6,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 56,
+          "stage": 2,
+          "spin": 14,
+          "coins": 141.0,
+          "rent": 100,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 5,
+            "bubble": 5,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 60,
+          "stage": 2,
+          "spin": 15,
+          "coins": 165.0,
+          "rent": 100,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "goldfish",
+            "bar_of_soap"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 5,
+            "bubble": 5,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "coins": 89.0,
+          "rent": 150,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "coin",
+            "cat",
+            "cheese"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 5,
+            "bubble": 5,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cat"
+          ]
+        },
+        {
+          "step": 69,
+          "stage": 3,
+          "spin": 17,
+          "coins": 114.0,
+          "rent": 150,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "bar_of_soap",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 6,
+            "bubble": 6,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 77,
+          "stage": 3,
+          "spin": 19,
+          "coins": 165.0,
+          "rent": 150,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "present",
+            "magpie",
+            "pearl"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 6,
+            "bubble": 6,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "pearl"
+          ]
+        },
+        {
+          "step": 85,
+          "stage": 3,
+          "spin": 21,
+          "coins": 218.0,
+          "rent": 150,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "spirit",
+            "cherry"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 6,
+            "bubble": 6,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "spirit"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 94,
+          "stage": 4,
+          "spin": 23,
+          "coins": 129.0,
+          "rent": 225,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "coal",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 4,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 106,
+          "stage": 4,
+          "spin": 26,
+          "coins": 209.0,
+          "rent": 225,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "spirit",
+            "cherry",
+            "bar_of_soap"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 6,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "spirit"
+          ]
+        },
+        {
+          "step": 114,
+          "stage": 4,
+          "spin": 28,
+          "coins": 259.0,
+          "rent": 225,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "spirit",
+            "cheese"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 10,
+            "bar_of_soap": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "spirit"
+          ]
+        },
+        {
+          "step": 118,
+          "stage": 5,
+          "spin": 29,
+          "coins": 61.0,
+          "rent": 300,
+          "remaining_spins": 7,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "mouse",
+            "cherry"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 10,
+            "bar_of_soap": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 123,
+          "stage": 5,
+          "spin": 30,
+          "coins": 86.0,
+          "rent": 300,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "bar_of_soap",
+            "spirit"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 9,
+            "bar_of_soap": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "spirit"
+          ]
+        },
+        {
+          "step": 127,
+          "stage": 5,
+          "spin": 31,
+          "coins": 114.0,
+          "rent": 300,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "bar_of_soap",
+            "present"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bar_of_soap": 3,
+            "bubble": 11
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 135,
+          "stage": 5,
+          "spin": 33,
+          "coins": 168.0,
+          "rent": 300,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "cat",
+            "bar_of_soap"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 12,
+            "bar_of_soap": 3,
+            "milk": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 139,
+          "stage": 5,
+          "spin": 34,
+          "coins": 196.0,
+          "rent": 300,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "cheese",
+            "pearl"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 3,
+            "cheese": 6,
+            "bubble": 12,
+            "bar_of_soap": 3,
+            "milk": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cheese"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 12007,
+      "model_outcome": {
+        "seed": 12007,
+        "stage": 8,
+        "won": 0,
+        "truncated": 0,
+        "spins": 61,
+        "coins": 539.0,
+        "decisions": 249
+      },
+      "teacher_original_outcome": {
+        "seed": 12007,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 103.0,
+        "reward": 863.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 1
+      },
+      "rent_shortfall": 61.0,
+      "decisions_by_phase": {
+        "symbol": 60,
+        "item": 8,
+        "remove": 29
+      },
+      "disagreements_by_phase": {
+        "symbol": 25,
+        "item": 1,
+        "remove": 0
+      },
+      "disagreements": [
+        {
+          "step": 27,
+          "stage": 1,
+          "spin": 7,
+          "coins": 31.0,
+          "rent": 50,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "coin",
+            "present",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 2,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "bar_of_soap": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "magpie"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "coin"
+          ]
+        },
+        {
+          "step": 31,
+          "stage": 1,
+          "spin": 8,
+          "coins": 43.0,
+          "rent": 50,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "mouse",
+            "bubble"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 2,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "bar_of_soap": 1,
+            "bubble": 2,
+            "magpie": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 35,
+          "stage": 1,
+          "spin": 9,
+          "coins": 58.0,
+          "rent": 50,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "bubble",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 2,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "bubble": 3,
+            "magpie": 1,
+            "goldfish": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cat"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "magpie"
+          ]
+        },
+        {
+          "step": 52,
+          "stage": 2,
+          "spin": 13,
+          "coins": 126.0,
+          "rent": 100,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "bar_of_soap",
+            "cherry"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "magpie": 1,
+            "goldfish": 1,
+            "bar_of_soap": 1,
+            "bubble": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 56,
+          "stage": 2,
+          "spin": 14,
+          "coins": 161.0,
+          "rent": 100,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "goldfish",
+            "cheese"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "magpie": 1,
+            "goldfish": 1,
+            "bubble": 4,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "coins": 132.0,
+          "rent": 150,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "bubble",
+            "bar_of_soap",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "magpie": 1,
+            "goldfish": 1,
+            "bar_of_soap": 3,
+            "bubble": 5
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 69,
+          "stage": 3,
+          "spin": 17,
+          "coins": 172.0,
+          "rent": 150,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "bar_of_soap",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "goldfish": 1,
+            "bubble": 7,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 77,
+          "stage": 3,
+          "spin": 19,
+          "coins": 252.0,
+          "rent": 150,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "cheese",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 3,
+            "goldfish": 1,
+            "bubble": 9,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 81,
+          "stage": 3,
+          "spin": 20,
+          "coins": 296.0,
+          "rent": 150,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "present",
+            "bar_of_soap",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 1,
+            "bubble": 7,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 91,
+          "stage": 4,
+          "spin": 22,
+          "coins": 213.0,
+          "rent": 225,
+          "remaining_spins": 7,
+          "phase": "item",
+          "candidates": [
+            "undertaker",
+            "time_machine"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 1,
+            "bar_of_soap": 3,
+            "bubble": 6
+          },
+          "model": [
+            "PICK_ITEM",
+            "time_machine"
+          ],
+          "teacher": [
+            "PICK_ITEM",
+            "undertaker"
+          ]
+        },
+        {
+          "step": 110,
+          "stage": 4,
+          "spin": 27,
+          "coins": 378.0,
+          "rent": 225,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "cherry",
+            "flower"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 1,
+            "bubble": 9,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "flower"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 118,
+          "stage": 5,
+          "spin": 29,
+          "coins": 221.0,
+          "rent": 300,
+          "remaining_spins": 7,
+          "phase": "symbol",
+          "candidates": [
+            "magpie",
+            "mouse",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bar_of_soap": 1,
+            "bubble": 6
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "milk"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 123,
+          "stage": 5,
+          "spin": 30,
+          "coins": 270.0,
+          "rent": 300,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "bar_of_soap",
+            "spirit"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bubble": 6
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 139,
+          "stage": 5,
+          "spin": 34,
+          "coins": 395.0,
+          "rent": 300,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "pearl",
+            "coin",
+            "present"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 4,
+            "pearl": 1,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bubble": 8,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "pearl"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "coin"
+          ]
+        },
+        {
+          "step": 143,
+          "stage": 5,
+          "spin": 35,
+          "coins": 436.0,
+          "rent": 300,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bar_of_soap": 2,
+            "bubble": 7
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 147,
+          "stage": 6,
+          "spin": 36,
+          "coins": 190.0,
+          "rent": 375,
+          "remaining_spins": 8,
+          "phase": "symbol",
+          "candidates": [
+            "coal",
+            "flower",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bar_of_soap": 2,
+            "bubble": 5
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "flower"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 152,
+          "stage": 6,
+          "spin": 37,
+          "coins": 214.0,
+          "rent": 375,
+          "remaining_spins": 7,
+          "phase": "symbol",
+          "candidates": [
+            "spirit",
+            "mouse",
+            "bar_of_soap"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 2,
+            "bubble": 7,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 180,
+          "stage": 7,
+          "spin": 44,
+          "coins": 169.0,
+          "rent": 450,
+          "remaining_spins": 8,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "coal",
+            "pearl"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 3,
+            "bar_of_soap": 3,
+            "bubble": 4,
+            "diamond": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "coal"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 189,
+          "stage": 7,
+          "spin": 46,
+          "coins": 264.0,
+          "rent": 450,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "present",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 4,
+            "goldfish": 3,
+            "bar_of_soap": 2,
+            "diamond": 1,
+            "bubble": 4
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "present"
+          ]
+        },
+        {
+          "step": 209,
+          "stage": 7,
+          "spin": 51,
+          "coins": 497.0,
+          "rent": 450,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "bar_of_soap",
+            "cat"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 5,
+            "goldfish": 3,
+            "diamond": 1,
+            "bubble": 6,
+            "bar_of_soap": 4
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 226,
+          "stage": 8,
+          "spin": 55,
+          "coins": 229.0,
+          "rent": 600,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "spirit",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 5,
+            "goldfish": 3,
+            "diamond": 1,
+            "bar_of_soap": 4,
+            "bubble": 9
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "spirit"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 230,
+          "stage": 8,
+          "spin": 56,
+          "coins": 278.0,
+          "rent": 600,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "milk",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 5,
+            "goldfish": 3,
+            "diamond": 1,
+            "bubble": 10,
+            "bar_of_soap": 2,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 234,
+          "stage": 8,
+          "spin": 57,
+          "coins": 326.0,
+          "rent": 600,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "milk",
+            "bubble"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 5,
+            "goldfish": 3,
+            "diamond": 1,
+            "bubble": 10,
+            "bar_of_soap": 3,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "SKIP_SYMBOL",
+            null
+          ]
+        },
+        {
+          "step": 238,
+          "stage": 8,
+          "spin": 58,
+          "coins": 388.0,
+          "rent": 600,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "bar_of_soap",
+            "coal"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 6,
+            "goldfish": 3,
+            "diamond": 1,
+            "bubble": 9,
+            "bar_of_soap": 2,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 242,
+          "stage": 8,
+          "spin": 59,
+          "coins": 450.0,
+          "rent": 600,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "cheese",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 6,
+            "goldfish": 3,
+            "diamond": 1,
+            "bubble": 6,
+            "bar_of_soap": 3,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 246,
+          "stage": 8,
+          "spin": 60,
+          "coins": 481.0,
+          "rent": 600,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "pearl",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 3,
+            "cat": 4,
+            "pearl": 2,
+            "cherry": 2,
+            "cheese": 7,
+            "goldfish": 3,
+            "diamond": 1,
+            "bar_of_soap": 3,
+            "bubble": 5
+          },
+          "model": [
+            "SKIP_SYMBOL",
+            null
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cat"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 12016,
+      "model_outcome": {
+        "seed": 12016,
+        "stage": 8,
+        "won": 0,
+        "truncated": 0,
+        "spins": 61,
+        "coins": 518.0,
+        "decisions": 249
+      },
+      "teacher_original_outcome": {
+        "seed": 12016,
+        "won": 1,
+        "stage": 13,
+        "spins": 100,
+        "coins": 956.0,
+        "reward": 1716.0,
+        "decisions": 409,
+        "truncated": 0,
+        "rerolls_used": 0,
+        "removals_used": 2
+      },
+      "rent_shortfall": 82.0,
+      "decisions_by_phase": {
+        "symbol": 60,
+        "item": 8,
+        "remove": 15
+      },
+      "disagreements_by_phase": {
+        "symbol": 26,
+        "item": 1,
+        "remove": 0
+      },
+      "disagreements": [
+        {
+          "step": 2,
+          "stage": 0,
+          "spin": 1,
+          "coins": 5.0,
+          "rent": 25,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "milk",
+            "cheese",
+            "coal"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 1,
+            "pearl": 1,
+            "cherry": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "milk"
+          ]
+        },
+        {
+          "step": 14,
+          "stage": 0,
+          "spin": 4,
+          "coins": 26.0,
+          "rent": 25,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "cat",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 2,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cat"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "magpie"
+          ]
+        },
+        {
+          "step": 39,
+          "stage": 2,
+          "spin": 10,
+          "coins": 38.0,
+          "rent": 100,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "bubble",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 2,
+            "magpie": 1,
+            "bubble": 8,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bubble"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 44,
+          "stage": 2,
+          "spin": 11,
+          "coins": 64.0,
+          "rent": 100,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "pearl",
+            "goldfish",
+            "cheese"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 2,
+            "magpie": 1,
+            "bubble": 9,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 64,
+          "stage": 3,
+          "spin": 16,
+          "coins": 113.0,
+          "rent": 150,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "flower",
+            "cheese",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 3,
+            "magpie": 1,
+            "goldfish": 2,
+            "bar_of_soap": 2,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 69,
+          "stage": 3,
+          "spin": 17,
+          "coins": 162.0,
+          "rent": 150,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "cheese",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 4,
+            "goldfish": 2,
+            "bar_of_soap": 1,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 89,
+          "stage": 4,
+          "spin": 22,
+          "coins": 161.0,
+          "rent": 225,
+          "remaining_spins": 7,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "cheese",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "bar_of_soap": 2,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 102,
+          "stage": 4,
+          "spin": 25,
+          "coins": 292.0,
+          "rent": 225,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "bar_of_soap",
+            "cat"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "bubble": 7,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 110,
+          "stage": 4,
+          "spin": 27,
+          "coins": 418.0,
+          "rent": 225,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "spirit",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "bar_of_soap": 3,
+            "bubble": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "spirit"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 123,
+          "stage": 5,
+          "spin": 30,
+          "coins": 331.0,
+          "rent": 300,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "magpie",
+            "coal"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "spirit": 1,
+            "bubble": 6,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "coal"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 139,
+          "stage": 5,
+          "spin": 34,
+          "coins": 574.0,
+          "rent": 300,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "goldfish",
+            "mouse",
+            "flower"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 1,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "bubble": 5,
+            "bar_of_soap": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "flower"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 143,
+          "stage": 5,
+          "spin": 35,
+          "coins": 629.0,
+          "rent": 300,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "bubble",
+            "magpie",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 3,
+            "bar_of_soap": 2,
+            "bubble": 3
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bubble"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 160,
+          "stage": 6,
+          "spin": 39,
+          "coins": 468.0,
+          "rent": 375,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "mouse",
+            "milk",
+            "coin"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "milk"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 164,
+          "stage": 6,
+          "spin": 40,
+          "coins": 513.0,
+          "rent": 375,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "milk",
+            "cheese",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 6,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 168,
+          "stage": 6,
+          "spin": 41,
+          "coins": 534.0,
+          "rent": 375,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "cherry",
+            "goldfish",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "milk"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "cherry"
+          ]
+        },
+        {
+          "step": 172,
+          "stage": 6,
+          "spin": 42,
+          "coins": 580.0,
+          "rent": 375,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 185,
+          "stage": 7,
+          "spin": 45,
+          "coins": 303.0,
+          "rent": 450,
+          "remaining_spins": 7,
+          "phase": "symbol",
+          "candidates": [
+            "present",
+            "milk",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "spirit": 1,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "milk"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 189,
+          "stage": 7,
+          "spin": 46,
+          "coins": 330.0,
+          "rent": 450,
+          "remaining_spins": 6,
+          "phase": "symbol",
+          "candidates": [
+            "bubble",
+            "goldfish",
+            "pearl"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "spirit": 1,
+            "bubble": 3,
+            "milk": 1
+          },
+          "model": [
+            "SKIP_SYMBOL",
+            null
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "bubble"
+          ]
+        },
+        {
+          "step": 193,
+          "stage": 7,
+          "spin": 47,
+          "coins": 388.0,
+          "rent": 450,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "bubble",
+            "flower",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "spirit": 1,
+            "bubble": 1,
+            "milk": 1
+          },
+          "model": [
+            "SKIP_SYMBOL",
+            null
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 197,
+          "stage": 7,
+          "spin": 48,
+          "coins": 414.0,
+          "rent": 450,
+          "remaining_spins": 4,
+          "phase": "symbol",
+          "candidates": [
+            "cat",
+            "bar_of_soap",
+            "mouse"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "milk": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "mouse"
+          ]
+        },
+        {
+          "step": 201,
+          "stage": 7,
+          "spin": 49,
+          "coins": 459.0,
+          "rent": 450,
+          "remaining_spins": 3,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "cherry",
+            "goldfish"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 7,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "goldfish"
+          ]
+        },
+        {
+          "step": 209,
+          "stage": 7,
+          "spin": 51,
+          "coins": 532.0,
+          "rent": 450,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "pearl",
+            "cheese",
+            "bubble"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 8,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "bubble"
+          ]
+        },
+        {
+          "step": 213,
+          "stage": 8,
+          "spin": 52,
+          "coins": 119.0,
+          "rent": 600,
+          "remaining_spins": 9,
+          "phase": "symbol",
+          "candidates": [
+            "bar_of_soap",
+            "cherry",
+            "diamond"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 9,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "diamond"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "bar_of_soap"
+          ]
+        },
+        {
+          "step": 215,
+          "stage": 8,
+          "spin": 52,
+          "coins": 119.0,
+          "rent": 600,
+          "remaining_spins": 9,
+          "phase": "item",
+          "candidates": [
+            "undertaker",
+            "time_machine"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 9,
+            "goldfish": 4,
+            "bar_of_soap": 1,
+            "bubble": 1,
+            "diamond": 1
+          },
+          "model": [
+            "PICK_ITEM",
+            "time_machine"
+          ],
+          "teacher": [
+            "PICK_ITEM",
+            "undertaker"
+          ]
+        },
+        {
+          "step": 230,
+          "stage": 8,
+          "spin": 56,
+          "coins": 288.0,
+          "rent": 600,
+          "remaining_spins": 5,
+          "phase": "symbol",
+          "candidates": [
+            "present",
+            "bubble",
+            "cheese"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 9,
+            "goldfish": 4,
+            "diamond": 2,
+            "bar_of_soap": 1,
+            "bubble": 2
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "bubble"
+          ]
+        },
+        {
+          "step": 242,
+          "stage": 8,
+          "spin": 59,
+          "coins": 410.0,
+          "rent": 600,
+          "remaining_spins": 2,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "spirit",
+            "milk"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 10,
+            "goldfish": 4,
+            "diamond": 3,
+            "bubble": 3,
+            "bar_of_soap": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "spirit"
+          ],
+          "teacher": [
+            "SKIP_SYMBOL",
+            null
+          ]
+        },
+        {
+          "step": 246,
+          "stage": 8,
+          "spin": 60,
+          "coins": 462.0,
+          "rent": 600,
+          "remaining_spins": 1,
+          "phase": "symbol",
+          "candidates": [
+            "cheese",
+            "milk",
+            "magpie"
+          ],
+          "deck": {
+            "coin": 1,
+            "flower": 2,
+            "cat": 3,
+            "pearl": 1,
+            "cherry": 1,
+            "cheese": 10,
+            "goldfish": 4,
+            "diamond": 3,
+            "bubble": 3,
+            "bar_of_soap": 1,
+            "spirit": 1
+          },
+          "model": [
+            "PICK_SYMBOL",
+            "cheese"
+          ],
+          "teacher": [
+            "PICK_SYMBOL",
+            "milk"
+          ]
+        }
+      ]
+    }
+  ]
+}

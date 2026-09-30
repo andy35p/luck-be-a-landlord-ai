@@ -1,0 +1,8 @@
+{
+  "main_sha256": "8fc8547be296d731a504ad42fa3241443a79d7ba12827731063d1ca43957400a",
+  "inventory_pool_uses_reel_icons": true,
+  "redistributes_pool_into_icons": true,
+  "timer_increments_displayed_icons": true,
+  "explicit_offscreen_nonempty_handling": true,
+  "candidate_dll_sha256": "d93a347b4a7128f76e0125057d241e6732feb6a4161259255d13d204adb2ed63"
+}

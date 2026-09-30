@@ -1,0 +1,140 @@
+{
+  "scope": "10 new diagnostic seeds, no teacher comparison or tuning",
+  "phase_counts": {
+    "train": {
+      "symbol": {
+        "total": 99,
+        "correct": 42
+      },
+      "item": {
+        "total": 12,
+        "correct": 8
+      },
+      "remove": {
+        "total": 84,
+        "correct": 83
+      }
+    },
+    "validation": {
+      "symbol": {
+        "total": 89,
+        "correct": 51
+      },
+      "item": {
+        "total": 11,
+        "correct": 8
+      },
+      "remove": {
+        "total": 15,
+        "correct": 13
+      }
+    },
+    "test": {
+      "symbol": {
+        "total": 99,
+        "correct": 49
+      },
+      "item": {
+        "total": 12,
+        "correct": 11
+      },
+      "remove": {
+        "total": 2,
+        "correct": 0
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "seed": 8000,
+      "stage": 5,
+      "spins": 36,
+      "coins": 264.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8001,
+      "stage": 5,
+      "spins": 36,
+      "coins": 249.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8002,
+      "stage": 5,
+      "spins": 36,
+      "coins": 216.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8003,
+      "stage": 5,
+      "spins": 36,
+      "coins": 191.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8004,
+      "stage": 5,
+      "spins": 36,
+      "coins": 229.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8005,
+      "stage": 5,
+      "spins": 36,
+      "coins": 212.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8006,
+      "stage": 5,
+      "spins": 36,
+      "coins": 248.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8007,
+      "stage": 5,
+      "spins": 36,
+      "coins": 210.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8008,
+      "stage": 5,
+      "spins": 36,
+      "coins": 288.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    },
+    {
+      "seed": 8009,
+      "stage": 5,
+      "spins": 36,
+      "coins": 236.0,
+      "won": false,
+      "truncated": false,
+      "decisions": 146
+    }
+  ],
+  "checkpoint_sha256": "92f899b62c917c2989ce978067813a23c2b228e55e2dfdf403d9dc8aee0b3118"
+}

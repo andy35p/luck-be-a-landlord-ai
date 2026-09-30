@@ -1,0 +1,5 @@
+{
+  "version": "0.7.0",
+  "dll_sha256": "D93A347B4A7128F76E0125057D241E6732FEB6A4161259255D13D204ADB2ED63",
+  "provenance": "V102 natural board/timer capture, V105 live consumer unsupported-state display and offline transition on build 16940935. Limited local testing, not Workshop or full strategy certification. Rebuilds require separate validation."
+}

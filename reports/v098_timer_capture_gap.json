@@ -1,0 +1,16 @@
+{
+  "scope": "Field availability only; changes do not prove correct timer transitions or symbol support",
+  "counts": {
+    "records": 298,
+    "timed_symbol_observations": 524,
+    "missing_timer_state": 524
+  },
+  "missing_fields": {
+    "times_displayed": 524,
+    "values": 524,
+    "modded": 524,
+    "inherit_effects": 524
+  },
+  "unique_instances": 4,
+  "instances_with_multiple_timer_values": 0
+}

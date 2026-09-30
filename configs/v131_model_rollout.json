@@ -1,0 +1,19 @@
+{
+  "seed_start": 12000,
+  "games": 32,
+  "rule_version": "instance-magpie-v1",
+  "floor": 1,
+  "model_checkpoint": "outputs/v130-magpie-corpus-training/research-200-updates.pt",
+  "model_sha256": "e6bcd874deb2650628810d6cb4afff443cc08db2436608442c60a21e5ab9c64e",
+  "initialization_seed": 123,
+  "teacher": "forecast_rents",
+  "primary": "paired stage difference trained minus untrained",
+  "secondary": [
+    "win_rate",
+    "teacher_gap",
+    "truncation"
+  ],
+  "no_optional_stopping": true,
+  "no_training": true,
+  "promotion": "none; development comparison only"
+}

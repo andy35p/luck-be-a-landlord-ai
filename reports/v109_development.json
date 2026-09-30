@@ -1,0 +1,37 @@
+{
+  "split": "development",
+  "seeds": [
+    0,
+    999
+  ],
+  "stage_difference": {
+    "mean": 0.216,
+    "normal_95_interval": [
+      0.04096289908394535,
+      0.39103710091605465
+    ],
+    "improved": 166,
+    "equal": 688,
+    "worse": 146
+  },
+  "win_difference": {
+    "mean": 0.039,
+    "normal_95_interval": [
+      0.018110354150831003,
+      0.059889645849169
+    ],
+    "improved": 77,
+    "equal": 885,
+    "worse": 38
+  },
+  "baseline": {
+    "average_stage": 6.541,
+    "win_rate": 0.176,
+    "truncated_games": 0
+  },
+  "cycle": {
+    "average_stage": 6.757,
+    "win_rate": 0.215,
+    "truncated_games": 0
+  }
+}

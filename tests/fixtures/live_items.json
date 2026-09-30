@@ -1,0 +1,42 @@
+{
+  "scope": "Projected observed items; combining with test decks is synthetic, not a natural positive case",
+  "source_sha256": "b6d47182b48fc0ac91fa0c6d9658aab9a02d017499c945e15d8f4a035a99be00",
+  "sequence": 37,
+  "items": [
+    {
+      "type": "tax_evasion",
+      "rarity": "common",
+      "value": 0,
+      "values": [
+        1
+      ],
+      "saved_value": 0,
+      "saved_values": {},
+      "item_count": 1,
+      "destroy_counters": 0,
+      "active": false,
+      "destroyed": false,
+      "destroyable": false,
+      "symbol_trigger": false,
+      "instance_id": "item-0"
+    },
+    {
+      "type": "egg_carton",
+      "rarity": "common",
+      "value": 0,
+      "values": [
+        1,
+        6
+      ],
+      "saved_value": 1,
+      "saved_values": {},
+      "item_count": 1,
+      "destroy_counters": 0,
+      "active": false,
+      "destroyed": false,
+      "destroyable": false,
+      "symbol_trigger": false,
+      "instance_id": "item-1"
+    }
+  ]
+}

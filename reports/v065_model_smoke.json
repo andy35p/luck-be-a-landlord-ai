@@ -1,0 +1,92 @@
+{
+  "model_version": "spatial-mlp-v1",
+  "parameter_count": 28769,
+  "initialization_seed": 65,
+  "training_updates": 0,
+  "checkpoint": "logs\\spatial-model-v065\\untrained.pt",
+  "checkpoint_sha256": "cd84e955d0c4176a348cc526e4f359534e6035fb70ab90dd77bee8e3d86cc715",
+  "reload_logits_exact": true,
+  "batch_size": 64,
+  "online": [
+    {
+      "seed": 0,
+      "stage": 6,
+      "spins": 44,
+      "decisions": 181,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 1,
+      "stage": 6,
+      "spins": 44,
+      "decisions": 181,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 2,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 148,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 3,
+      "stage": 9,
+      "spins": 70,
+      "decisions": 288,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 4,
+      "stage": 4,
+      "spins": 29,
+      "decisions": 119,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 5,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 148,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 6,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 148,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 7,
+      "stage": 5,
+      "spins": 36,
+      "decisions": 148,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 8,
+      "stage": 7,
+      "spins": 52,
+      "decisions": 214,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 9,
+      "stage": 9,
+      "spins": 70,
+      "decisions": 288,
+      "truncated": false,
+      "won": false
+    }
+  ]
+}

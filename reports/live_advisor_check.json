@@ -1,0 +1,18 @@
+{
+  "historical_default": {
+    "status": "unavailable",
+    "reasons": [
+      "live_freshness_unconfirmed"
+    ],
+    "action": null
+  },
+  "offline_scope_check": {
+    "status": "unavailable",
+    "reasons": [
+      "items_or_missing_items_unsupported",
+      "unsupported_candidate",
+      "unsupported_symbol"
+    ],
+    "action": null
+  }
+}

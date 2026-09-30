@@ -1,0 +1,286 @@
+C:\Users\14489\Documents\ChatGPT\���˷���\.venv-model\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{
+  "train": {
+    "synergy": {
+      "cheese:0": {
+        "decisions": 97,
+        "exact": 69,
+        "equal_teacher_score": 28
+      },
+      "mouse:1": {
+        "decisions": 275,
+        "lower_teacher_score": 89,
+        "exact": 119,
+        "model_skips_teacher_pick": 67
+      },
+      "cheese:1": {
+        "decisions": 366,
+        "exact": 320,
+        "lower_teacher_score": 46
+      },
+      "mouse:0": {
+        "decisions": 155,
+        "exact": 147,
+        "equal_teacher_score": 6,
+        "model_skips_teacher_pick": 2
+      },
+      "cheese:2-3": {
+        "decisions": 750,
+        "exact": 742,
+        "lower_teacher_score": 8
+      },
+      "cheese:4+": {
+        "decisions": 351,
+        "lower_teacher_score": 45,
+        "exact": 306
+      },
+      "mouse:2-3": {
+        "decisions": 54,
+        "exact": 22,
+        "model_skips_teacher_pick": 17,
+        "lower_teacher_score": 15
+      },
+      "mouse:4+": {
+        "decisions": 1,
+        "model_skips_teacher_pick": 1
+      }
+    },
+    "synergy_margin": {
+      "tie": {
+        "decisions": 252,
+        "exact": 216,
+        "equal_teacher_score": 34,
+        "model_skips_teacher_pick": 2
+      },
+      ">1": {
+        "decisions": 1653,
+        "lower_teacher_score": 89,
+        "exact": 1479,
+        "model_skips_teacher_pick": 85
+      },
+      "(0,1]": {
+        "decisions": 144,
+        "exact": 30,
+        "lower_teacher_score": 114
+      }
+    },
+    "deck": {
+      "<18": {
+        "decisions": 4180,
+        "exact": 2925,
+        "equal_teacher_score": 1124,
+        "lower_teacher_score": 126,
+        "model_skips_teacher_pick": 5
+      },
+      "18-19": {
+        "decisions": 650,
+        "exact": 462,
+        "equal_teacher_score": 101,
+        "model_skips_teacher_pick": 70,
+        "lower_teacher_score": 17
+      },
+      "20-24": {
+        "decisions": 1229,
+        "exact": 1147,
+        "lower_teacher_score": 25,
+        "model_picks_teacher_skip": 40,
+        "model_skips_teacher_pick": 17
+      },
+      "25+": {
+        "decisions": 1651,
+        "exact": 1526,
+        "lower_teacher_score": 47,
+        "model_skips_teacher_pick": 68,
+        "model_picks_teacher_skip": 10
+      }
+    }
+  }
+}
+{
+  "test": {
+    "synergy": {
+      "mouse:0": {
+        "decisions": 20,
+        "exact": 19,
+        "equal_teacher_score": 1
+      },
+      "cheese:1": {
+        "decisions": 59,
+        "exact": 55,
+        "lower_teacher_score": 4
+      },
+      "mouse:1": {
+        "decisions": 49,
+        "exact": 14,
+        "model_skips_teacher_pick": 16,
+        "lower_teacher_score": 19
+      },
+      "cheese:2-3": {
+        "decisions": 126,
+        "exact": 124,
+        "lower_teacher_score": 2
+      },
+      "cheese:4+": {
+        "decisions": 71,
+        "exact": 64,
+        "lower_teacher_score": 7
+      },
+      "mouse:2-3": {
+        "decisions": 20,
+        "model_skips_teacher_pick": 10,
+        "lower_teacher_score": 7,
+        "exact": 3
+      },
+      "cheese:0": {
+        "decisions": 15,
+        "exact": 14,
+        "equal_teacher_score": 1
+      }
+    },
+    "synergy_margin": {
+      "tie": {
+        "decisions": 35,
+        "exact": 33,
+        "equal_teacher_score": 2
+      },
+      ">1": {
+        "decisions": 305,
+        "exact": 256,
+        "model_skips_teacher_pick": 26,
+        "lower_teacher_score": 23
+      },
+      "(0,1]": {
+        "decisions": 20,
+        "lower_teacher_score": 16,
+        "exact": 4
+      }
+    },
+    "deck": {
+      "<18": {
+        "decisions": 623,
+        "exact": 435,
+        "equal_teacher_score": 164,
+        "lower_teacher_score": 23,
+        "model_skips_teacher_pick": 1
+      },
+      "18-19": {
+        "decisions": 88,
+        "exact": 62,
+        "model_skips_teacher_pick": 13,
+        "equal_teacher_score": 9,
+        "lower_teacher_score": 4
+      },
+      "20-24": {
+        "decisions": 198,
+        "exact": 178,
+        "model_skips_teacher_pick": 4,
+        "model_picks_teacher_skip": 10,
+        "lower_teacher_score": 6
+      },
+      "25+": {
+        "decisions": 355,
+        "exact": 323,
+        "model_skips_teacher_pick": 22,
+        "model_picks_teacher_skip": 1,
+        "lower_teacher_score": 9
+      }
+    }
+  }
+}
+{
+  "own_development": {
+    "synergy": {
+      "mouse:4+": {
+        "decisions": 11,
+        "lower_teacher_score": 5,
+        "exact": 6
+      },
+      "cheese:2-3": {
+        "decisions": 291,
+        "exact": 282,
+        "lower_teacher_score": 9
+      },
+      "mouse:1": {
+        "decisions": 121,
+        "exact": 61,
+        "lower_teacher_score": 45,
+        "model_skips_teacher_pick": 15
+      },
+      "mouse:0": {
+        "decisions": 96,
+        "model_skips_teacher_pick": 2,
+        "exact": 93,
+        "equal_teacher_score": 1
+      },
+      "cheese:4+": {
+        "decisions": 371,
+        "exact": 316,
+        "lower_teacher_score": 55
+      },
+      "cheese:0": {
+        "decisions": 41,
+        "exact": 32,
+        "equal_teacher_score": 9
+      },
+      "mouse:2-3": {
+        "decisions": 45,
+        "exact": 26,
+        "lower_teacher_score": 19
+      },
+      "cheese:1": {
+        "decisions": 196,
+        "exact": 163,
+        "lower_teacher_score": 33
+      }
+    },
+    "synergy_margin": {
+      ">1": {
+        "decisions": 967,
+        "lower_teacher_score": 102,
+        "exact": 850,
+        "model_skips_teacher_pick": 15
+      },
+      "tie": {
+        "decisions": 137,
+        "model_skips_teacher_pick": 2,
+        "exact": 125,
+        "equal_teacher_score": 10
+      },
+      "(0,1]": {
+        "decisions": 68,
+        "lower_teacher_score": 64,
+        "exact": 4
+      }
+    },
+    "deck": {
+      "<18": {
+        "decisions": 2931,
+        "exact": 2040,
+        "equal_teacher_score": 758,
+        "lower_teacher_score": 128,
+        "model_skips_teacher_pick": 5
+      },
+      "18-19": {
+        "decisions": 406,
+        "exact": 256,
+        "model_skips_teacher_pick": 77,
+        "equal_teacher_score": 55,
+        "lower_teacher_score": 18
+      },
+      "20-24": {
+        "decisions": 662,
+        "exact": 607,
+        "model_picks_teacher_skip": 21,
+        "lower_teacher_score": 22,
+        "model_skips_teacher_pick": 12
+      },
+      "25+": {
+        "decisions": 78,
+        "exact": 70,
+        "lower_teacher_score": 6,
+        "model_skips_teacher_pick": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "scope": "Natural existing-save two-spin timer trace; not adviser or off-board validation",
+  "source_sha256": "30a61d3d8b76e479af5dd6ff53310826d4c0db052b28fa03dde9523376a15bf0",
+  "collector_version": "0.6.0",
+  "records": 31173,
+  "elapsed_capture_ms": 33236629,
+  "trace": [
+    {
+      "sequence": 23329,
+      "ticks_ms": 24815753,
+      "spin": 18,
+      "coins": 54,
+      "symbols": [
+        {
+          "type": "magpie",
+          "times_displayed": 2,
+          "values": [
+            9,
+            4,
+            0,
+            0
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            1,
+            0
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        },
+        {
+          "type": "gambler",
+          "times_displayed": 5,
+          "values": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            2,
+            3
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        }
+      ]
+    },
+    {
+      "sequence": 31148,
+      "ticks_ms": 33215766,
+      "spin": 19,
+      "coins": 74,
+      "symbols": [
+        {
+          "type": "magpie",
+          "times_displayed": 3,
+          "values": [
+            9,
+            4
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            2,
+            0
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        },
+        {
+          "type": "gambler",
+          "times_displayed": 6,
+          "values": [
+            0,
+            2
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            4,
+            2
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        }
+      ]
+    },
+    {
+      "sequence": 31173,
+      "ticks_ms": 33239857,
+      "spin": 20,
+      "coins": 102,
+      "symbols": [
+        {
+          "type": "magpie",
+          "times_displayed": 0,
+          "values": [
+            9,
+            4
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            0,
+            2
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        },
+        {
+          "type": "gambler",
+          "times_displayed": 7,
+          "values": [
+            0,
+            2
+          ],
+          "modded": false,
+          "inherit_effects": false,
+          "grid_position": [
+            3,
+            2
+          ],
+          "destroyed": false,
+          "being_destroyed": false
+        }
+      ]
+    }
+  ]
+}

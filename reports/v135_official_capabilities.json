@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-09-27",
+  "scope": "official documented integration capabilities; no runtime execution test this round",
+  "sources": [
+    "https://github.com/TrampolineTales/LBAL-Modding-Docs/wiki",
+    "https://github.com/TrampolineTales/LBAL-Modding-Docs/wiki/Modding-Variables",
+    "https://github.com/TrampolineTales/LBAL-Modding-Docs/wiki/Tutorial-1.9:-Descriptions",
+    "https://github.com/TrampolineTales/LBAL-Modding-Docs/wiki/Effect-Types"
+  ],
+  "confirmed": [
+    "declared symbol/item modifications",
+    "inherited/localized descriptions",
+    "declarative effects"
+  ],
+  "not_established": [
+    "read-only candidate-selection callback",
+    "supported inventory snapshot export",
+    "non-mutating dynamic advice display",
+    "workshop installation of external runtime"
+  ],
+  "decision": "No verified workshop-native route for the current live adviser. Static descriptions are not equivalent to state-dependent recommendations.",
+  "repeat_check_only_when": [
+    "installed game build changes",
+    "official documentation or API changes",
+    "new concrete integration evidence is supplied"
+  ]
+}

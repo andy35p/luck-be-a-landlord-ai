@@ -5,6 +5,7 @@ from dataclasses import asdict, fields, is_dataclass
 from pathlib import Path
 from luck_agent.env.action import Action, ActionType
 from luck_agent.env.game_env import GameEnv, EnvConfig
+from luck_agent.env.rule_revision import rule_identity, validate_rule_identity
 
 
 def normalized(value):
@@ -22,8 +23,10 @@ def normalized(value):
 class TrajectoryWriter:
     def __init__(self, path, config, agent, *, policy_config=None):
         self.path = Path(path)
+        identity = rule_identity(config.rule_version)
         self.stream = gzip.open(self.path, "xt", encoding="utf-8")
         self.write({"type": "header", "schema_version": 1,
+                    "rule_identity": identity,
                     "config": asdict(config), "agent": agent,
                     "policy_config": policy_config or {},
                     "identity_key": ["episode_seed", "instance_id"]})
@@ -57,6 +60,7 @@ def replay(path):
         header = json.loads(next(stream))
         if header.get("schema_version") != 1:
             raise ValueError("Unsupported trajectory schema")
+        validate_rule_identity(header)
         env = GameEnv(EnvConfig(**header["config"]))
         seed = None
         count = episodes = expected_step = 0

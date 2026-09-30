@@ -1,0 +1,294 @@
+{
+  "scope": "8 existing seeds twice, all episode fields identical; not a win-rate experiment",
+  "timing": "outer wall clock including setup and pool lifecycle for both modes",
+  "python": "3.11.9",
+  "runs": [
+    {
+      "seed_start": 6000,
+      "runs": {
+        "1": {
+          "seconds": 15.862811899998633,
+          "episodes": [
+            {
+              "seed": 6000,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 1256.0,
+              "reward": 2016.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6001,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 413.0,
+              "reward": 1173.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6002,
+              "won": 0,
+              "stage": 9,
+              "spins": 70,
+              "coins": 610.0,
+              "reward": 690.0,
+              "decisions": 286,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6003,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 61.0,
+              "reward": 821.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            }
+          ]
+        },
+        "2": {
+          "seconds": 10.57098269999915,
+          "episodes": [
+            {
+              "seed": 6000,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 1256.0,
+              "reward": 2016.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6001,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 413.0,
+              "reward": 1173.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6002,
+              "won": 0,
+              "stage": 9,
+              "spins": 70,
+              "coins": 610.0,
+              "reward": 690.0,
+              "decisions": 286,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6003,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 61.0,
+              "reward": 821.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed_start": 6004,
+      "runs": {
+        "2": {
+          "seconds": 8.679477300000144,
+          "episodes": [
+            {
+              "seed": 6004,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 160.0,
+              "reward": 920.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6005,
+              "won": 0,
+              "stage": 11,
+              "spins": 90,
+              "coins": 692.0,
+              "reward": 812.0,
+              "decisions": 368,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6006,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 713.0,
+              "reward": 1473.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6007,
+              "won": 0,
+              "stage": 11,
+              "spins": 90,
+              "coins": 690.0,
+              "reward": 810.0,
+              "decisions": 368,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            }
+          ]
+        },
+        "1": {
+          "seconds": 16.1718847000011,
+          "episodes": [
+            {
+              "seed": 6004,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 160.0,
+              "reward": 920.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6005,
+              "won": 0,
+              "stage": 11,
+              "spins": 90,
+              "coins": 692.0,
+              "reward": 812.0,
+              "decisions": 368,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6006,
+              "won": 1,
+              "stage": 13,
+              "spins": 100,
+              "coins": 713.0,
+              "reward": 1473.0,
+              "decisions": 409,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            },
+            {
+              "seed": 6007,
+              "won": 0,
+              "stage": 11,
+              "spins": 90,
+              "coins": 690.0,
+              "reward": 810.0,
+              "decisions": 368,
+              "truncated": 0,
+              "rerolls_used": 0,
+              "removals_used": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "source_hashes": {
+    "luck_agent\\__init__.py": "d76cdbd885905ccc41982bb44cb14188e8acf78705ace3c49279ba2b3a9b277a",
+    "luck_agent\\agents\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "luck_agent\\agents\\candidate_agent.py": "e5ba217334c26f71a421d9855bdd486cfd726fe98dcd320e37361344d78d7a9b",
+    "luck_agent\\agents\\candidate_model.py": "4eb396223e3a9e94ac1e954ff810268e0808eded7333ba4ea1a771b1b3019c64",
+    "luck_agent\\agents\\forecast_agent.py": "1caf3e5c694e8c7360d725bef98f6f9b40110e2c115031ce347a114097a2cc2b",
+    "luck_agent\\agents\\heuristic_agent.py": "2f7ed3ddd07e0ea033afa35b67293325c19dc7b04d2852434f3ee418453389b8",
+    "luck_agent\\agents\\live_advisor.py": "8256cfff0e184126a0793188f39372ce25456135c708460c98b0e83dc49be3b4",
+    "luck_agent\\agents\\magpie_cycle_agent.py": "fa3f5c01328020abd1f02ebdedb487105c6d17348df8daad1d83d1fb69b638bc",
+    "luck_agent\\agents\\random_agent.py": "78f6723a2b74d2a70f0e7a488b6e71254b5d3567e4b4bd0274d4bfe7388d3fbc",
+    "luck_agent\\agents\\rent_forecast_agent.py": "3117e92d8b35bd73de6143695fe7d46d8d525d5ef5a3dae13ba017b1d7394bfd",
+    "luck_agent\\agents\\rent_guard_agent.py": "a41e73989cfd8cc5e58b0471bfe05727b3d3802c18516d0b0c9f20d4a563653b",
+    "luck_agent\\agents\\reroll_agent.py": "5b03690821b67dbb20afa824eb87e44f4e914510438444bc9b11ebf890f4ad0e",
+    "luck_agent\\agents\\spatial_agent.py": "f99d3a940b46117a3c6e1a3e978e5a53543ba71969899dd3e82892e6ae439161",
+    "luck_agent\\agents\\spatial_model.py": "88cbc7635630da8f3f04f4eff518b736063045d4d9ae30a0301b3f180a81e871",
+    "luck_agent\\env\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "luck_agent\\env\\action.py": "113bb5deab779b25c1709b10d0b4f5e7a365eb13b4ca92bc181e3157e2948bd2",
+    "luck_agent\\env\\board.py": "004330eefa32f22c4acd30d6af83927f12cadf3a19803534916fdd763c246c1a",
+    "luck_agent\\env\\game_env.py": "59f830e1109c15c473dc8621de58f1cc9e320abdce0700b201bd0f3d96c846e4",
+    "luck_agent\\env\\game_state.py": "b063ad363c8024bae4a2eb7087f862bd183d28b53b84889db5ac4fa9a320b3b4",
+    "luck_agent\\env\\instance_cheese_engine.py": "70ea7be6274818e0e5fc347747f496fceef3c69e150aa0876e7cb9367b4323dc",
+    "luck_agent\\env\\instance_coal_engine.py": "a67afce27a1b6254adc6025b8c13935cb9e9980e02a7e5624abecc5e1e9423f4",
+    "luck_agent\\env\\instance_goldfish_engine.py": "202285e48a789e71a100a20baa591500311032f68b443105fa6021d9375bbdfd",
+    "luck_agent\\env\\instance_magpie_engine.py": "6b766ddf0e2b5778b440cd67a816c51077d22e8e72b5bbc475657ce6f9192fbe",
+    "luck_agent\\env\\instance_milk_engine.py": "b82db3a8cf17541744c233a21ebfc79128ccdbb606c97636f8eee61120c0b885",
+    "luck_agent\\env\\instance_present_engine.py": "514c673fff5e3872fc39eed1781f43cf896d980b34a326c7d9214ece3136e6cc",
+    "luck_agent\\env\\instance_soap_engine.py": "12c4969912ece89545262629f2a7f84b6d79db993038c4c66b52c1c60f2f8d3b",
+    "luck_agent\\env\\instance_spirit_engine.py": "c23555232b15eb6d5c8ab4b4d581ff60b17a3f08e806767e0b9276b39b8c371c",
+    "luck_agent\\env\\instance_store.py": "67b5323d9240cd17e92754c14e0b916aa9d6956395084089f8dfad3aa8dedab2",
+    "luck_agent\\env\\instance_time_engine.py": "7a1d1345a801f314e58ce5d7ab0e38d9586b700e4ad79c8c6e8ca182db242d9d",
+    "luck_agent\\env\\offer_sampler.py": "f5ca2c9b6e66c213e06f849364ea7c83af0e4f575f620c796a0cddf7190e7412",
+    "luck_agent\\env\\rule_engine.py": "bdba502050e807fe129958fd768df52e020893c76c574b0b1a2dbe3f9ca17096",
+    "luck_agent\\env\\rule_revision.py": "05c572facc56f0b536dcd832159010bbaabccde7b6e910e46754e3b39e6aed6e",
+    "luck_agent\\env\\snapshot.py": "6cb61ee14050e38b7cebc080b6bfb98a6c01a77c7612a2ac078cdd319d75c8b3",
+    "luck_agent\\evaluation\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "luck_agent\\evaluation\\advice_display.py": "5df84d75891ad6f107dcc9c242c64832941f852cce814eb1403d44923bc1d965",
+    "luck_agent\\evaluation\\audit_instances.py": "cc752aca90320341ed54ccb775ce5fd52384152a19ad68ceb831fa7b187c183e",
+    "luck_agent\\evaluation\\batching.py": "bfe608e489187fa0e860b140895fddc6bc58d2f86758bb5baa0fbf1ee329ea30",
+    "luck_agent\\evaluation\\bc_contract.py": "29b781d681562324c6f9bc52a9fcbc2cf00e4f5f34cd33e2ddb22e2d83859daf",
+    "luck_agent\\evaluation\\benchmark_reroll.py": "e0d002c7273f26f2abd528615cac05548c1185f0f586a015bbf9d8b71c41fae6",
+    "luck_agent\\evaluation\\choice_forecast.py": "45a142246d257d44cb9e799f01ff6c4eb7ae16f946bd30aa561db0c3d1be005d",
+    "luck_agent\\evaluation\\compare_reroll.py": "244c08970d0785193a6969385f40106f8270460efc404dbc95643e183d4a0146",
+    "luck_agent\\evaluation\\dataset.py": "2a4c894ac2f21ad3f8df45fdfc9e31570d3d0bae8648889ae46ae46f241724cb",
+    "luck_agent\\evaluation\\diagnose_reroll.py": "ad2dde07b3b9faf805eeba91fc973484e97c83760eb40121ba499260b0864504",
+    "luck_agent\\evaluation\\evaluator.py": "8b5069755524a7b3e5e8dd535c818b4452269588ce1f8f481da814c4dd3459bd",
+    "luck_agent\\evaluation\\live_board.py": "22d8a6f139b3d8d5b7ae7bc85321de8f9986ac88746489a3bfa48135a231ee69",
+    "luck_agent\\evaluation\\live_collector_contract.py": "a68a9be7cdb9084f9dbdcb9581beb3c6ee6a3e1edac7acabf919aece4b45e167",
+    "luck_agent\\evaluation\\live_feed.py": "e0de8185e40399c9adb587c0f45a2ed455c7d104c84738b16419c3423a9e0d05",
+    "luck_agent\\evaluation\\live_item_scope.py": "7e3d4291de3e95b61457a455d0cd860424c98e6edab1e32a55a6b8003b02e6dd",
+    "luck_agent\\evaluation\\live_observation.py": "7306c6b61fc58f8cbeb0c894c0b28d7e9a984ecd63cc572177b1c1197b2a6f41",
+    "luck_agent\\evaluation\\live_run.py": "618043dfbd04d2db590909510cb80633c1cb17b083d4678e98fd6a6ca2051008",
+    "luck_agent\\evaluation\\live_timer_state.py": "801c025a0e79251b0662b295bab271a5ced1e59b0786a8d916bd3c6a7e4305f1",
+    "luck_agent\\evaluation\\metrics.py": "919ee6c5375503278f6ad577e36555ef73520a34ac14e0718ad445c9e07ecc9b",
+    "luck_agent\\evaluation\\preprocessing.py": "992d3a0dfdd379ec2f69efff4af6623b9a04fc9d4c2114b5728e31d1f914401b",
+    "luck_agent\\evaluation\\rent_forecast.py": "eaa533b57e5a1f80479c45e28b2b11387b9da24cf41e2c5091ba85eb13741301",
+    "luck_agent\\evaluation\\spatial_batching.py": "95886486fb83410741d19d28bdaa688afedc40484820f1839dfc8f4b320d32e9",
+    "luck_agent\\evaluation\\spatial_dataset.py": "c073c2aa3a360b87173acc7e642f7ca86159646d7e71a75c89f8e9f0d6ce4cc7",
+    "luck_agent\\evaluation\\spatial_preprocessing.py": "edb824cf0d8ded557ffed1a74cb6ad403a38ab0491e0170b3e64102c87a1b00e",
+    "luck_agent\\evaluation\\teacher_dataset.py": "6babef3ad19f97354f8768b796f9ba88a2c6ce2419809f13ea03d6e5c7a4f704",
+    "luck_agent\\evaluation\\trajectory.py": "9b3b6c041cb9ace23229e836243d64289d2f158483e1c19d84f4919631f1440b",
+    "luck_agent\\evaluation\\validate_reroll.py": "df4225d3473f12b8149c68ed31433fba8de9a9b87aa9c0b65065021aa12ab21c",
+    "luck_agent\\legacy\\__init__.py": "1745ec9ff431f97b142228bcd2192051390daba5f3e9a09753c63eba90076dd0",
+    "luck_agent\\legacy\\fast_env.py": "7953f3fcab5bc96fd292ee2bb0ea452ff327b73a3dd4c7834a6d41daff35af17",
+    "luck_agent\\legacy\\test_fast_env.py": "bf9ef1e0d921814328ce8e9c3e3d48c0b7f65c163d74c19e96054e0d52a7beab"
+  }
+}

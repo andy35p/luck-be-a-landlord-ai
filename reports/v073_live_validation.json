@@ -1,0 +1,23 @@
+{
+  "session_id": "1790298791_6952",
+  "snapshot_sha256": "e1373946187217f501d900e0f9ddf155c2d54ffce5ee3fbec324dbad8e133c3a",
+  "checks": {
+    "title_blocks": true,
+    "candidate_ids_match_screen": true,
+    "ordinary_choice_ready": true,
+    "options_blocks": true,
+    "options_closed_recovers": true,
+    "focus_lost_blocks": true,
+    "focus_restored_recovers": true,
+    "skip_button_observed": true,
+    "skip_request_recorded": true,
+    "attempt_not_marked_accepted": true,
+    "choice_closed_after_skip": true,
+    "skip_keeps_deck": true,
+    "skip_same_spin_and_coins": true
+  },
+  "records": 10,
+  "game_build": "16940935",
+  "installed_dll_sha256": "7b96f10d8eef2f36d4c8702990115eb35079823b67ed369dea134189865d0dc5",
+  "scope": "One live session, manually driven UI; readiness is not model support or a general legal-action mask."
+}

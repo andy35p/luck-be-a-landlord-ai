@@ -3,6 +3,7 @@ import gzip
 import hashlib
 import json
 from math import isfinite
+from luck_agent.env.rule_revision import validate_rule_identity
 
 
 def split_for_seed(seed, salt="luck-behavior-v1"):
@@ -20,6 +21,7 @@ def read_episodes(path):
         header = json.loads(next(stream, "{}"))
         if header.get("type") != "header" or header.get("schema_version") != 1:
             raise ValueError("Unsupported or missing trajectory header")
+        validate_rule_identity(header)
         seen, episode = set(), []
         for line in stream:
             r = json.loads(line)

@@ -1,0 +1,14 @@
+{
+  "roundtrip_samples": 409,
+  "logits_exact": true,
+  "training_updates": 0,
+  "rejections": [
+    "wrong_rule",
+    "wrong_teacher",
+    "wrong_vocab",
+    "wrong_stats",
+    "wrong_data",
+    "nonfinite",
+    "raw_prototype"
+  ]
+}

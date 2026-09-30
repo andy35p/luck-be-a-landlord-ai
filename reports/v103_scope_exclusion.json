@@ -1,0 +1,11 @@
+{
+  "scope": "Offline observed-decision coverage; not win rate, independent games, or live freshness",
+  "counts": {
+    "records": 142,
+    "controlled_excluded": 142
+  },
+  "blockers": {},
+  "unsupported_inventory_symbols": {},
+  "owned_items": {},
+  "unsupported_candidates": {}
+}

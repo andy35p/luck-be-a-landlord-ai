@@ -1,0 +1,11 @@
+{
+  "win_rate_delta": -0.0452,
+  "paired_bootstrap_95": [
+    -0.0524,
+    -0.0378
+  ],
+  "baseline_exactly_reproduced": true,
+  "candidate_smoke_exactly_reproduced": true,
+  "development_gate_passed": false,
+  "decision": "Retain default; no frozen validation for this candidate."
+}

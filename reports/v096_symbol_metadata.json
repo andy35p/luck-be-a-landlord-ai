@@ -1,0 +1,29 @@
+{
+  "scope": "Installed game metadata only; not a full behavior or win-rate validation",
+  "resource_sha256": "fb7e5b10de7cd26e092e6f9584f6a82710683d9921a0ec4336d1713b07011bb9",
+  "symbols": {
+    "sapphire": {
+      "value": "2",
+      "values": [],
+      "rarity": "uncommon",
+      "groups": [
+        "gem",
+        "archlikes"
+      ],
+      "sfx": []
+    },
+    "sand_dollar": {
+      "value": "2",
+      "values": [
+        10
+      ],
+      "rarity": "uncommon",
+      "groups": [
+        "organism",
+        "animal",
+        "poslikes"
+      ],
+      "sfx": []
+    }
+  }
+}

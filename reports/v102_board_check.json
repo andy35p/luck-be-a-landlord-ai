@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "spin": 18,
+      "coins": 54,
+      "inventory": 25,
+      "nonempty": 16
+    },
+    {
+      "spin": 19,
+      "coins": 73,
+      "inventory": 25,
+      "nonempty": 16
+    }
+  ],
+  "valid_choice_tagged_records": 48,
+  "rejected_choice_tagged_records": {
+    "invalid_displayed_identity": 26
+  },
+  "rejected_context": "All 26 rejected records had title_visible=true; prompt type alone does not imply settled live choice"
+}

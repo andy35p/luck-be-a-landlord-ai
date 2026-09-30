@@ -1,0 +1,48 @@
+{
+  "version": "V141",
+  "scope": "Unified evaluation only; no training, promotion, rule or dataset changes",
+  "environment": "instance-magpie-v1",
+  "seed_start": 15000,
+  "games": 128,
+  "checkpoint_sha256": "e6bcd874deb2650628810d6cb4afff443cc08db2436608442c60a21e5ab9c64e",
+  "metrics": {
+    "random": {"mean_stage": 3.21875, "stage_std": 1.688019386387164, "wins": 0, "mean_reward": 112.6875},
+    "heuristic": {"mean_stage": 6.609375, "stage_std": 3.57646368913275, "wins": 19, "mean_reward": 474.90625},
+    "forecast_rents": {"mean_stage": 11.609375, "stage_std": 1.651696217135823, "wins": 57, "mean_reward": 975.5390625},
+    "bc": {"mean_stage": 9.6328125, "stage_std": 1.6451843050666983, "wins": 4, "mean_reward": 669.2578125}
+  },
+  "paired_stage_difference": {
+    "bc_minus_random": {"mean": 6.4140625, "bootstrap_95": [6.0234375, 6.8046875]},
+    "bc_minus_heuristic": {"mean": 3.0234375, "bootstrap_95": [2.375, 3.6796875]},
+    "bc_minus_teacher": {"mean": -1.9765625, "bootstrap_95": [-2.3671875, -1.59375]}
+  },
+  "bc_teacher_diagnostics": {
+    "symbol": {"decisions": 9654, "agreement": 0.662626890408121, "high_confidence_errors": 694},
+    "item": {"decisions": 1229, "agreement": 0.8348250610252238, "high_confidence_errors": 150},
+    "remove": {"multi_action_decisions": 5903, "agreement": 0.9706928680332034, "high_confidence_errors": 165},
+    "total_high_confidence_errors": 1009
+  },
+  "rare_actions": {
+    "bc_reroll": {"available": 7734, "chosen": 0},
+    "teacher_reroll": {"available": 9690, "chosen": 0},
+    "bc_select_interaction": {"available": 0, "chosen": 0},
+    "teacher_select_interaction": {"available": 0, "chosen": 0}
+  },
+  "performance": {
+    "random_episodes_per_second": 132.70064155582247,
+    "heuristic_episodes_per_second": 54.35498279554984,
+    "teacher_episodes_per_second": 0.2634098320525981,
+    "bc_with_teacher_diagnostics_episodes_per_second": 0.30238258357243775,
+    "bc_policy_only_episodes_per_second": 4.529994299073762,
+    "bc_mean_model_decision_latency_seconds": 0.000793930728218442
+  },
+  "validation": {
+    "tests": 512,
+    "failed": 0,
+    "illegal_actions": 0,
+    "truncated_games": 0,
+    "pre_post_action_trace_sha256": "479496688e36b1e63c74c105453ed0c2cd3a9f0035f6d1d04b6c538cff4ccc08",
+    "single_multi_process_csv_identical": true,
+    "v140_random_heuristic_core_rows_identical": true
+  }
+}

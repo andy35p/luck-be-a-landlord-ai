@@ -1,0 +1,14 @@
+{
+  "mean_win_delta": -0.1428,
+  "paired_bootstrap_95": [
+    -0.1513,
+    -0.1342
+  ],
+  "bootstrap_samples": 2000,
+  "bootstrap_seed": 57,
+  "baseline_win_candidate_loss": 1736,
+  "baseline_loss_candidate_win": 308,
+  "both_win": 150,
+  "single_process_smoke_matches_first_10_parallel_rows": true,
+  "decision": "Retain default; reject unconditional removal of coal bonus due to win-rate and reward regression."
+}

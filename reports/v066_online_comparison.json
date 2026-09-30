@@ -1,0 +1,34 @@
+{
+  "initial": {
+    "stage": {
+      "mean_delta": -1.35,
+      "paired_bootstrap_95": [
+        -1.98,
+        -0.69
+      ]
+    },
+    "won": {
+      "mean_delta": 0.08,
+      "paired_bootstrap_95": [
+        0.02,
+        0.15
+      ]
+    }
+  },
+  "teacher": {
+    "stage": {
+      "mean_delta": -0.93,
+      "paired_bootstrap_95": [
+        -1.84,
+        -0.08
+      ]
+    },
+    "won": {
+      "mean_delta": -0.1,
+      "paired_bootstrap_95": [
+        -0.21,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "old_backend_100_games_equal": true,
+  "reference": "logs\\reused\\heuristic-20260923T012155478925Z\\episodes.csv",
+  "milk_replay": {
+    "episodes": 10,
+    "transitions": 633,
+    "exact_replay": true
+  }
+}

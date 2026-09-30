@@ -1,0 +1,182 @@
+{
+  "by_stage_band": {
+    "0-2": {
+      "exact": 997,
+      "equal_teacher_score": 412,
+      "lower_teacher_score": 78,
+      "model_picks_teacher_skip": 1
+    },
+    "3-5": {
+      "equal_teacher_score": 359,
+      "exact": 1167,
+      "lower_teacher_score": 60,
+      "model_skips_teacher_pick": 27,
+      "model_picks_teacher_skip": 8
+    },
+    "6+": {
+      "model_skips_teacher_pick": 69,
+      "exact": 809,
+      "model_picks_teacher_skip": 12,
+      "equal_teacher_score": 42,
+      "lower_teacher_score": 36
+    }
+  },
+  "confusions": [
+    {
+      "category": "lower_teacher_score",
+      "teacher": "cheese",
+      "model": "spirit",
+      "count": 55
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "bar_of_soap",
+      "model": "skip",
+      "count": 30
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "mouse",
+      "model": "coal",
+      "count": 29
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "cheese",
+      "model": "bubble",
+      "count": 24
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "mouse",
+      "model": "bubble",
+      "count": 22
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "cheese",
+      "model": "coal",
+      "count": 18
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "mouse",
+      "model": "skip",
+      "count": 17
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "mouse",
+      "model": "cheese",
+      "count": 17
+    },
+    {
+      "category": "model_picks_teacher_skip",
+      "teacher": "skip",
+      "model": "mouse",
+      "count": 12
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "present",
+      "model": "skip",
+      "count": 10
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "coal",
+      "model": "skip",
+      "count": 9
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "goldfish",
+      "model": "skip",
+      "count": 9
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "cherry",
+      "model": "skip",
+      "count": 6
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "milk",
+      "model": "skip",
+      "count": 5
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "diamond",
+      "model": "cheese",
+      "count": 5
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "pearl",
+      "model": "skip",
+      "count": 4
+    },
+    {
+      "category": "model_picks_teacher_skip",
+      "teacher": "skip",
+      "model": "coal",
+      "count": 4
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "cat",
+      "model": "skip",
+      "count": 3
+    },
+    {
+      "category": "model_picks_teacher_skip",
+      "teacher": "skip",
+      "model": "cheese",
+      "count": 3
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "coin",
+      "model": "skip",
+      "count": 2
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "coal",
+      "model": "cheese",
+      "count": 2
+    },
+    {
+      "category": "model_skips_teacher_pick",
+      "teacher": "flower",
+      "model": "skip",
+      "count": 1
+    },
+    {
+      "category": "model_picks_teacher_skip",
+      "teacher": "skip",
+      "model": "goldfish",
+      "count": 1
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "bubble",
+      "model": "cheese",
+      "count": 1
+    },
+    {
+      "category": "lower_teacher_score",
+      "teacher": "mouse",
+      "model": "spirit",
+      "count": 1
+    },
+    {
+      "category": "model_picks_teacher_skip",
+      "teacher": "skip",
+      "model": "cat",
+      "count": 1
+    }
+  ]
+}

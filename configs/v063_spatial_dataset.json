@@ -1,0 +1,8 @@
+{
+  "environment": {"floor": 1, "rent_reward": 20, "death_reward": -100, "win_reward": 500, "max_decisions": 10000, "rule_version": "instance-goldfish-v1"},
+  "policies": ["random", "heuristic"],
+  "seed_start": 0,
+  "games_per_policy": 200,
+  "split_salt": "luck-behavior-v1",
+  "scope": "Development corpus; all seeds previously exposed; test partition is not a final unseen holdout"
+}

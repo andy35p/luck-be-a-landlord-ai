@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GamePath Condition="'$(GamePath)' == ''">D:\SteamLibrary\steamapps\common\Luck be a Landlord</GamePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SlotWeave"><HintPath>$(GamePath)\SlotWeave\core\SlotWeave.dll</HintPath><Private>false</Private></Reference>
+    <EmbeddedResource Include="collector.gd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+  "partition_counts": {
+    "train": 409,
+    "validation": 368,
+    "test": 409
+  },
+  "corruptions_rejected": [
+    "corrupt_hash",
+    "corrupt_teacher",
+    "corrupt_rule",
+    "duplicate_seed",
+    "escape_path",
+    "omit_partition"
+  ],
+  "source_unchanged": true
+}

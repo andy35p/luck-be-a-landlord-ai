@@ -1,0 +1,12 @@
+{
+  "rule_version": "instance-goldfish-v1",
+  "baseline": "heuristic",
+  "candidate": "heuristic_rent_guard",
+  "seed_start": 0,
+  "games": 10000,
+  "workers": 2,
+  "bootstrap_seed": 57,
+  "bootstrap_samples": 2000,
+  "development_gate": "Stage-difference 95% paired bootstrap lower bound > 0 and win-rate-difference lower bound >= 0, zero truncation; passing only permits future frozen validation.",
+  "scope": "One fixed rent guard candidate; no threshold search; default unchanged"
+}
